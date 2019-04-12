@@ -1,9 +1,9 @@
 <?php
 
-namespace Emojione;
+namespace JoyPixels;
 
 /**
- * Client for Emojione
+ * Client for JoyPixels
  */
 
 class Client implements ClientInterface
@@ -18,7 +18,7 @@ class Client implements ClientInterface
     public $blacklistChars = '';
     public $sprites = false;
     public $spriteSize = '32'; // available sizes are '32' and '64'
-    public $imagePathPNG = 'https://cdn.jsdelivr.net/emojione/assets';
+    public $imagePathPNG = 'https://cdn.jsdelivr.net/joypixels/assets';
     public $fileExtension = '.png';
     public $imageTitleTag = true;
     public $unicode_replaceWith = false;
@@ -278,11 +278,11 @@ class Client implements ClientInterface
 
             if ($this->sprites)
             {
-                return '<span class="emojione emojione-'.$this->spriteSize.'-'.$category.' _'.$filename.'" '.$titleTag.'>'.$alt.'</span>';
+                return '<span class="joypixels joypixels-'.$this->spriteSize.'-'.$category.' _'.$filename.'" '.$titleTag.'>'.$alt.'</span>';
             }
             else
             {
-                return '<img class="emojione" alt="'.$alt.'" '.$titleTag.' src="' . $this->imagePathPNG . $filename . $this->fileExtension . '"/>';
+                return '<img class="joypixels" alt="'.$alt.'" '.$titleTag.' src="' . $this->imagePathPNG . $filename . $this->fileExtension . '"/>';
             }
         }
     }
@@ -389,11 +389,11 @@ class Client implements ClientInterface
 
                 if ($this->sprites)
                 {
-                    return $m[2].'<span class="emojione emojione-'.$this->spriteSize.'-'.$category.' _'.$filename.'" '.$titleTag.'>'.$alt.'</span>';
+                    return $m[2].'<span class="joypixels joypixels-'.$this->spriteSize.'-'.$category.' _'.$filename.'" '.$titleTag.'>'.$alt.'</span>';
                 }
                 else
                 {
-                    return $m[2].'<img class="emojione" alt="'.$alt.'" '.$titleTag.' src="' . $this->imagePathPNG . $filename . $this->fileExtension .'"/>';
+                    return $m[2].'<img class="joypixels" alt="'.$alt.'" '.$titleTag.' src="' . $this->imagePathPNG . $filename . $this->fileExtension .'"/>';
                 }
             }
         }

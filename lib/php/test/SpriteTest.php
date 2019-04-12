@@ -1,9 +1,9 @@
 <?php
 
-namespace Emojione\Test;
+namespace JoyPixels\Test;
 
-use Emojione\Emojione;
-use Emojione\Client;
+use JoyPixels\JoyPixels;
+use JoyPixels\Client;
 
 class SpriteTest extends \PHPUnit_Framework_TestCase
 {
@@ -16,7 +16,7 @@ class SpriteTest extends \PHPUnit_Framework_TestCase
         $client = new Client;
         $client->sprites = true;
         $client->unicodeAlt = true;
-        Emojione::setClient($client);
+        JoyPixels::setClient($client);
     }
 
     /**
@@ -24,45 +24,45 @@ class SpriteTest extends \PHPUnit_Framework_TestCase
      */
     protected function tearDown()
     {
-        Emojione::setClient(new Client);
+        JoyPixels::setClient(new Client);
     }
 
     /**
-     * test Emojione::toImage()
+     * test JoyPixels::toImage()
      *
      * @return void
      */
     public function testToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! <span class="emojione emojione-32-people _1f604" title=":smile:">😄</span> <span class="emojione emojione-32-people _1f604" title=":smile:">&#x1f604;</span>';
+        $expected = 'Hello world! <span class="joypixels joypixels-32-people _1f604" title=":smile:">😄</span> <span class="joypixels joypixels-32-people _1f604" title=":smile:">&#x1f604;</span>';
 
-        $this->assertEquals(Emojione::toImage($test), $expected);
+        $this->assertEquals(JoyPixels::toImage($test), $expected);
     }
 
     /**
-     * test Emojione::shortnameToImage()
+     * test JoyPixels::shortnameToImage()
      *
      * @return void
      */
     public function testShortnameToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! 😄 <span class="emojione emojione-32-people _1f604" title=":smile:">&#x1f604;</span>';
+        $expected = 'Hello world! 😄 <span class="joypixels joypixels-32-people _1f604" title=":smile:">&#x1f604;</span>';
 
-        $this->assertEquals(Emojione::shortnameToImage($test), $expected);
+        $this->assertEquals(JoyPixels::shortnameToImage($test), $expected);
     }
 
     /**
-     * test Emojione::unicodeToImage()
+     * test JoyPixels::unicodeToImage()
      *
      * @return void
      */
     public function testUnicodeToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! <span class="emojione emojione-32-people _1f604" title=":smile:">😄</span> :smile:';
+        $expected = 'Hello world! <span class="joypixels joypixels-32-people _1f604" title=":smile:">😄</span> :smile:';
 
-        $this->assertEquals(Emojione::unicodeToImage($test), $expected);
+        $this->assertEquals(JoyPixels::unicodeToImage($test), $expected);
     }
 }

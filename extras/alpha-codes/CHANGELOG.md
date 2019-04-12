@@ -16,7 +16,7 @@ changelog
   
 * changes
   * in a previous version, csv columns were renamed to more closely match the json attribute labels. now we've updated "alpha code" to "alpha_code" for closer alignment
-  * we've removed the versioning from this data set now that it's part of the emojione repo
+  * we've removed the versioning from this data set now that it's part of the JoyPixels repo
   
 
 ####1.1 / 2016-07-19

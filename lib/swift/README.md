@@ -1,14 +1,6 @@
-# Emojione utility for Swift
+# JoyPixels utility for Swift
 
 
 ### How to use
 
-This utility provides a method to convert from shortname to unicode characters.
-
-### How to re-generate mapping
-
-```
-cd lib/swift/generator
-npm install
-node generate.js
-```
+This utility has moved! Please see our [joypixels/emoji-toolkit-ios](https://www.github.com/joypixels/emoji-toolkit-ios) repository for more information.

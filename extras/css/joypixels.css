@@ -1,4 +1,4 @@
-.emojione {
+.joypixels {
   /* Emoji Sizing */
   font-size: inherit;
   height: 3ex;
@@ -13,7 +13,7 @@
   vertical-align: middle;
 }
 
-img.emojione {
+img.joypixels {
   /* prevent img stretch */
   width: auto;
 }

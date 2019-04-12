@@ -8,13 +8,13 @@
         <div id="qunit"></div>
         <div id="qunit-fixture"></div>
         <script src="http://cdn.jsdelivr.net/qunit/1.14.0/qunit.js"></script>
-        <script src="../emojione.js"></script>
+        <script src="../joypixels.js"></script>
         <script>
         <% _.each(data, function(collection) { %>
             QUnit.module("<%= collection.module %>");
             <% _.each(collection.tests, function(test) { %>
                 QUnit.test( "<%= test.description %>", function( assert ) {
-                    assert.equal(emojione.<%= collection.module %>("<%= test.text %>"), "<%= test.expected %>");
+                    assert.equal(joypixels.<%= collection.module %>("<%= test.text %>"), "<%= test.expected %>");
                 });
             <% }); %>
         <% }); %>

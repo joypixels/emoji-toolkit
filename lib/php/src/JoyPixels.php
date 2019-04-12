@@ -1,8 +1,8 @@
 <?php
 
-namespace Emojione;
+namespace JoyPixels;
 
-class Emojione
+class JoyPixels
 {
     public static $ascii = false; // convert ascii smileys?
 	public static $riskyMatchAscii = false; // set true to match ascii without leading/trailing space char
@@ -13,7 +13,7 @@ class Emojione
 	public static $blacklistChars = '';
     public static $sprites = false;
 	public static $spriteSize = '32';
-    public static $imagePathPNG = 'https://cdn.jsdelivr.net/emojione/assets/';
+    public static $imagePathPNG = 'https://cdn.jsdelivr.net/joypixels/assets/';
     public static $fileExtension = '.png';
     public static $imageTitleTag = true;
     public static $ignoredRegexp = '<object[^>]*>.*?<\/object>|<span[^>]*>.*?<\/span>|<(?:object|embed|svg|img|div|span|p|a)[^>]*>';

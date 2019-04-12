@@ -1,6 +1,6 @@
 <?php
 
-namespace Emojione;
+namespace JoyPixels;
 
 interface RulesetInterface
 {

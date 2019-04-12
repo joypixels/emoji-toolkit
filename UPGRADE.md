@@ -1,12 +1,12 @@
-# Upgrading from emojione v2 to emojione v3+
+# Upgrading from JoyPixels v2 to JoyPixels v3+
 
-*  emojione v3 brought about several breaking changes and new considerations
-*  please review EmojiOne Licensing for more information on using SVG or PNG (larger than 128px) assets
+*  JoyPixels v3 brought about several breaking changes and new considerations
+*  please review JoyPixels Licensing for more information on using SVG or PNG (larger than 128px) assets
 
 ## Libraries
 **JS**
  - Deprecated vars: 
- 	- [emojione.js] imagePathSVG, imagePathSVGSprites, imageType (now defaulted to png)
+ 	- [joypixels.js] imagePathSVG, imagePathSVGSprites, imageType (now defaulted to png)
  - Tests also updated (added explicit protocol for cdn, included previously-added title attribute to img tag)
   - Added vars: 
   	- emojiVersion (str)
@@ -20,7 +20,7 @@
 **PHP**
  - Deprecated vars: 
 	- [src/Client.php] imagePathSVG, imagePathSVGSprites
-	- [src/Emojione.php] imagePathSVG, imagePathSVGSprites, imageType
+	- [src/Joypixels.php] imagePathSVG, imagePathSVGSprites, imageType
  - Added vars:
  	- emojiVersion (str)
 	- emojiSize (str)
@@ -34,7 +34,7 @@
 	- [tests/ConversionTest.php] removed testShortnameInsideOfObjectTag()
 
 ## Demos
-Replaced by ‘examples’. Contains code snippets of each of the functions previously demonstrated. Updated demos can be found at <a href="https://demos.emojione.com/latest"></a>.
+Replaced by ‘examples’. Contains code snippets of each of the functions previously demonstrated. Updated demos can be found at <a href="https://demos.joypixels.com/latest">https://demos.joypixels.com/latest</a>.
 
 ## JSON Files
 **EMOJI.JSON (updated)** 
@@ -76,4 +76,4 @@ Replaced by ‘examples’. Contains code snippets of each of the functions prev
  - **category_label** (str)
 
 ## Shortname Changes
-Along with the many changes to emojione version 3.0 comes a number of shortname updates. **Any shortnames that change will still appear as an alternate shortname (or alias) in the data files.** You can view the complete list of primary shortname changes in the [extras/alpha-codes readme](extras/alpha-codes/).
+Along with the many changes to EmojiOne version 3.0 comes a number of shortname updates. **Any shortnames that change will still appear as an alternate shortname (or alias) in the data files.** You can view the complete list of primary shortname changes in the [extras/alpha-codes readme](extras/alpha-codes/).

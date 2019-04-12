@@ -1,8 +1,8 @@
 <?php
 
-namespace Emojione\Test;
+namespace JoyPixels\Test;
 
-use Emojione\Emojione;
+use JoyPixels\JoyPixels;
 
 /**
  * Tests all Emojis from emoji.json
@@ -41,10 +41,10 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
      */
     public function testEmojis($shortname, $simple_unicode)
     {
-        $shortcode_replace = Emojione::getClient()->getRuleset()->getShortcodeReplace();
-        $unicode_replace = Emojione::getClient()->getRuleset()->getUnicodeReplace();
+        $shortcode_replace = JoyPixels::getClient()->getRuleset()->getShortcodeReplace();
+        $unicode_replace = JoyPixels::getClient()->getRuleset()->getUnicodeReplace();
 
-        $unicode = Emojione::shortnameToUnicode($shortname);
+        $unicode = JoyPixels::shortnameToUnicode($shortname);
 
         $this->assertNotTrue($unicode === $shortname);
 
@@ -53,12 +53,12 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(in_array($unicode, $unicode_replace));
         $this->assertEquals($unicode_replace[$shortname], $unicode);
 
-        $convert_unicode = strtolower(Emojione::convert($simple_unicode));
+        $convert_unicode = strtolower(JoyPixels::convert($simple_unicode));
 
-        $image_template = '<img class="emojione" alt="%1$s" src="https://cdn.jsdelivr.net/emojione/assets/' . $this->emojiVersion . '/png/32/%2$s.png"/>';
+        $image_template = '<img class="joypixels" alt="%1$s" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/32/%2$s.png"/>';
 
         $image = sprintf($image_template, $convert_unicode, $simple_unicode);
 
-        $this->assertEquals(Emojione::toImage($shortname), $image);
+        $this->assertEquals(JoyPixels::toImage($shortname), $image);
     }
 }

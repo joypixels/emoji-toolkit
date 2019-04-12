@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         jshint: {
-            files: ['gruntfile.js', 'lib/js/emojione.js']
+            files: ['gruntfile.js', 'lib/js/joypixels.js']
         },
         jsonlint: {
             files: {
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'extras/css/emojione-awesome.css': 'lib/emojione-awesome/emojione-awesome.scss'
+                    'extras/css/joypixels-awesome.css': 'lib/joypixels-awesome/joypixels-awesome.scss'
                 }
             }
         },
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         cssmin: {
             target: {
                 files: {
-                    'extras/css/emojione.min.css': ['extras/css/emojione.css']
+                    'extras/css/joypixels.min.css': ['extras/css/joypixels.css']
                 }
             }
         },

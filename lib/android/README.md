@@ -1,17 +1,6 @@
-# Emojione utility for Android
+# JoyPixels utility for Android
 
 
 ### How to use
 
-This utility provides a method to convert from shortname to unicode characters (natively supported from Android 4.1 - API Level 16):
-
-`Emojione.shortnameToUnicode()`
-
-
-### How to re-generate mapping
-
-```
-cd lib/android/generator
-npm install
-node generate.js
-```
+This utility has moved! Please see our [joypixels/emoji-toolkit-android](https://www.github.com/joypixels/emoji-toolkit-android) repository for more information.

@@ -1,13 +1,13 @@
 {
-    "name": "emojione/emojione",
+    "name": "joypixels/emoji-toolkit",
     "type": "library",
-    "description": "EmojiOne is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG format provided for the emoji images.",
-    "keywords": ["emojione","EmojiOne","emoji","emojis","emoticons","smileys","smilies","unicode"],
-    "homepage": "http://www.emojione.com",
+    "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
+    "keywords": ["joypixels", "JoyPixels", "emoji-toolkit", "emojione","EmojiOne","emoji","emojis","emoticons","smileys","smilies","unicode"],
+    "homepage": "http://www.joypixels.com",
     "license": "(CC-BY-4.0 and MIT)",
     "autoload": {
         "psr-4": {
-            "Emojione\\": "lib/php/src"
+            "JoyPixels\\": "lib/php/src"
         }
     },
     "require": {

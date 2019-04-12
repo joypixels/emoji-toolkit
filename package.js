@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'emojione:emojione',
-  summary: 'Meteor Package of the https://www.emojione.com/ set.',
+  name: 'joypixels:emoji-toolkit',
+  summary: 'Meteor Package of the https://www.joypixels.com/ set.',
   version: '4.5.0',
-  git: 'https://github.com/emojione/emojione.git'
+  git: 'https://github.com/joypixels/emoji-toolkit.git'
 });
 
 Package.onUse(function(api) {
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'lib/meteor/pre-export.js',
-    'lib/js/emojione.js',
+    'lib/js/joypixels.js',
     'lib/meteor/post-export.js'
   ]);
 
@@ -21,22 +21,22 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
-    'lib/meteor/emojione-client.js',
-    'extras/css/emojione.css',
-    'extras/css/emojione-awesome.css'
+    'lib/meteor/joypixels-client.js',
+    'extras/css/joypixels.css',
+    'extras/css/joypixels-awesome.css'
   ], 'client');
   
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32.min.css', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-activity.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-diversity.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-flags.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-food.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-nature.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-objects.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-people.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-regional.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-symbols.png', 'client');
-  api.addAssets('../emojione-assets/sprites/emojione-sprite-32-travel.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32.min.css', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-activity.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-diversity.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-flags.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-food.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-nature.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-objects.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-people.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-regional.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-symbols.png', 'client');
+  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-travel.png', 'client');
 
-  api.export('emojione');
+  api.export('joypixels');
 });

@@ -21,7 +21,7 @@ class Emoji(object):
     ascii = False
     unicode_alt = True
     sprites = False
-    image_png_path = 'https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/'
+    image_png_path = 'https://cdn.jsdelivr.net/joypixels/assets/4.5/png/64/'
     ignored_regexp = '<object[^>]*>.*?<\/object>|<span[^>]*>.*?<\/span>|<(?:object|embed|svg|img|div|span|p|a)[^>]*>'
     unicode_regexp = "(" + '|'.join([re.escape(x.decode("utf-8")) for x in sorted(unicode_replace.keys(), key=len, reverse=True)]) + ")"
     shortcode_regexp = ':([-+\\w]+):'
@@ -56,10 +56,10 @@ class Emoji(object):
             category = category_replace[shortcode]
 
             if cls.sprites:
-                return '<span class="emojione emojione-32-%s _%s" title="%s">%s</span>'\
+                return '<span class="joypixels joypixels-32-%s _%s" title="%s">%s</span>'\
                     % (category, filename, escape(shortcode), alt)
             else:
-                return '<img class="emojione" alt="%s" src="%s"/>' % (
+                return '<img class="joypixels" alt="%s" src="%s"/>' % (
                     alt,
                     cls.image_png_path+filename+'.png'
                 )
@@ -82,10 +82,10 @@ class Emoji(object):
             category = category_replace[shortcode]
             
             if cls.sprites:
-                return '<span class="emojione emojione-32-%s _%s" title="%s">%s</span>'\
+                return '<span class="joypixels joypixels-32-%s _%s" title="%s">%s</span>'\
                     % (category, filename, escape(shortcode), alt)
             else:
-                return '<img class="emojione" alt="%s" src="%s"/>' % (
+                return '<img class="joypixels" alt="%s" src="%s"/>' % (
                     alt,
                     cls.image_png_path+filename+'.png'
                 )
@@ -147,7 +147,7 @@ class Emoji(object):
             else:
                 alt = escape(ascii)
             
-            return '<img class="emojione" alt="%s" src="%s"/>' % (
+            return '<img class="joypixels" alt="%s" src="%s"/>' % (
                 alt,
                 cls.image_png_path+unicode+'.png'
             )

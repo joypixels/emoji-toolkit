@@ -3,35 +3,35 @@
 We've teamed up with [JSDelivr](http://www.jsdelivr.com/#!emojione) to provide a simple way to install these emoji on any javascript-enabled website. Add the following script and stylesheet links to the head of your webpage:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/joypixels@4.5.0/lib/js/joypixels.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/joypixels@4.5.0/extras/css/joypixels.min.css"/>
 ```
 
-Quick installs can also be done using NPM and Bower (for the Javascript toolkit) or Composer (for the PHP toolkit). **If you wish to serve image assets locally you'll need to install [emojione-assets](https://www.github.com/emojione/emojione-assets) and include the pngs and/or sprites into your project.** Many of our [demos](https://demos.emojione.com/latest/) use assets locally simply by pointing the `imagePathPNG` variable to your local asset location.
+Quick installs can also be done using NPM and Bower (for the Javascript toolkit) or Composer (for the PHP toolkit). **If you wish to serve image assets locally you'll need to install [emoji-assets](https://www.github.com/joypixels/emoji-assets) and include the pngs and/or sprites into your project.** Many of our [demos](https://demos.joypixels.com/latest/) use assets locally simply by pointing the `imagePathPNG` variable to your local asset location.
 
 #### NPM
 ```
-> npm install emojione
+> npm install joypixels
 ```
 
 #### Bower
 ```
-> bower install emojione
+> bower install joypixels
 ```
 
 
 #### Composer
 ```
-$ composer require emojione/emojione
+$ composer require joypixels/emoji-toolkit
 ```
 
 #### Meteor
 ```
-meteor add emojione:emojione
+meteor add joypixels:emoji-toolkit
 ```
 
 ### Version 2 Installation
-EmojiOne version 2 is no longer supported or distributed.
+JoyPixels version 2 is no longer supported or distributed.
 
 
 ### Character Encoding &mdash; UTF-8

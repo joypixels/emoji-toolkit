@@ -1,15 +1,6 @@
-# Emojione utility for iOS
+# JoyPixels utility for iOS
 
 
 ### How to use
 
-This utility provides a method to convert from shortname to unicode characters (natively supported from iOS 6).
-
-
-### How to re-generate mapping
-
-```
-cd lib/ios/generator
-npm install
-node generate.js
-```
+This utility has moved! Please see our [joypixels/emoji-toolkit-ios](https://www.github.com/joypixels/emoji-toolkit-ios) repository for more information.

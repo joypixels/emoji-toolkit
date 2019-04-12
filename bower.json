@@ -1,5 +1,5 @@
 {
-  "name": "emojione",
+  "name": "emoji-toolkit",
   "version": "4.0.0",
   "main": [
     "extras/css/emojione.css",
@@ -14,6 +14,9 @@
     "package.json"
   ],
   "keywords": [
+    "joypixels",
+    "JoyPixels",
+    "emoji-toolkit",
     "emojione",
     "EmojiOne",
     "emoji",

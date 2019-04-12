@@ -1,10 +1,13 @@
 {
-  "name": "emojione",
+  "name": "emoji-toolkit",
   "version": "4.5.0",
-  "description": "EmojiOne is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG formats provided for the emoji images.",
-  "author": "EmojiOne <support@emojione.com> (https://www.emojione.com)",
+  "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
+  "author": "JoyPixels <support@joypixels.com> (https://www.joypixels.com)",
   "main": "lib/js/emojione.js",
   "keywords": [
+    "joypixels",
+    "JoyPixels",
+    "emoji-toolkit",
     "emojione",
     "EmojiOne",
     "emoji",
@@ -15,16 +18,16 @@
     "unicode",
     "emoji set"
   ],
-  "homepage": "https://www.emojione.com",
+  "homepage": "https://www.joypixels.com",
   "licenses": {
     "type": "(MIT)",
-    "url": "https://github.com/emojione/emojione/blob/master/LICENSE.md"
+    "url": "https://github.com/joypixels/emoji-toolkit/blob/master/LICENSE.md"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emojione/emojione.git"
+    "url": "https://github.com/joypixels/emoji-toolkit.git"
   },
-  "bugs": "https://github.com/emojione/emojione/issues",
+  "bugs": "https://github.com/joypixels/emoji-toolkit/issues",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.12.2",

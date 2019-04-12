@@ -1,4 +1,4 @@
-[class*=e1a-] {
+[class*=jpa-] {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
@@ -17,7 +17,7 @@ $size-map: (
 );
 
 @each $name, $size in $size-map {
-	.e1a-#{$name} {
+	.jpaa-#{$name} {
 		width: 32px * $size;
 		height: 32px * $size;
 		margin: -.2ex * $size .05em * $size 0 .1em * $size;
@@ -25,15 +25,15 @@ $size-map: (
 	}
 }
 
-@import '_emojione-awesome.map';
+@import '_joypixels-awesome.map';
 
 @each $code, $name in $emoji-map {
 
-	.e1a-#{$name} {
-		background-image: url("https://cdn.jsdelivr.net/emojione/assets/4.5/png/128/#{$code}.png");
+	.jpa-#{$name} {
+		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/4.5/png/128/#{$code}.png");
 	}
 
-	.e1a-rel-#{$name} {
-		background-image: url("emojione/assets/4.5/png/128/#{$code}.png");
+	.jpa-rel-#{$name} {
+		background-image: url("joypixels/assets/4.5/png/128/#{$code}.png");
 	}
 }

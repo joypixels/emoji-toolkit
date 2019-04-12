@@ -1,10 +1,10 @@
 <?php
 
-namespace Emojione\Test;
+namespace JoyPixels\Test;
 
-use Emojione\Emojione;
+use JoyPixels\JoyPixels;
 
-class EmojioneTest extends \PHPUnit_Framework_TestCase
+class JoyPixelsTest extends \PHPUnit_Framework_TestCase
 {
 
     private $emojiVersion = '4.5';
@@ -33,20 +33,20 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test Emojione::toImage()
+     * test JoyPixels::toImage()
      *
      * @return void
      */
     public function testToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! <img class="emojione" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/' . $this->emojiVersion . '/png/32/1f604.png"/> <img class="emojione" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/' . $this->emojiVersion . '/png/32/1f604.png"/>';
+        $expected = 'Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/32/1f604.png"/> <img class="joypixels" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/32/1f604.png"/>';
 
-        $this->assertEquals(Emojione::toImage($test), $expected);
+        $this->assertEquals(JoyPixels::toImage($test), $expected);
     }
 
     /**
-     * test Emojione::unifyUnicode()
+     * test JoyPixels::unifyUnicode()
      *
      * @return void
      */
@@ -55,11 +55,11 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 😄';
 
-        $this->assertEquals(Emojione::unifyUnicode($test), $expected);
+        $this->assertEquals(JoyPixels::unifyUnicode($test), $expected);
     }
 
     /**
-     * test Emojione::shortnameToUnicode()
+     * test JoyPixels::shortnameToUnicode()
      *
      * @return void
      */
@@ -68,12 +68,12 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 😄';
 
-        $this->assertEquals(Emojione::shortnameToUnicode($test), $expected);
+        $this->assertEquals(JoyPixels::shortnameToUnicode($test), $expected);
     }
 
 
     /**
-     * test Emojione::shortnameToAscii()
+     * test JoyPixels::shortnameToAscii()
      *
      * @return void
      */
@@ -82,24 +82,24 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
         $test     = 'Hello world! 🙂 :slight_smile:';
         $expected = 'Hello world! 🙂 :]';
 
-        $this->assertEquals(Emojione::shortnameToAscii($test), $expected);
+        $this->assertEquals(JoyPixels::shortnameToAscii($test), $expected);
     }
 
     /**
-     * test Emojione::shortnameToImage()
+     * test JoyPixels::shortnameToImage()
      *
      * @return void
      */
     public function testShortnameToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! 😄 <img class="emojione" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/' . $this->emojiVersion . '/png/32/1f604.png"/>';
+        $expected = 'Hello world! 😄 <img class="joypixels" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/32/1f604.png"/>';
 
-        $this->assertEquals(Emojione::shortnameToImage($test), $expected);
+        $this->assertEquals(JoyPixels::shortnameToImage($test), $expected);
     }
 
     /**
-     * test Emojione::toShort()
+     * test JoyPixels::toShort()
      *
      * @return void
      */
@@ -108,11 +108,11 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! :smile: :smile:';
 
-        $this->assertEquals(Emojione::toShort($test), $expected);
+        $this->assertEquals(JoyPixels::toShort($test), $expected);
     }
     /**
      *
-     * test Emojione::asciiToShortname()
+     * test JoyPixels::asciiToShortname()
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
         $test     = 'Hello world! :) :D ;) :smile:';
         $expected = 'Hello world! :slight_smile: :smiley: :wink: :smile:';
 
-        $this->assertEquals(Emojione::asciiToShortname($test), $expected);
+        $this->assertEquals(JoyPixels::asciiToShortname($test), $expected);
     }
 
     /**
@@ -131,19 +131,19 @@ class EmojioneTest extends \PHPUnit_Framework_TestCase
      */
     public function testAsciiToShortnameWithDataProvider($ascii, $shortname)
     {
-        $this->assertEquals($shortname, Emojione::asciiToShortname($ascii));
+        $this->assertEquals($shortname, JoyPixels::asciiToShortname($ascii));
     }
 
     /**
-     * test Emojione::unicodeToImage()
+     * test JoyPixels::unicodeToImage()
      *
      * @return void
      */
     public function testUnicodeToImage()
     {
         $test     = 'Hello world! 😄 :smile:';
-        $expected = 'Hello world! <img class="emojione" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/' . $this->emojiVersion . '/png/32/1f604.png"/> :smile:';
+        $expected = 'Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/32/1f604.png"/> :smile:';
 
-        $this->assertEquals(Emojione::unicodeToImage($test), $expected);
+        $this->assertEquals(JoyPixels::unicodeToImage($test), $expected);
     }
 }

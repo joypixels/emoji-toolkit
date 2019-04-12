@@ -1,8 +1,8 @@
-# EmojiOne
+# JoyPixels
 
 ## **PHP Implementation Examples**
 
-The following PHP code snippets demonstrate common usages of EmojiOne within your project.
+The following PHP code snippets demonstrate common usages of JoyPixels within your project.
 
 ----------
 
@@ -13,7 +13,7 @@ If you've chosen to unify your inputted text so that it contains only shortnames
 
 **PHP Snippet**
 ```php
-namespace Emojione;
+namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
 require('./../lib/php/autoload.php');
@@ -40,7 +40,7 @@ This function is simply a shorthand for **unicodeToImage($str)** and **shortname
 
 **PHP Snippet**
 ```php
-namespace Emojione;
+namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
 require('./../lib/php/autoload.php');
@@ -67,7 +67,7 @@ Our recommendation is to unify all user inputted text by converting native unico
 
 **PHP Snippet**
 ```php
-namespace Emojione;
+namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
 require('./../lib/php/autoload.php');
@@ -88,7 +88,7 @@ If you'd like to convert shortnames back to native unicode emoji characters, you
 
 **PHP Snippet**
 ```php
-namespace Emojione;
+namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
 require('./../lib/php/autoload.php');

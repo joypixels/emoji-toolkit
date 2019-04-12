@@ -1,18 +1,18 @@
-## EmojiOne Fonts
+## JoyPixels Fonts
 
 There's no better way to port our emoji into your device than through a native font.  We don't have the resources ourselves to construct fonts, so we'll depend on helpful contributions from the open source community.
 
-> Note: Due to their size, the font files have been removed from this repo and instead will be attached to releases on our repo that hosts the artwork and related assets, [emojione-assets](https://github.com/emojione/emojione-assets).
+> Note: Due to their size, the font files have been removed from this repo and instead will be attached to releases on our repo that hosts the artwork and related assets, [emoji-assets](https://github.com/joypixels/emoji-assets).
 >
-> Please go here to download the font files: [emojione-assets/releases](https://github.com/emojione/emojione-assets/releases)
-### Google Font - [emojione-android.ttf](https://github.com/emojione/emojione-assets/releases/download/4.5/emojione-android.ttf)
+> Please go here to download the font files: [emoji-assets/releases](https://github.com/joypixels/emoji-assets/releases)
+### Google Font - [emojione-android.ttf](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-android.ttf)
 
   * Compatible with rooted Android devices and Linux.
   * Updated Sept 12, 2018
-  * Developers using the font within their app, please review [this issue](https://github.com/Ranks/emojione/issues/385) regarding proper display of digits.
+  * Developers using the font within their app, please review [this issue](https://github.com/joypixels/emoji-toolkit/issues/385) regarding proper display of digits.
 
 Android Setup Help:
-* We recommend Emoji Switcher (now free for EmojiOne): https://play.google.com/store/apps/details?id=com.stevenschoen.emojiswitcher&hl=en
+* We recommend Emoji Switcher (now free for JoyPixels): https://play.google.com/store/apps/details?id=com.stevenschoen.emojiswitcher&hl=en
 * Reddit Thread: https://www.reddit.com/r/Android/comments/3xezb9/emojione_on_android/
 * Must have a rooted Android phone.
 
@@ -28,8 +28,8 @@ Linux Setup Help:
 ### Apple Font
 
 **For latest apple devices** 
-- [emojione-mac.ttc](https://github.com/emojione/emojione-assets/releases/download/4.5/emojione-mac.ttc)
-- [emojione-ios.ttc](https://github.com/emojione/emojione-assets/releases/download/4.5/emojione-ios.ttc)
+- [emojione-mac.ttc](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-mac.ttc)
+- [emojione-ios.ttc](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-ios.ttc)
 
   * Compatible with Mac OSX, and iOS devices (iPhone, iPad).
   * Rename font to Apple Color Emoji.ttc for Mac OSX.
@@ -56,12 +56,12 @@ App Instructions:
 	[fontname.py](https://github.com/chrissimpkins/fontname.py) FontTools python script to change name table in a TTF.
 	You can also use High-Logic FontCreator to do the above tasks.
 	
-### EmojiOne SVG-based Color Fonts
-Through a cooperative effort with Adobe Systems, EmojiOne created black and white versions of the emoji set which were used, in part, to generate this font. Using these fonts with Firefox or Microsoft Edge, you can enjoy full-color EmojiOne emoji. Black and white images will show as the fall back for systems that are not able to render color SVG fonts. The font is available in the following formats:
+### JoyPixels SVG-based Color Fonts
+Through a cooperative effort with Adobe Systems, JoyPixels created black and white versions of the emoji set which were used, in part, to generate this font. Using these fonts with Firefox or Microsoft Edge, you can enjoy full-color JoyPixels emoji. Black and white images will show as the fall back for systems that are not able to render color SVG fonts. The font is available in the following formats:
 
-  * Open Type Font: [emojione-svg.otf](https://github.com/emojione/emojione-assets/releases/download/3.1.2/emojione-svg.otf)
-  * Web Open Font Format: [emojione-svg.woff](https://github.com/emojione/emojione-assets/releases/download/3.1.2/emojione-svg.woff)
-  * Web Open Font Format 2.0: [emojione-svg.woff2](https://github.com/emojione/emojione-assets/releases/download/3.1.2/emojione-svg.woff2)
+  * Open Type Font: [emojione-svg.otf](https://github.com/joypixels/emoji-assets/releases/download/3.1.2/emojione-svg.otf)
+  * Web Open Font Format: [emojione-svg.woff](https://github.com/joypixels/emoji-assets/releases/download/3.1.2/emojione-svg.woff)
+  * Web Open Font Format 2.0: [emojione-svg.woff2](https://github.com/joypixels/emoji-assets/releases/download/3.1.2/emojione-svg.woff2)
 
 ---
   

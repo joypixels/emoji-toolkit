@@ -1,8 +1,8 @@
-# EmojiOne
+# JoyPixels
 
 ## **Javascript Implementation Examples**
 
-The following Javascript code snippets demonstrate common usages of EmojiOne within your project.
+The following Javascript code snippets demonstrate common usages of JoyPixels within your project.
 
 ----------
 
@@ -18,7 +18,7 @@ If you've chosen to unify your inputted text so that it contains only shortnames
 ```javascript
 function convert() {
 	var input = document.getElementById('inputText').value;
-	var output = emojione.shortnameToImage(input);
+	var output = joypixels.shortnameToImage(input);
 	document.getElementById('outputText').innerHTML = output;
 }
 ```
@@ -37,7 +37,7 @@ This function is simply a shorthand for **.unicodeToImage(str)** and **.shortnam
 ```javascript
 function convert() {
 	var input = document.getElementById('inputText').value;
-	var output = emojione.toImage(input);
+	var output = joypixels.toImage(input);
 	document.getElementById('outputText').innerHTML = output;
 }
 ```
@@ -56,7 +56,7 @@ Our recommendation is to unify all user inputted text by converting native unico
 ```javascript
 function convert() {
 	var input = document.getElementById('inputText').value;
-	var output = emojione.toShort(input);
+	var output = joypixels.toShort(input);
 	document.getElementById('outputText').innerHTML = output;
 }
 ```
@@ -72,7 +72,7 @@ If you'd like to convert shortnames back to native unicode emoji characters, you
 ````javascript
 function convert() {
 	var input = document.getElementById('inputText').value;
-	var output = emojione.shortnameToUnicode(input);
+	var output = joypixels.shortnameToUnicode(input);
 	document.getElementById('outputText').innerHTML = output;
 }
 ````

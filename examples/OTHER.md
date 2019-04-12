@@ -1,8 +1,8 @@
-# EmojiOne
+# JoyPixels
 
 ## **Additional Implementation Examples**
 
-The following code snippets demonstrate common usages of EmojiOne within your project.
+The following code snippets demonstrate common usages of JoyPixels within your project.
 
 ----------
 
@@ -13,7 +13,7 @@ By default, both the Javascript and PHP toolkits we've provided will use the nat
 **HTML Output (default)**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="emojione" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/3.1/png/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/4.5/png/32/1f604.png">
 </p>
 ```
 
@@ -21,10 +21,10 @@ By default, both the Javascript and PHP toolkits we've provided will use the nat
 ```javascript
 $(document).ready(function() {
 	// turn unicode alternate text off
-	emojione.unicodeAlt = false;
+	joypixels.unicodeAlt = false;
 	
 	var input = $('#example-png').html();
-	var replaced = emojione.toImage(input);
+	var replaced = joypixels.toImage(input);
 	$('#example-png').html(replaced);
 });
 ```
@@ -32,7 +32,7 @@ $(document).ready(function() {
 **HTML Output For Shortname Alt**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="emojione" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/emojione/assets/3.1/png/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/3.1/png/32/1f604.png">
 </p>
 ```
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
             callback(newResults);
         },
         template: function (shortname) {
-            return '<img class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/3.1/png/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
+            return '<img class="joypixels" src="https://cdn.jsdelivr.net/joypixels/assets/3.1/png/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
         },
         replace: function (shortname) {
             return ':'+shortname+': ';
@@ -144,7 +144,7 @@ $(document).ready(function() {
   margin-left: .8em;
   font-size: 1.3em;
 }
-.dropdown-menu li .emojione {
+.dropdown-menu li .joypixels {
   vertical-align: middle;
   font-size: 1.23em;
   width: 1em;
@@ -180,14 +180,14 @@ It's turned off by default, but by flipping one simple switch you can enable ASC
 
 **Javascript Snippet**
 ```javascript
-emojione.ascii = true; // (default: false)
+joypixels.ascii = true; // (default: false)
 
 // to enable ASCII conversion in the PHP toolkit you would do:
-// Emojione::$ascii = true;
+// JoyPixels::$ascii = true;
 
 function convert() {
 	var input = document.getElementById('inputText').value;
-	var output = emojione.shortnameToImage(input);
+	var output = joypixels.shortnameToImage(input);
 	document.getElementById('outputText').innerHTML = output;
 }
 ```
@@ -207,7 +207,7 @@ Start typing shortnames (:smile:, :blush:, :heart:, etc.) or entering native emo
 $(document).ready(function() {
 	$("#inputText").on('keyup change input',function(e) {
 	  var source = $('#inputText').val();
-	  var preview = emojione.toImage(source);
+	  var preview = joypixels.toImage(source);
 	  $('#outputText').html(preview);
 	});
 });
@@ -230,7 +230,7 @@ $(document).ready(function() {
 	$(".convert-emoji").each(function() {
 		var original = $(this).html();
 		// use .shortnameToImage if only converting shortnames (for slightly better performance)
-		var converted = emojione.toImage(original);
+		var converted = joypixels.toImage(original);
 		$(this).html(converted);
 	});
 });
@@ -239,7 +239,7 @@ $(document).ready(function() {
 **HTML Input**
 ```html
 <p class"convert-emoji">
-    Welcome to this EmojiOne :snail: demo! 😄
+    Welcome to this JoyPixels :snail: demo! 😄
     I hope you like what we've put together here for you. :thumbsup: :smile:
 </p>
 ```
@@ -247,8 +247,8 @@ $(document).ready(function() {
 **HTML Output**
 ```html
 <p class="convert-emoji">
-	Welcome to this EmojiOne <img class="emojione" alt="🐌" title=":snail:" src="./assets/png/1f40c.png"> demo! <img class="emojione" alt="😄" title=":smile:" src="./assets/png/1f604.png">
-	I hope you like what we've put together here for you. <img class="emojione" alt="👍" title=":thumbsup:" src="./assets/png/1f44d.png"> <img class="emojione" alt="😄" title=":smile:" src="./assets/svg/1f604.png">
+	Welcome to this JoyPixels <img class="joypixels" alt="🐌" title=":snail:" src="./assets/png/1f40c.png"> demo! <img class="joypixels" alt="😄" title=":smile:" src="./assets/png/1f604.png">
+	I hope you like what we've put together here for you. <img class="joypixels" alt="👍" title=":thumbsup:" src="./assets/png/1f44d.png"> <img class="joypixels" alt="😄" title=":smile:" src="./assets/svg/1f604.png">
 </p>
 ```
 
@@ -256,7 +256,7 @@ $(document).ready(function() {
 
 ## PNG Sprite
 
-We've setup a collection of <a href="https://github.com/Ranks/emojione-assets/blob/master/sprites/">spritesheets</a> for people to use. These sprites are split by category (plus diversity) and come in 32px and 64px sizes.
+We've setup a collection of <a href="https://github.com/joypixels/emoji-assets/blob/master/sprites/">spritesheets</a> for people to use. These sprites are split by category (plus diversity) and come in 32px and 64px sizes.
 
 **Some Considerations**
  - <a href="http://caniuse.com/#feat=css-zoom" target="_blank">zoom</a> or <a href="http://caniuse.com/#feat=transforms2d" target="_blank">transform: scale()</a> can be used for custom scaling. transform: scale() is more widely supported.
@@ -264,17 +264,17 @@ We've setup a collection of <a href="https://github.com/Ranks/emojione-assets/bl
  
 **1. Attach Sprite CSS Stylesheet:**
 
-To get PNG sprites working you first need to link the Sprites stylesheet in your &lt;head&gt;. This file is available in our <a href="https://github.com/Ranks/emojione-assets/blob/master/sprites/emojione-sprite-32.min.css">emojione-assets git repo under /sprites</a>. Make sure to include the accompanying **sprite png** files in the same directory, or update its path in the css file if you move it.
+To get PNG sprites working you first need to link the Sprites stylesheet in your &lt;head&gt;. This file is available in our <a href="https://github.com/joypixels/emoji-assets/blob/master/sprites/joypixels-sprite-32.min.css">emoji-assets git repo under /sprites</a>. Make sure to include the accompanying **sprite png** files in the same directory, or update its path in the css file if you move it.
 
-`<link rel="stylesheet" href="path/to/emojione.sprites.css"/>`
+`<link rel="stylesheet" href="path/to/joypixels.sprites.css"/>`
 
 **2. Enable PNG Sprite Mode**
 
-Once the stylesheet is attached, it's just a matter of enabling PNG Sprites in your EmojiOne configuration:
+Once the stylesheet is attached, it's just a matter of enabling PNG Sprites in your JoyPixels configuration:
 
 **Javascript Snippet**
 ```javascript
-emojione.sprites = true;
+joypixels.sprites = true;
 ```
 
 **PHP Snippet**
@@ -287,7 +287,7 @@ If you're not using our conversion scripts, PNG sprites can be implemented using
 
 **HTML Markup**
 ```html
-<span class="emojione emojione-32-nature _1f433">
+<span class="joypixels joypixels-32-nature _1f433">
   &#x1f433;
 </span>
 ```

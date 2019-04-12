@@ -1,4 +1,4 @@
-## How to contribute to the EmojiOne library
+## How to contribute to the JoyPixels library
 ---
 ### code format
 * Try to maintain the general code convention currently found in the library.
@@ -13,10 +13,10 @@
 * We unfortunately cannot accept submissions for emoji art revisions.
 * Design suggestions are welcome. They will be considered by the designers. There's no guarantee they will be adopted. 
 * Notes on visual errors are also accepted.
-* Please see the [emojione-assets repo](https://www.github.com/emojione/emojione-assets) for more information on submitting artwork suggestions or visual errors. 
+* Please see the [emoji-assets repo](https://www.github.com/joypixels/emoji-assets) for more information on submitting artwork suggestions or visual errors. 
   
 
 Thank you for your interest in contributing to this library.
 
 Regards,  
-EmojiOne Team
+JoyPixels Team
