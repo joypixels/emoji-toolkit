@@ -1,6 +1,6 @@
 # ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan.svg)
 
-> [![npm version](https://img.shields.io/npm/v/joypixels.svg)](https://www.npmjs.com/package/joypixels) [![npm downloads](https://img.shields.io/npm/dt/joypixels.svg)](https://www.npmjs.com/package/joypixels) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/joypixels/badge?style=rounded)](https://www.jsdelivr.com/package/npm/joypixels)
+> [![npm version](https://img.shields.io/npm/v/joypixels.svg)](https://www.npmjs.com/package/emoji-toolkit) [![npm downloads](https://img.shields.io/npm/dt/joypixels.svg)](https://www.npmjs.com/package/emoji-toolkit) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/joypixels/badge?style=rounded)](https://www.jsdelivr.com/package/npm/emoji-toolkit)
 
 A set of libraries to help users find and replace native system emojis with JoyPixels (formerly EmojiOne) in their app or website.
 
