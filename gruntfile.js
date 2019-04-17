@@ -26,7 +26,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'lib/js/<%= pkg.name %>.min.js': ['lib/js/<%= pkg.name %>.js']
+                    'lib/js/joypixels.min.js': ['lib/js/joypixels.js']
                 }
             }
         },

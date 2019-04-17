@@ -1,6 +1,6 @@
 # ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan.svg)
 
-> [![npm version](https://img.shields.io/npm/v/emojione.svg)](https://www.npmjs.com/package/emojione) [![npm downloads](https://img.shields.io/npm/dt/emojione.svg)](https://www.npmjs.com/package/emojione) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/emojione/badge?style=rounded)](https://www.jsdelivr.com/package/npm/emojione)
+> [![npm version](https://img.shields.io/npm/v/joypixels.svg)](https://www.npmjs.com/package/joypixels) [![npm downloads](https://img.shields.io/npm/dt/joypixels.svg)](https://www.npmjs.com/package/joypixels) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/joypixels/badge?style=rounded)](https://www.jsdelivr.com/package/npm/joypixels)
 
 A set of libraries to help users find and replace native system emojis with JoyPixels (formerly EmojiOne) in their app or website.
 
@@ -54,7 +54,7 @@ If you discover any bugs, feel free to create an issue on GitHub. We also welcom
 If you have any questions, comments, or concerns you are welcome to contact us.
 
 *  [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/emojione/emojione?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-* [support@emojione.com](mailto:support@emojione.com)
+* [support@joypixels.com](mailto:support@joypixels.com)
 * https://www.joypixels.com
 * https://twitter.com/joypixels
 

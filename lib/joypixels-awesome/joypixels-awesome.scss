@@ -17,7 +17,7 @@ $size-map: (
 );
 
 @each $name, $size in $size-map {
-	.jpaa-#{$name} {
+	.jpa-#{$name} {
 		width: 32px * $size;
 		height: 32px * $size;
 		margin: -.2ex * $size .05em * $size 0 .1em * $size;

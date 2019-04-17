@@ -26,17 +26,17 @@ Package.onUse(function(api) {
     'extras/css/joypixels-awesome.css'
   ], 'client');
   
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32.min.css', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-activity.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-diversity.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-flags.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-food.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-nature.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-objects.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-people.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-regional.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-symbols.png', 'client');
-  api.addAssets('../emoji-assets/sprites/emojione-sprite-32-travel.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32.min.css', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-activity.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-diversity.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-flags.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-food.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-nature.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-objects.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-people.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-regional.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-symbols.png', 'client');
+  api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-travel.png', 'client');
 
   api.export('joypixels');
 });
