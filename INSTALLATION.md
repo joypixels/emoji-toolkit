@@ -1,6 +1,6 @@
 ### Installation
 
-We've teamed up with [JSDelivr](http://www.jsdelivr.com/#!emojione) to provide a simple way to install these emoji on any javascript-enabled website. Add the following script and stylesheet links to the head of your webpage:
+We've teamed up with [JSDelivr](https://www.npmjs.com/settings/joypixels/packages) to provide a simple way to install these emoji on any javascript-enabled website. Add the following script and stylesheet links to the head of your webpage:
 
 ```
 <script src="https://cdn.jsdelivr.net/npm/joypixels@4.5.0/lib/js/joypixels.min.js"></script>
@@ -11,12 +11,12 @@ Quick installs can also be done using NPM and Bower (for the Javascript toolkit)
 
 #### NPM
 ```
-> npm install joypixels
+> npm install emoji-toolkit
 ```
 
 #### Bower
 ```
-> bower install joypixels
+> bower install emoji-toolkit
 ```
 
 
