@@ -1,7 +1,7 @@
 Package.describe({
   name: 'joypixels:emoji-toolkit',
   summary: 'Meteor Package of the https://www.joypixels.com/ set.',
-  version: '4.5.1',
+  version: '4.5.2',
   git: 'https://github.com/joypixels/emoji-toolkit.git'
 });
 

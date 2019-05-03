@@ -1,10 +1,10 @@
-# ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan.svg)
+# ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan-tm.svg)
 
 > [![npm version](https://img.shields.io/npm/v/emoji-toolkit.svg)](https://www.npmjs.com/package/emoji-toolkit) [![npm downloads](https://img.shields.io/npm/dt/emoji-toolkit.svg)](https://www.npmjs.com/package/emoji-toolkit) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/emoji-toolkit/badge?style=rounded)](https://www.jsdelivr.com/package/npm/emoji-toolkit)
 
 A set of libraries to help users find and replace native system emojis with JoyPixels (formerly EmojiOne) in their app or website.
 
-> ###Heads up! 
+> Heads up! 
 > EmojiOne has rebranded to JoyPixels. Please see our [UPGRADE DOC](UPGRADE.md) for details on what's new, especially 
 > if you're migrating from [emojione](https://www.github.com/joypixels/emojione), as all references to "emojione" in
 > class names and file names have been changed.

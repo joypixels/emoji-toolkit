@@ -1,4 +1,4 @@
-#Migrating from joypixels/emojione to joypixels/emoji-toolkit
+# Migrating from joypixels/emojione to joypixels/emoji-toolkit
 
 * EmojiOne has officially rebranded to JoyPixels
 * The joypixels/emojione repository will no longer be updated and will eventually be deprecated
