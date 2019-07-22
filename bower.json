@@ -1,9 +1,9 @@
 {
   "name": "emoji-toolkit",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "main": [
-    "extras/css/emojione.css",
-    "lib/js/emojione.js"
+    "extras/css/joypixels.css",
+    "lib/js/joypixels.js"
   ],
   "ignore": [
     "demos/",

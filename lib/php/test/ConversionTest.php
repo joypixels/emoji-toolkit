@@ -11,7 +11,7 @@ use JoyPixels\JoyPixels;
 class ConversionTest extends \PHPUnit_Framework_TestCase
 {
 
-    private $emojiVersion = '4.5';
+    private $emojiVersion = '5.0';
 
     /**
      * test single unicode character

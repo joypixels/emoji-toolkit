@@ -283,7 +283,7 @@
     },
     "2611": {
         "output": "2611-fe0f",
-        "name": "ballot box with check",
+        "name": "check box with check",
         "alpha_code": ":ballot_box_with_check:",
         "aliases": ""
     },
@@ -613,7 +613,7 @@
     },
     "2705": {
         "output": "2705",
-        "name": "white heavy check mark",
+        "name": "check mark button",
         "alpha_code": ":white_check_mark:",
         "aliases": ""
     },
@@ -661,13 +661,13 @@
     },
     "2714": {
         "output": "2714-fe0f",
-        "name": "heavy check mark",
+        "name": "check mark",
         "alpha_code": ":heavy_check_mark:",
         "aliases": ""
     },
     "2716": {
         "output": "2716-fe0f",
-        "name": "heavy multiplication x",
+        "name": "multiplication sign",
         "alpha_code": ":heavy_multiplication_x:",
         "aliases": ""
     },
@@ -751,19 +751,19 @@
     },
     "2795": {
         "output": "2795",
-        "name": "heavy plus sign",
+        "name": "plus sign",
         "alpha_code": ":heavy_plus_sign:",
         "aliases": ""
     },
     "2796": {
         "output": "2796",
-        "name": "heavy minus sign",
+        "name": "minus sign",
         "alpha_code": ":heavy_minus_sign:",
         "aliases": ""
     },
     "2797": {
         "output": "2797",
-        "name": "heavy division sign",
+        "name": "division sign",
         "alpha_code": ":heavy_division_sign:",
         "aliases": ""
     },
@@ -835,7 +835,7 @@
     },
     "2b55": {
         "output": "2b55",
-        "name": "heavy large circle",
+        "name": "hollow red circle",
         "alpha_code": ":o:",
         "aliases": ""
     },
@@ -991,31 +991,31 @@
     },
     "1f1e8-1f1f3": {
         "output": "1f1e8-1f1f3",
-        "name": "China",
+        "name": "flag: China",
         "alpha_code": ":flag_cn:",
         "aliases": ":cn:"
     },
     "1f1e9-1f1ea": {
         "output": "1f1e9-1f1ea",
-        "name": "Germany",
+        "name": "flag: Germany",
         "alpha_code": ":flag_de:",
         "aliases": ":de:"
     },
     "1f1ea-1f1f8": {
         "output": "1f1ea-1f1f8",
-        "name": "Spain",
+        "name": "flag: Spain",
         "alpha_code": ":flag_es:",
         "aliases": ":es:"
     },
     "1f1eb-1f1f7": {
         "output": "1f1eb-1f1f7",
-        "name": "France",
+        "name": "flag: France",
         "alpha_code": ":flag_fr:",
         "aliases": ":fr:"
     },
     "1f1ec-1f1e7": {
         "output": "1f1ec-1f1e7",
-        "name": "United Kingdom",
+        "name": "flag: United Kingdom",
         "alpha_code": ":flag_gb:",
         "aliases": ":gb:"
     },
@@ -1033,31 +1033,31 @@
     },
     "1f1ee-1f1f9": {
         "output": "1f1ee-1f1f9",
-        "name": "Italy",
+        "name": "flag: Italy",
         "alpha_code": ":flag_it:",
         "aliases": ":it:"
     },
     "1f1ef-1f1f5": {
         "output": "1f1ef-1f1f5",
-        "name": "Japan",
+        "name": "flag: Japan",
         "alpha_code": ":flag_jp:",
         "aliases": ":jp:"
     },
     "1f1f0-1f1f7": {
         "output": "1f1f0-1f1f7",
-        "name": "South Korea",
+        "name": "flag: South Korea",
         "alpha_code": ":flag_kr:",
         "aliases": ":kr:"
     },
     "1f1fa-1f1f8": {
         "output": "1f1fa-1f1f8",
-        "name": "United States",
+        "name": "flag: United States",
         "alpha_code": ":flag_us:",
         "aliases": ":us:"
     },
     "1f1f7-1f1fa": {
         "output": "1f1f7-1f1fa",
-        "name": "Russia",
+        "name": "flag: Russia",
         "alpha_code": ":flag_ru:",
         "aliases": ":ru:"
     },
@@ -1651,7 +1651,7 @@
     },
     "1f98a": {
         "output": "1f98a",
-        "name": "fox face",
+        "name": "fox",
         "alpha_code": ":fox:",
         "aliases": ":fox_face:"
     },
@@ -2029,7 +2029,7 @@
     },
     "1f392": {
         "output": "1f392",
-        "name": "school backpack",
+        "name": "backpack",
         "alpha_code": ":school_satchel:",
         "aliases": ""
     },
@@ -2677,31 +2677,31 @@
     },
     "1f438": {
         "output": "1f438",
-        "name": "frog face",
+        "name": "frog",
         "alpha_code": ":frog:",
         "aliases": ""
     },
     "1f439": {
         "output": "1f439",
-        "name": "hamster face",
+        "name": "hamster",
         "alpha_code": ":hamster:",
         "aliases": ""
     },
     "1f43a": {
         "output": "1f43a",
-        "name": "wolf face",
+        "name": "wolf",
         "alpha_code": ":wolf:",
         "aliases": ""
     },
     "1f43b": {
         "output": "1f43b",
-        "name": "bear face",
+        "name": "bear",
         "alpha_code": ":bear:",
         "aliases": ""
     },
     "1f43c": {
         "output": "1f43c",
-        "name": "panda face",
+        "name": "panda",
         "alpha_code": ":panda_face:",
         "aliases": ""
     },
@@ -2995,7 +2995,7 @@
     },
     "1f46b": {
         "output": "1f46b",
-        "name": "man and woman holding hands",
+        "name": "woman and man holding hands",
         "alpha_code": ":couple:",
         "aliases": ""
     },
@@ -3019,7 +3019,7 @@
     },
     "1f471": {
         "output": "1f471",
-        "name": "blond-haired person",
+        "name": "person: blond hair",
         "alpha_code": ":blond_haired_person:",
         "aliases": ":person_with_blond_hair:"
     },
@@ -4585,55 +4585,55 @@
     },
     "1f638": {
         "output": "1f638",
-        "name": "grinning cat face with smiling eyes",
+        "name": "grinning cat with smiling eyes",
         "alpha_code": ":smile_cat:",
         "aliases": ""
     },
     "1f639": {
         "output": "1f639",
-        "name": "cat face with tears of joy",
+        "name": "cat with tears of joy",
         "alpha_code": ":joy_cat:",
         "aliases": ""
     },
     "1f63a": {
         "output": "1f63a",
-        "name": "grinning cat face",
+        "name": "grinning cat",
         "alpha_code": ":smiley_cat:",
         "aliases": ""
     },
     "1f63b": {
         "output": "1f63b",
-        "name": "smiling cat face with heart-eyes",
+        "name": "smiling cat with heart-eyes",
         "alpha_code": ":heart_eyes_cat:",
         "aliases": ""
     },
     "1f63c": {
         "output": "1f63c",
-        "name": "cat face with wry smile",
+        "name": "cat with wry smile",
         "alpha_code": ":smirk_cat:",
         "aliases": ""
     },
     "1f63d": {
         "output": "1f63d",
-        "name": "kissing cat face",
+        "name": "kissing cat",
         "alpha_code": ":kissing_cat:",
         "aliases": ""
     },
     "1f63e": {
         "output": "1f63e",
-        "name": "pouting cat face",
+        "name": "pouting cat",
         "alpha_code": ":pouting_cat:",
         "aliases": ""
     },
     "1f63f": {
         "output": "1f63f",
-        "name": "crying cat face",
+        "name": "crying cat",
         "alpha_code": ":crying_cat_face:",
         "aliases": ""
     },
     "1f640": {
         "output": "1f640",
-        "name": "weary cat face",
+        "name": "weary cat",
         "alpha_code": ":scream_cat:",
         "aliases": ""
     },
@@ -5551,13 +5551,13 @@
     },
     "1f46c": {
         "output": "1f46c",
-        "name": "two men holding hands",
+        "name": "men holding hands",
         "alpha_code": ":two_men_holding_hands:",
         "aliases": ""
     },
     "1f46d": {
         "output": "1f46d",
-        "name": "two women holding hands",
+        "name": "women holding hands",
         "alpha_code": ":two_women_holding_hands:",
         "aliases": ""
     },
@@ -5779,193 +5779,193 @@
     },
     "1f1e6-1f1eb": {
         "output": "1f1e6-1f1eb",
-        "name": "Afghanistan",
+        "name": "flag: Afghanistan",
         "alpha_code": ":flag_af:",
         "aliases": ":af:"
     },
     "1f1e6-1f1f1": {
         "output": "1f1e6-1f1f1",
-        "name": "Albania",
+        "name": "flag: Albania",
         "alpha_code": ":flag_al:",
         "aliases": ":al:"
     },
     "1f1e9-1f1ff": {
         "output": "1f1e9-1f1ff",
-        "name": "Algeria",
+        "name": "flag: Algeria",
         "alpha_code": ":flag_dz:",
         "aliases": ":dz:"
     },
     "1f1e6-1f1e9": {
         "output": "1f1e6-1f1e9",
-        "name": "Andorra",
+        "name": "flag: Andorra",
         "alpha_code": ":flag_ad:",
         "aliases": ":ad:"
     },
     "1f1e6-1f1f4": {
         "output": "1f1e6-1f1f4",
-        "name": "Angola",
+        "name": "flag: Angola",
         "alpha_code": ":flag_ao:",
         "aliases": ":ao:"
     },
     "1f1e6-1f1ec": {
         "output": "1f1e6-1f1ec",
-        "name": "Antigua & Barbuda",
+        "name": "flag: Antigua & Barbuda",
         "alpha_code": ":flag_ag:",
         "aliases": ":ag:"
     },
     "1f1e6-1f1f7": {
         "output": "1f1e6-1f1f7",
-        "name": "Argentina",
+        "name": "flag: Argentina",
         "alpha_code": ":flag_ar:",
         "aliases": ":ar:"
     },
     "1f1e6-1f1f2": {
         "output": "1f1e6-1f1f2",
-        "name": "Armenia",
+        "name": "flag: Armenia",
         "alpha_code": ":flag_am:",
         "aliases": ":am:"
     },
     "1f1e6-1f1fa": {
         "output": "1f1e6-1f1fa",
-        "name": "Australia",
+        "name": "flag: Australia",
         "alpha_code": ":flag_au:",
         "aliases": ":au:"
     },
     "1f1e6-1f1f9": {
         "output": "1f1e6-1f1f9",
-        "name": "Austria",
+        "name": "flag: Austria",
         "alpha_code": ":flag_at:",
         "aliases": ":at:"
     },
     "1f1e6-1f1ff": {
         "output": "1f1e6-1f1ff",
-        "name": "Azerbaijan",
+        "name": "flag: Azerbaijan",
         "alpha_code": ":flag_az:",
         "aliases": ":az:"
     },
     "1f1e7-1f1f8": {
         "output": "1f1e7-1f1f8",
-        "name": "Bahamas",
+        "name": "flag: Bahamas",
         "alpha_code": ":flag_bs:",
         "aliases": ":bs:"
     },
     "1f1e7-1f1ed": {
         "output": "1f1e7-1f1ed",
-        "name": "Bahrain",
+        "name": "flag: Bahrain",
         "alpha_code": ":flag_bh:",
         "aliases": ":bh:"
     },
     "1f1e7-1f1e9": {
         "output": "1f1e7-1f1e9",
-        "name": "Bangladesh",
+        "name": "flag: Bangladesh",
         "alpha_code": ":flag_bd:",
         "aliases": ":bd:"
     },
     "1f1e7-1f1e7": {
         "output": "1f1e7-1f1e7",
-        "name": "Barbados",
+        "name": "flag: Barbados",
         "alpha_code": ":flag_bb:",
         "aliases": ":bb:"
     },
     "1f1e7-1f1fe": {
         "output": "1f1e7-1f1fe",
-        "name": "Belarus",
+        "name": "flag: Belarus",
         "alpha_code": ":flag_by:",
         "aliases": ":by:"
     },
     "1f1e7-1f1ea": {
         "output": "1f1e7-1f1ea",
-        "name": "Belgium",
+        "name": "flag: Belgium",
         "alpha_code": ":flag_be:",
         "aliases": ":be:"
     },
     "1f1e7-1f1ff": {
         "output": "1f1e7-1f1ff",
-        "name": "Belize",
+        "name": "flag: Belize",
         "alpha_code": ":flag_bz:",
         "aliases": ":bz:"
     },
     "1f1e7-1f1ef": {
         "output": "1f1e7-1f1ef",
-        "name": "Benin",
+        "name": "flag: Benin",
         "alpha_code": ":flag_bj:",
         "aliases": ":bj:"
     },
     "1f1e7-1f1f9": {
         "output": "1f1e7-1f1f9",
-        "name": "Bhutan",
+        "name": "flag: Bhutan",
         "alpha_code": ":flag_bt:",
         "aliases": ":bt:"
     },
     "1f1e7-1f1f4": {
         "output": "1f1e7-1f1f4",
-        "name": "Bolivia",
+        "name": "flag: Bolivia",
         "alpha_code": ":flag_bo:",
         "aliases": ":bo:"
     },
     "1f1e7-1f1e6": {
         "output": "1f1e7-1f1e6",
-        "name": "Bosnia & Herzegovina",
+        "name": "flag: Bosnia & Herzegovina",
         "alpha_code": ":flag_ba:",
         "aliases": ":ba:"
     },
     "1f1e7-1f1fc": {
         "output": "1f1e7-1f1fc",
-        "name": "Botswana",
+        "name": "flag: Botswana",
         "alpha_code": ":flag_bw:",
         "aliases": ":bw:"
     },
     "1f1e7-1f1f7": {
         "output": "1f1e7-1f1f7",
-        "name": "Brazil",
+        "name": "flag: Brazil",
         "alpha_code": ":flag_br:",
         "aliases": ":br:"
     },
     "1f1e7-1f1f3": {
         "output": "1f1e7-1f1f3",
-        "name": "Brunei",
+        "name": "flag: Brunei",
         "alpha_code": ":flag_bn:",
         "aliases": ":bn:"
     },
     "1f1e7-1f1ec": {
         "output": "1f1e7-1f1ec",
-        "name": "Bulgaria",
+        "name": "flag: Bulgaria",
         "alpha_code": ":flag_bg:",
         "aliases": ":bg:"
     },
     "1f1e7-1f1eb": {
         "output": "1f1e7-1f1eb",
-        "name": "Burkina Faso",
+        "name": "flag: Burkina Faso",
         "alpha_code": ":flag_bf:",
         "aliases": ":bf:"
     },
     "1f1e7-1f1ee": {
         "output": "1f1e7-1f1ee",
-        "name": "Burundi",
+        "name": "flag: Burundi",
         "alpha_code": ":flag_bi:",
         "aliases": ":bi:"
     },
     "1f1f0-1f1ed": {
         "output": "1f1f0-1f1ed",
-        "name": "Cambodia",
+        "name": "flag: Cambodia",
         "alpha_code": ":flag_kh:",
         "aliases": ":kh:"
     },
     "1f1e8-1f1f2": {
         "output": "1f1e8-1f1f2",
-        "name": "Cameroon",
+        "name": "flag: Cameroon",
         "alpha_code": ":flag_cm:",
         "aliases": ":cm:"
     },
     "1f1e8-1f1e6": {
         "output": "1f1e8-1f1e6",
-        "name": "Canada",
+        "name": "flag: Canada",
         "alpha_code": ":flag_ca:",
         "aliases": ":ca:"
     },
     "1f1e8-1f1fb": {
         "output": "1f1e8-1f1fb",
-        "name": "Cape Verde",
+        "name": "flag: Cape Verde",
         "alpha_code": ":flag_cv:",
         "aliases": ":cv:"
     },
@@ -5977,67 +5977,67 @@
     },
     "1f1e8-1f1eb": {
         "output": "1f1e8-1f1eb",
-        "name": "Central African Republic",
+        "name": "flag: Central African Republic",
         "alpha_code": ":flag_cf:",
         "aliases": ":cf:"
     },
     "1f1f9-1f1e9": {
         "output": "1f1f9-1f1e9",
-        "name": "Chad",
+        "name": "flag: Chad",
         "alpha_code": ":flag_td:",
         "aliases": ":td:"
     },
     "1f1e8-1f1f1": {
         "output": "1f1e8-1f1f1",
-        "name": "Chile",
+        "name": "flag: Chile",
         "alpha_code": ":flag_cl:",
         "aliases": ":chile:"
     },
     "1f1e8-1f1f4": {
         "output": "1f1e8-1f1f4",
-        "name": "Colombia",
+        "name": "flag: Colombia",
         "alpha_code": ":flag_co:",
         "aliases": ":co:"
     },
     "1f1f0-1f1f2": {
         "output": "1f1f0-1f1f2",
-        "name": "Comoros",
+        "name": "flag: Comoros",
         "alpha_code": ":flag_km:",
         "aliases": ":km:"
     },
     "1f1e8-1f1f7": {
         "output": "1f1e8-1f1f7",
-        "name": "Costa Rica",
+        "name": "flag: Costa Rica",
         "alpha_code": ":flag_cr:",
         "aliases": ":cr:"
     },
     "1f1e8-1f1ee": {
         "output": "1f1e8-1f1ee",
-        "name": "C\u00f4te d\u2019Ivoire",
+        "name": "flag: C\u00f4te d\u2019Ivoire",
         "alpha_code": ":flag_ci:",
         "aliases": ":ci:"
     },
     "1f1ed-1f1f7": {
         "output": "1f1ed-1f1f7",
-        "name": "Croatia",
+        "name": "flag: Croatia",
         "alpha_code": ":flag_hr:",
         "aliases": ":hr:"
     },
     "1f1e8-1f1fa": {
         "output": "1f1e8-1f1fa",
-        "name": "Cuba",
+        "name": "flag: Cuba",
         "alpha_code": ":flag_cu:",
         "aliases": ":cu:"
     },
     "1f1e8-1f1fe": {
         "output": "1f1e8-1f1fe",
-        "name": "Cyprus",
+        "name": "flag: Cyprus",
         "alpha_code": ":flag_cy:",
         "aliases": ":cy:"
     },
     "1f1e8-1f1ff": {
         "output": "1f1e8-1f1ff",
-        "name": "Czechia",
+        "name": "flag: Czechia",
         "alpha_code": ":flag_cz:",
         "aliases": ":cz:"
     },
@@ -6049,7 +6049,7 @@
     },
     "1f1e8-1f1e9": {
         "output": "1f1e8-1f1e9",
-        "name": "Congo - Kinshasa",
+        "name": "flag: Congo - Kinshasa",
         "alpha_code": ":flag_cd:",
         "aliases": ":congo:"
     },
@@ -6061,73 +6061,73 @@
     },
     "1f1e9-1f1f0": {
         "output": "1f1e9-1f1f0",
-        "name": "Denmark",
+        "name": "flag: Denmark",
         "alpha_code": ":flag_dk:",
         "aliases": ":dk:"
     },
     "1f1e9-1f1ef": {
         "output": "1f1e9-1f1ef",
-        "name": "Djibouti",
+        "name": "flag: Djibouti",
         "alpha_code": ":flag_dj:",
         "aliases": ":dj:"
     },
     "1f1e9-1f1f2": {
         "output": "1f1e9-1f1f2",
-        "name": "Dominica",
+        "name": "flag: Dominica",
         "alpha_code": ":flag_dm:",
         "aliases": ":dm:"
     },
     "1f1e9-1f1f4": {
         "output": "1f1e9-1f1f4",
-        "name": "Dominican Republic",
+        "name": "flag: Dominican Republic",
         "alpha_code": ":flag_do:",
         "aliases": ":do:"
     },
     "1f1f9-1f1f1": {
         "output": "1f1f9-1f1f1",
-        "name": "Timor-Leste",
+        "name": "flag: Timor-Leste",
         "alpha_code": ":flag_tl:",
         "aliases": ":tl:"
     },
     "1f1ea-1f1e8": {
         "output": "1f1ea-1f1e8",
-        "name": "Ecuador",
+        "name": "flag: Ecuador",
         "alpha_code": ":flag_ec:",
         "aliases": ":ec:"
     },
     "1f1ea-1f1ec": {
         "output": "1f1ea-1f1ec",
-        "name": "Egypt",
+        "name": "flag: Egypt",
         "alpha_code": ":flag_eg:",
         "aliases": ":eg:"
     },
     "1f1f8-1f1fb": {
         "output": "1f1f8-1f1fb",
-        "name": "El Salvador",
+        "name": "flag: El Salvador",
         "alpha_code": ":flag_sv:",
         "aliases": ":sv:"
     },
     "1f1ec-1f1f6": {
         "output": "1f1ec-1f1f6",
-        "name": "Equatorial Guinea",
+        "name": "flag: Equatorial Guinea",
         "alpha_code": ":flag_gq:",
         "aliases": ":gq:"
     },
     "1f1ea-1f1f7": {
         "output": "1f1ea-1f1f7",
-        "name": "Eritrea",
+        "name": "flag: Eritrea",
         "alpha_code": ":flag_er:",
         "aliases": ":er:"
     },
     "1f1ea-1f1ea": {
         "output": "1f1ea-1f1ea",
-        "name": "Estonia",
+        "name": "flag: Estonia",
         "alpha_code": ":flag_ee:",
         "aliases": ":ee:"
     },
     "1f1ea-1f1f9": {
         "output": "1f1ea-1f1f9",
-        "name": "Ethiopia",
+        "name": "flag: Ethiopia",
         "alpha_code": ":flag_et:",
         "aliases": ":et:"
     },
@@ -6139,181 +6139,181 @@
     },
     "1f1eb-1f1ef": {
         "output": "1f1eb-1f1ef",
-        "name": "Fiji",
+        "name": "flag: Fiji",
         "alpha_code": ":flag_fj:",
         "aliases": ":fj:"
     },
     "1f1eb-1f1ee": {
         "output": "1f1eb-1f1ee",
-        "name": "Finland",
+        "name": "flag: Finland",
         "alpha_code": ":flag_fi:",
         "aliases": ":fi:"
     },
     "1f1ec-1f1e6": {
         "output": "1f1ec-1f1e6",
-        "name": "Gabon",
+        "name": "flag: Gabon",
         "alpha_code": ":flag_ga:",
         "aliases": ":ga:"
     },
     "1f1ec-1f1f2": {
         "output": "1f1ec-1f1f2",
-        "name": "Gambia",
+        "name": "flag: Gambia",
         "alpha_code": ":flag_gm:",
         "aliases": ":gm:"
     },
     "1f1ec-1f1ea": {
         "output": "1f1ec-1f1ea",
-        "name": "Georgia",
+        "name": "flag: Georgia",
         "alpha_code": ":flag_ge:",
         "aliases": ":ge:"
     },
     "1f1ec-1f1ed": {
         "output": "1f1ec-1f1ed",
-        "name": "Ghana",
+        "name": "flag: Ghana",
         "alpha_code": ":flag_gh:",
         "aliases": ":gh:"
     },
     "1f1ec-1f1f7": {
         "output": "1f1ec-1f1f7",
-        "name": "Greece",
+        "name": "flag: Greece",
         "alpha_code": ":flag_gr:",
         "aliases": ":gr:"
     },
     "1f1ec-1f1e9": {
         "output": "1f1ec-1f1e9",
-        "name": "Grenada",
+        "name": "flag: Grenada",
         "alpha_code": ":flag_gd:",
         "aliases": ":gd:"
     },
     "1f1ec-1f1f9": {
         "output": "1f1ec-1f1f9",
-        "name": "Guatemala",
+        "name": "flag: Guatemala",
         "alpha_code": ":flag_gt:",
         "aliases": ":gt:"
     },
     "1f1ec-1f1f3": {
         "output": "1f1ec-1f1f3",
-        "name": "Guinea",
+        "name": "flag: Guinea",
         "alpha_code": ":flag_gn:",
         "aliases": ":gn:"
     },
     "1f1ec-1f1fc": {
         "output": "1f1ec-1f1fc",
-        "name": "Guinea-Bissau",
+        "name": "flag: Guinea-Bissau",
         "alpha_code": ":flag_gw:",
         "aliases": ":gw:"
     },
     "1f1ec-1f1fe": {
         "output": "1f1ec-1f1fe",
-        "name": "Guyana",
+        "name": "flag: Guyana",
         "alpha_code": ":flag_gy:",
         "aliases": ":gy:"
     },
     "1f1ed-1f1f9": {
         "output": "1f1ed-1f1f9",
-        "name": "Haiti",
+        "name": "flag: Haiti",
         "alpha_code": ":flag_ht:",
         "aliases": ":ht:"
     },
     "1f1ed-1f1f3": {
         "output": "1f1ed-1f1f3",
-        "name": "Honduras",
+        "name": "flag: Honduras",
         "alpha_code": ":flag_hn:",
         "aliases": ":hn:"
     },
     "1f1ed-1f1fa": {
         "output": "1f1ed-1f1fa",
-        "name": "Hungary",
+        "name": "flag: Hungary",
         "alpha_code": ":flag_hu:",
         "aliases": ":hu:"
     },
     "1f1ee-1f1f8": {
         "output": "1f1ee-1f1f8",
-        "name": "Iceland",
+        "name": "flag: Iceland",
         "alpha_code": ":flag_is:",
         "aliases": ":is:"
     },
     "1f1ee-1f1f3": {
         "output": "1f1ee-1f1f3",
-        "name": "India",
+        "name": "flag: India",
         "alpha_code": ":flag_in:",
         "aliases": ":in:"
     },
     "1f1ee-1f1e9": {
         "output": "1f1ee-1f1e9",
-        "name": "Indonesia",
+        "name": "flag: Indonesia",
         "alpha_code": ":flag_id:",
         "aliases": ":indonesia:"
     },
     "1f1ee-1f1f7": {
         "output": "1f1ee-1f1f7",
-        "name": "Iran",
+        "name": "flag: Iran",
         "alpha_code": ":flag_ir:",
         "aliases": ":ir:"
     },
     "1f1ee-1f1f6": {
         "output": "1f1ee-1f1f6",
-        "name": "Iraq",
+        "name": "flag: Iraq",
         "alpha_code": ":flag_iq:",
         "aliases": ":iq:"
     },
     "1f1ee-1f1ea": {
         "output": "1f1ee-1f1ea",
-        "name": "Ireland",
+        "name": "flag: Ireland",
         "alpha_code": ":flag_ie:",
         "aliases": ":ie:"
     },
     "1f1ee-1f1f1": {
         "output": "1f1ee-1f1f1",
-        "name": "Israel",
+        "name": "flag: Israel",
         "alpha_code": ":flag_il:",
         "aliases": ":il:"
     },
     "1f1ef-1f1f2": {
         "output": "1f1ef-1f1f2",
-        "name": "Jamaica",
+        "name": "flag: Jamaica",
         "alpha_code": ":flag_jm:",
         "aliases": ":jm:"
     },
     "1f1ef-1f1f4": {
         "output": "1f1ef-1f1f4",
-        "name": "Jordan",
+        "name": "flag: Jordan",
         "alpha_code": ":flag_jo:",
         "aliases": ":jo:"
     },
     "1f1f0-1f1ff": {
         "output": "1f1f0-1f1ff",
-        "name": "Kazakhstan",
+        "name": "flag: Kazakhstan",
         "alpha_code": ":flag_kz:",
         "aliases": ":kz:"
     },
     "1f1f0-1f1ea": {
         "output": "1f1f0-1f1ea",
-        "name": "Kenya",
+        "name": "flag: Kenya",
         "alpha_code": ":flag_ke:",
         "aliases": ":ke:"
     },
     "1f1f0-1f1ee": {
         "output": "1f1f0-1f1ee",
-        "name": "Kiribati",
+        "name": "flag: Kiribati",
         "alpha_code": ":flag_ki:",
         "aliases": ":ki:"
     },
     "1f1fd-1f1f0": {
         "output": "1f1fd-1f1f0",
-        "name": "Kosovo",
+        "name": "flag: Kosovo",
         "alpha_code": ":flag_xk:",
         "aliases": ":xk:"
     },
     "1f1f0-1f1fc": {
         "output": "1f1f0-1f1fc",
-        "name": "Kuwait",
+        "name": "flag: Kuwait",
         "alpha_code": ":flag_kw:",
         "aliases": ":kw:"
     },
     "1f1f0-1f1ec": {
         "output": "1f1f0-1f1ec",
-        "name": "Kyrgyzstan",
+        "name": "flag: Kyrgyzstan",
         "alpha_code": ":flag_kg:",
         "aliases": ":kg:"
     },
@@ -6325,259 +6325,259 @@
     },
     "1f1f1-1f1e6": {
         "output": "1f1f1-1f1e6",
-        "name": "Laos",
+        "name": "flag: Laos",
         "alpha_code": ":flag_la:",
         "aliases": ":la:"
     },
     "1f1f1-1f1fb": {
         "output": "1f1f1-1f1fb",
-        "name": "Latvia",
+        "name": "flag: Latvia",
         "alpha_code": ":flag_lv:",
         "aliases": ":lv:"
     },
     "1f1f1-1f1e7": {
         "output": "1f1f1-1f1e7",
-        "name": "Lebanon",
+        "name": "flag: Lebanon",
         "alpha_code": ":flag_lb:",
         "aliases": ":lb:"
     },
     "1f1f1-1f1f8": {
         "output": "1f1f1-1f1f8",
-        "name": "Lesotho",
+        "name": "flag: Lesotho",
         "alpha_code": ":flag_ls:",
         "aliases": ":ls:"
     },
     "1f1f1-1f1f7": {
         "output": "1f1f1-1f1f7",
-        "name": "Liberia",
+        "name": "flag: Liberia",
         "alpha_code": ":flag_lr:",
         "aliases": ":lr:"
     },
     "1f1f1-1f1fe": {
         "output": "1f1f1-1f1fe",
-        "name": "Libya",
+        "name": "flag: Libya",
         "alpha_code": ":flag_ly:",
         "aliases": ":ly:"
     },
     "1f1f1-1f1ee": {
         "output": "1f1f1-1f1ee",
-        "name": "Liechtenstein",
+        "name": "flag: Liechtenstein",
         "alpha_code": ":flag_li:",
         "aliases": ":li:"
     },
     "1f1f1-1f1f9": {
         "output": "1f1f1-1f1f9",
-        "name": "Lithuania",
+        "name": "flag: Lithuania",
         "alpha_code": ":flag_lt:",
         "aliases": ":lt:"
     },
     "1f1f1-1f1fa": {
         "output": "1f1f1-1f1fa",
-        "name": "Luxembourg",
+        "name": "flag: Luxembourg",
         "alpha_code": ":flag_lu:",
         "aliases": ":lu:"
     },
     "1f1f2-1f1f0": {
         "output": "1f1f2-1f1f0",
-        "name": "Macedonia",
+        "name": "flag: Macedonia",
         "alpha_code": ":flag_mk:",
         "aliases": ":mk:"
     },
     "1f1f2-1f1ec": {
         "output": "1f1f2-1f1ec",
-        "name": "Madagascar",
+        "name": "flag: Madagascar",
         "alpha_code": ":flag_mg:",
         "aliases": ":mg:"
     },
     "1f1f2-1f1fc": {
         "output": "1f1f2-1f1fc",
-        "name": "Malawi",
+        "name": "flag: Malawi",
         "alpha_code": ":flag_mw:",
         "aliases": ":mw:"
     },
     "1f1f2-1f1fe": {
         "output": "1f1f2-1f1fe",
-        "name": "Malaysia",
+        "name": "flag: Malaysia",
         "alpha_code": ":flag_my:",
         "aliases": ":my:"
     },
     "1f1f2-1f1fb": {
         "output": "1f1f2-1f1fb",
-        "name": "Maldives",
+        "name": "flag: Maldives",
         "alpha_code": ":flag_mv:",
         "aliases": ":mv:"
     },
     "1f1f2-1f1f1": {
         "output": "1f1f2-1f1f1",
-        "name": "Mali",
+        "name": "flag: Mali",
         "alpha_code": ":flag_ml:",
         "aliases": ":ml:"
     },
     "1f1f2-1f1f9": {
         "output": "1f1f2-1f1f9",
-        "name": "Malta",
+        "name": "flag: Malta",
         "alpha_code": ":flag_mt:",
         "aliases": ":mt:"
     },
     "1f1f2-1f1ed": {
         "output": "1f1f2-1f1ed",
-        "name": "Marshall Islands",
+        "name": "flag: Marshall Islands",
         "alpha_code": ":flag_mh:",
         "aliases": ":mh:"
     },
     "1f1f2-1f1f7": {
         "output": "1f1f2-1f1f7",
-        "name": "Mauritania",
+        "name": "flag: Mauritania",
         "alpha_code": ":flag_mr:",
         "aliases": ":mr:"
     },
     "1f1f2-1f1fa": {
         "output": "1f1f2-1f1fa",
-        "name": "Mauritius",
+        "name": "flag: Mauritius",
         "alpha_code": ":flag_mu:",
         "aliases": ":mu:"
     },
     "1f1f2-1f1fd": {
         "output": "1f1f2-1f1fd",
-        "name": "Mexico",
+        "name": "flag: Mexico",
         "alpha_code": ":flag_mx:",
         "aliases": ":mx:"
     },
     "1f1eb-1f1f2": {
         "output": "1f1eb-1f1f2",
-        "name": "Micronesia",
+        "name": "flag: Micronesia",
         "alpha_code": ":flag_fm:",
         "aliases": ":fm:"
     },
     "1f1f2-1f1e9": {
         "output": "1f1f2-1f1e9",
-        "name": "Moldova",
+        "name": "flag: Moldova",
         "alpha_code": ":flag_md:",
         "aliases": ":md:"
     },
     "1f1f2-1f1e8": {
         "output": "1f1f2-1f1e8",
-        "name": "Monaco",
+        "name": "flag: Monaco",
         "alpha_code": ":flag_mc:",
         "aliases": ":mc:"
     },
     "1f1f2-1f1f3": {
         "output": "1f1f2-1f1f3",
-        "name": "Mongolia",
+        "name": "flag: Mongolia",
         "alpha_code": ":flag_mn:",
         "aliases": ":mn:"
     },
     "1f1f2-1f1ea": {
         "output": "1f1f2-1f1ea",
-        "name": "Montenegro",
+        "name": "flag: Montenegro",
         "alpha_code": ":flag_me:",
         "aliases": ":me:"
     },
     "1f1f2-1f1e6": {
         "output": "1f1f2-1f1e6",
-        "name": "Morocco",
+        "name": "flag: Morocco",
         "alpha_code": ":flag_ma:",
         "aliases": ":ma:"
     },
     "1f1f2-1f1ff": {
         "output": "1f1f2-1f1ff",
-        "name": "Mozambique",
+        "name": "flag: Mozambique",
         "alpha_code": ":flag_mz:",
         "aliases": ":mz:"
     },
     "1f1f2-1f1f2": {
         "output": "1f1f2-1f1f2",
-        "name": "Myanmar (Burma)",
+        "name": "flag: Myanmar (Burma)",
         "alpha_code": ":flag_mm:",
         "aliases": ":mm:"
     },
     "1f1f3-1f1e6": {
         "output": "1f1f3-1f1e6",
-        "name": "Namibia",
+        "name": "flag: Namibia",
         "alpha_code": ":flag_na:",
         "aliases": ":na:"
     },
     "1f1f3-1f1f7": {
         "output": "1f1f3-1f1f7",
-        "name": "Nauru",
+        "name": "flag: Nauru",
         "alpha_code": ":flag_nr:",
         "aliases": ":nr:"
     },
     "1f1f3-1f1f5": {
         "output": "1f1f3-1f1f5",
-        "name": "Nepal",
+        "name": "flag: Nepal",
         "alpha_code": ":flag_np:",
         "aliases": ":np:"
     },
     "1f1f3-1f1f1": {
         "output": "1f1f3-1f1f1",
-        "name": "Netherlands",
+        "name": "flag: Netherlands",
         "alpha_code": ":flag_nl:",
         "aliases": ":nl:"
     },
     "1f1f3-1f1ff": {
         "output": "1f1f3-1f1ff",
-        "name": "New Zealand",
+        "name": "flag: New Zealand",
         "alpha_code": ":flag_nz:",
         "aliases": ":nz:"
     },
     "1f1f3-1f1ee": {
         "output": "1f1f3-1f1ee",
-        "name": "Nicaragua",
+        "name": "flag: Nicaragua",
         "alpha_code": ":flag_ni:",
         "aliases": ":ni:"
     },
     "1f1f3-1f1ea": {
         "output": "1f1f3-1f1ea",
-        "name": "Niger",
+        "name": "flag: Niger",
         "alpha_code": ":flag_ne:",
         "aliases": ":ne:"
     },
     "1f1f3-1f1ec": {
         "output": "1f1f3-1f1ec",
-        "name": "Nigeria",
+        "name": "flag: Nigeria",
         "alpha_code": ":flag_ng:",
         "aliases": ":nigeria:"
     },
     "1f1f0-1f1f5": {
         "output": "1f1f0-1f1f5",
-        "name": "North Korea",
+        "name": "flag: North Korea",
         "alpha_code": ":flag_kp:",
         "aliases": ":kp:"
     },
     "1f1f3-1f1f4": {
         "output": "1f1f3-1f1f4",
-        "name": "Norway",
+        "name": "flag: Norway",
         "alpha_code": ":flag_no:",
         "aliases": ":no:"
     },
     "1f1f4-1f1f2": {
         "output": "1f1f4-1f1f2",
-        "name": "Oman",
+        "name": "flag: Oman",
         "alpha_code": ":flag_om:",
         "aliases": ":om:"
     },
     "1f1f5-1f1f0": {
         "output": "1f1f5-1f1f0",
-        "name": "Pakistan",
+        "name": "flag: Pakistan",
         "alpha_code": ":flag_pk:",
         "aliases": ":pk:"
     },
     "1f1f5-1f1fc": {
         "output": "1f1f5-1f1fc",
-        "name": "Palau",
+        "name": "flag: Palau",
         "alpha_code": ":flag_pw:",
         "aliases": ":pw:"
     },
     "1f1f5-1f1e6": {
         "output": "1f1f5-1f1e6",
-        "name": "Panama",
+        "name": "flag: Panama",
         "alpha_code": ":flag_pa:",
         "aliases": ":pa:"
     },
     "1f1f5-1f1ec": {
         "output": "1f1f5-1f1ec",
-        "name": "Papua New Guinea",
+        "name": "flag: Papua New Guinea",
         "alpha_code": ":flag_pg:",
         "aliases": ":pg:"
     },
@@ -6589,103 +6589,103 @@
     },
     "1f1f5-1f1fe": {
         "output": "1f1f5-1f1fe",
-        "name": "Paraguay",
+        "name": "flag: Paraguay",
         "alpha_code": ":flag_py:",
         "aliases": ":py:"
     },
     "1f1f5-1f1ea": {
         "output": "1f1f5-1f1ea",
-        "name": "Peru",
+        "name": "flag: Peru",
         "alpha_code": ":flag_pe:",
         "aliases": ":pe:"
     },
     "1f1f5-1f1ed": {
         "output": "1f1f5-1f1ed",
-        "name": "Philippines",
+        "name": "flag: Philippines",
         "alpha_code": ":flag_ph:",
         "aliases": ":ph:"
     },
     "1f1f5-1f1f1": {
         "output": "1f1f5-1f1f1",
-        "name": "Poland",
+        "name": "flag: Poland",
         "alpha_code": ":flag_pl:",
         "aliases": ":pl:"
     },
     "1f1f5-1f1f9": {
         "output": "1f1f5-1f1f9",
-        "name": "Portugal",
+        "name": "flag: Portugal",
         "alpha_code": ":flag_pt:",
         "aliases": ":pt:"
     },
     "1f1f6-1f1e6": {
         "output": "1f1f6-1f1e6",
-        "name": "Qatar",
+        "name": "flag: Qatar",
         "alpha_code": ":flag_qa:",
         "aliases": ":qa:"
     },
     "1f1f9-1f1fc": {
         "output": "1f1f9-1f1fc",
-        "name": "Taiwan",
+        "name": "flag: Taiwan",
         "alpha_code": ":flag_tw:",
         "aliases": ":tw:"
     },
     "1f1e8-1f1ec": {
         "output": "1f1e8-1f1ec",
-        "name": "Congo - Brazzaville",
+        "name": "flag: Congo - Brazzaville",
         "alpha_code": ":flag_cg:",
         "aliases": ":cg:"
     },
     "1f1f7-1f1f4": {
         "output": "1f1f7-1f1f4",
-        "name": "Romania",
+        "name": "flag: Romania",
         "alpha_code": ":flag_ro:",
         "aliases": ":ro:"
     },
     "1f1f7-1f1fc": {
         "output": "1f1f7-1f1fc",
-        "name": "Rwanda",
+        "name": "flag: Rwanda",
         "alpha_code": ":flag_rw:",
         "aliases": ":rw:"
     },
     "1f1f0-1f1f3": {
         "output": "1f1f0-1f1f3",
-        "name": "St. Kitts & Nevis",
+        "name": "flag: St. Kitts & Nevis",
         "alpha_code": ":flag_kn:",
         "aliases": ":kn:"
     },
     "1f1f1-1f1e8": {
         "output": "1f1f1-1f1e8",
-        "name": "St. Lucia",
+        "name": "flag: St. Lucia",
         "alpha_code": ":flag_lc:",
         "aliases": ":lc:"
     },
     "1f1fb-1f1e8": {
         "output": "1f1fb-1f1e8",
-        "name": "St. Vincent & Grenadines",
+        "name": "flag: St. Vincent & Grenadines",
         "alpha_code": ":flag_vc:",
         "aliases": ":vc:"
     },
     "1f1fc-1f1f8": {
         "output": "1f1fc-1f1f8",
-        "name": "Samoa",
+        "name": "flag: Samoa",
         "alpha_code": ":flag_ws:",
         "aliases": ":ws:"
     },
     "1f1f8-1f1f2": {
         "output": "1f1f8-1f1f2",
-        "name": "San Marino",
+        "name": "flag: San Marino",
         "alpha_code": ":flag_sm:",
         "aliases": ":sm:"
     },
     "1f1f8-1f1f9": {
         "output": "1f1f8-1f1f9",
-        "name": "S\u00e3o Tom\u00e9 & Pr\u00edncipe",
+        "name": "flag: S\u00e3o Tom\u00e9 & Pr\u00edncipe",
         "alpha_code": ":flag_st:",
         "aliases": ":st:"
     },
     "1f1f8-1f1e6": {
         "output": "1f1f8-1f1e6",
-        "name": "Saudi Arabia",
+        "name": "flag: Saudi Arabia",
         "alpha_code": ":flag_sa:",
         "aliases": ":saudiarabia:|:saudi:"
     },
@@ -6697,223 +6697,223 @@
     },
     "1f1f8-1f1f3": {
         "output": "1f1f8-1f1f3",
-        "name": "Senegal",
+        "name": "flag: Senegal",
         "alpha_code": ":flag_sn:",
         "aliases": ":sn:"
     },
     "1f1f7-1f1f8": {
         "output": "1f1f7-1f1f8",
-        "name": "Serbia",
+        "name": "flag: Serbia",
         "alpha_code": ":flag_rs:",
         "aliases": ":rs:"
     },
     "1f1f8-1f1e8": {
         "output": "1f1f8-1f1e8",
-        "name": "Seychelles",
+        "name": "flag: Seychelles",
         "alpha_code": ":flag_sc:",
         "aliases": ":sc:"
     },
     "1f1f8-1f1f1": {
         "output": "1f1f8-1f1f1",
-        "name": "Sierra Leone",
+        "name": "flag: Sierra Leone",
         "alpha_code": ":flag_sl:",
         "aliases": ":sl:"
     },
     "1f1f8-1f1ec": {
         "output": "1f1f8-1f1ec",
-        "name": "Singapore",
+        "name": "flag: Singapore",
         "alpha_code": ":flag_sg:",
         "aliases": ":sg:"
     },
     "1f1f8-1f1f0": {
         "output": "1f1f8-1f1f0",
-        "name": "Slovakia",
+        "name": "flag: Slovakia",
         "alpha_code": ":flag_sk:",
         "aliases": ":sk:"
     },
     "1f1f8-1f1ee": {
         "output": "1f1f8-1f1ee",
-        "name": "Slovenia",
+        "name": "flag: Slovenia",
         "alpha_code": ":flag_si:",
         "aliases": ":si:"
     },
     "1f1f8-1f1e7": {
         "output": "1f1f8-1f1e7",
-        "name": "Solomon Islands",
+        "name": "flag: Solomon Islands",
         "alpha_code": ":flag_sb:",
         "aliases": ":sb:"
     },
     "1f1f8-1f1f4": {
         "output": "1f1f8-1f1f4",
-        "name": "Somalia",
+        "name": "flag: Somalia",
         "alpha_code": ":flag_so:",
         "aliases": ":so:"
     },
     "1f1ff-1f1e6": {
         "output": "1f1ff-1f1e6",
-        "name": "South Africa",
+        "name": "flag: South Africa",
         "alpha_code": ":flag_za:",
         "aliases": ":za:"
     },
     "1f1f1-1f1f0": {
         "output": "1f1f1-1f1f0",
-        "name": "Sri Lanka",
+        "name": "flag: Sri Lanka",
         "alpha_code": ":flag_lk:",
         "aliases": ":lk:"
     },
     "1f1f8-1f1e9": {
         "output": "1f1f8-1f1e9",
-        "name": "Sudan",
+        "name": "flag: Sudan",
         "alpha_code": ":flag_sd:",
         "aliases": ":sd:"
     },
     "1f1f8-1f1f7": {
         "output": "1f1f8-1f1f7",
-        "name": "Suriname",
+        "name": "flag: Suriname",
         "alpha_code": ":flag_sr:",
         "aliases": ":sr:"
     },
     "1f1f8-1f1ff": {
         "output": "1f1f8-1f1ff",
-        "name": "Swaziland",
+        "name": "flag: Eswatini",
         "alpha_code": ":flag_sz:",
         "aliases": ":sz:"
     },
     "1f1f8-1f1ea": {
         "output": "1f1f8-1f1ea",
-        "name": "Sweden",
+        "name": "flag: Sweden",
         "alpha_code": ":flag_se:",
         "aliases": ":se:"
     },
     "1f1e8-1f1ed": {
         "output": "1f1e8-1f1ed",
-        "name": "Switzerland",
+        "name": "flag: Switzerland",
         "alpha_code": ":flag_ch:",
         "aliases": ":ch:"
     },
     "1f1f8-1f1fe": {
         "output": "1f1f8-1f1fe",
-        "name": "Syria",
+        "name": "flag: Syria",
         "alpha_code": ":flag_sy:",
         "aliases": ":sy:"
     },
     "1f1f9-1f1ef": {
         "output": "1f1f9-1f1ef",
-        "name": "Tajikistan",
+        "name": "flag: Tajikistan",
         "alpha_code": ":flag_tj:",
         "aliases": ":tj:"
     },
     "1f1f9-1f1ff": {
         "output": "1f1f9-1f1ff",
-        "name": "Tanzania",
+        "name": "flag: Tanzania",
         "alpha_code": ":flag_tz:",
         "aliases": ":tz:"
     },
     "1f1f9-1f1ed": {
         "output": "1f1f9-1f1ed",
-        "name": "Thailand",
+        "name": "flag: Thailand",
         "alpha_code": ":flag_th:",
         "aliases": ":th:"
     },
     "1f1f9-1f1ec": {
         "output": "1f1f9-1f1ec",
-        "name": "Togo",
+        "name": "flag: Togo",
         "alpha_code": ":flag_tg:",
         "aliases": ":tg:"
     },
     "1f1f9-1f1f4": {
         "output": "1f1f9-1f1f4",
-        "name": "Tonga",
+        "name": "flag: Tonga",
         "alpha_code": ":flag_to:",
         "aliases": ":to:"
     },
     "1f1f9-1f1f9": {
         "output": "1f1f9-1f1f9",
-        "name": "Trinidad & Tobago",
+        "name": "flag: Trinidad & Tobago",
         "alpha_code": ":flag_tt:",
         "aliases": ":tt:"
     },
     "1f1f9-1f1f3": {
         "output": "1f1f9-1f1f3",
-        "name": "Tunisia",
+        "name": "flag: Tunisia",
         "alpha_code": ":flag_tn:",
         "aliases": ":tn:"
     },
     "1f1f9-1f1f7": {
         "output": "1f1f9-1f1f7",
-        "name": "Turkey",
+        "name": "flag: Turkey",
         "alpha_code": ":flag_tr:",
         "aliases": ":tr:"
     },
     "1f1f9-1f1f2": {
         "output": "1f1f9-1f1f2",
-        "name": "Turkmenistan",
+        "name": "flag: Turkmenistan",
         "alpha_code": ":flag_tm:",
         "aliases": ":turkmenistan:"
     },
     "1f1f9-1f1fb": {
         "output": "1f1f9-1f1fb",
-        "name": "Tuvalu",
+        "name": "flag: Tuvalu",
         "alpha_code": ":flag_tv:",
         "aliases": ":tuvalu:"
     },
     "1f1fa-1f1ec": {
         "output": "1f1fa-1f1ec",
-        "name": "Uganda",
+        "name": "flag: Uganda",
         "alpha_code": ":flag_ug:",
         "aliases": ":ug:"
     },
     "1f1fa-1f1e6": {
         "output": "1f1fa-1f1e6",
-        "name": "Ukraine",
+        "name": "flag: Ukraine",
         "alpha_code": ":flag_ua:",
         "aliases": ":ua:"
     },
     "1f1e6-1f1ea": {
         "output": "1f1e6-1f1ea",
-        "name": "United Arab Emirates",
+        "name": "flag: United Arab Emirates",
         "alpha_code": ":flag_ae:",
         "aliases": ":ae:"
     },
     "1f1fa-1f1fe": {
         "output": "1f1fa-1f1fe",
-        "name": "Uruguay",
+        "name": "flag: Uruguay",
         "alpha_code": ":flag_uy:",
         "aliases": ":uy:"
     },
     "1f1fa-1f1ff": {
         "output": "1f1fa-1f1ff",
-        "name": "Uzbekistan",
+        "name": "flag: Uzbekistan",
         "alpha_code": ":flag_uz:",
         "aliases": ":uz:"
     },
     "1f1fb-1f1fa": {
         "output": "1f1fb-1f1fa",
-        "name": "Vanuatu",
+        "name": "flag: Vanuatu",
         "alpha_code": ":flag_vu:",
         "aliases": ":vu:"
     },
     "1f1fb-1f1e6": {
         "output": "1f1fb-1f1e6",
-        "name": "Vatican City",
+        "name": "flag: Vatican City",
         "alpha_code": ":flag_va:",
         "aliases": ":va:"
     },
     "1f1fb-1f1ea": {
         "output": "1f1fb-1f1ea",
-        "name": "Venezuela",
+        "name": "flag: Venezuela",
         "alpha_code": ":flag_ve:",
         "aliases": ":ve:"
     },
     "1f1fb-1f1f3": {
         "output": "1f1fb-1f1f3",
-        "name": "Vietnam",
+        "name": "flag: Vietnam",
         "alpha_code": ":flag_vn:",
         "aliases": ":vn:"
     },
     "1f1ea-1f1ed": {
         "output": "1f1ea-1f1ed",
-        "name": "Western Sahara",
+        "name": "flag: Western Sahara",
         "alpha_code": ":flag_eh:",
         "aliases": ":eh:"
     },
@@ -6925,55 +6925,55 @@
     },
     "1f1fe-1f1ea": {
         "output": "1f1fe-1f1ea",
-        "name": "Yemen",
+        "name": "flag: Yemen",
         "alpha_code": ":flag_ye:",
         "aliases": ":ye:"
     },
     "1f1ff-1f1f2": {
         "output": "1f1ff-1f1f2",
-        "name": "Zambia",
+        "name": "flag: Zambia",
         "alpha_code": ":flag_zm:",
         "aliases": ":zm:"
     },
     "1f1ff-1f1fc": {
         "output": "1f1ff-1f1fc",
-        "name": "Zimbabwe",
+        "name": "flag: Zimbabwe",
         "alpha_code": ":flag_zw:",
         "aliases": ":zw:"
     },
     "1f1f5-1f1f7": {
         "output": "1f1f5-1f1f7",
-        "name": "Puerto Rico",
+        "name": "flag: Puerto Rico",
         "alpha_code": ":flag_pr:",
         "aliases": ":pr:"
     },
     "1f1f0-1f1fe": {
         "output": "1f1f0-1f1fe",
-        "name": "Cayman Islands",
+        "name": "flag: Cayman Islands",
         "alpha_code": ":flag_ky:",
         "aliases": ":ky:"
     },
     "1f1e7-1f1f2": {
         "output": "1f1e7-1f1f2",
-        "name": "Bermuda",
+        "name": "flag: Bermuda",
         "alpha_code": ":flag_bm:",
         "aliases": ":bm:"
     },
     "1f1f5-1f1eb": {
         "output": "1f1f5-1f1eb",
-        "name": "French Polynesia",
+        "name": "flag: French Polynesia",
         "alpha_code": ":flag_pf:",
         "aliases": ":pf:"
     },
     "1f1f5-1f1f8": {
         "output": "1f1f5-1f1f8",
-        "name": "Palestinian Territories",
+        "name": "flag: Palestinian Territories",
         "alpha_code": ":flag_ps:",
         "aliases": ":ps:"
     },
     "1f1f3-1f1e8": {
         "output": "1f1f3-1f1e8",
-        "name": "New Caledonia",
+        "name": "flag: New Caledonia",
         "alpha_code": ":flag_nc:",
         "aliases": ":nc:"
     },
@@ -6985,67 +6985,67 @@
     },
     "1f1f8-1f1ed": {
         "output": "1f1f8-1f1ed",
-        "name": "St. Helena",
+        "name": "flag: St. Helena",
         "alpha_code": ":flag_sh:",
         "aliases": ":sh:"
     },
     "1f1e6-1f1fc": {
         "output": "1f1e6-1f1fc",
-        "name": "Aruba",
+        "name": "flag: Aruba",
         "alpha_code": ":flag_aw:",
         "aliases": ":aw:"
     },
     "1f1fb-1f1ee": {
         "output": "1f1fb-1f1ee",
-        "name": "U.S. Virgin Islands",
+        "name": "flag: U.S. Virgin Islands",
         "alpha_code": ":flag_vi:",
         "aliases": ":vi:"
     },
     "1f1ed-1f1f0": {
         "output": "1f1ed-1f1f0",
-        "name": "Hong Kong SAR China",
+        "name": "flag: Hong Kong SAR China",
         "alpha_code": ":flag_hk:",
         "aliases": ":hk:"
     },
     "1f1e6-1f1e8": {
         "output": "1f1e6-1f1e8",
-        "name": "Ascension Island",
+        "name": "flag: Ascension Island",
         "alpha_code": ":flag_ac:",
         "aliases": ":ac:"
     },
     "1f1f2-1f1f8": {
         "output": "1f1f2-1f1f8",
-        "name": "Montserrat",
+        "name": "flag: Montserrat",
         "alpha_code": ":flag_ms:",
         "aliases": ":ms:"
     },
     "1f1ec-1f1fa": {
         "output": "1f1ec-1f1fa",
-        "name": "Guam",
+        "name": "flag: Guam",
         "alpha_code": ":flag_gu:",
         "aliases": ":gu:"
     },
     "1f1ec-1f1f1": {
         "output": "1f1ec-1f1f1",
-        "name": "Greenland",
+        "name": "flag: Greenland",
         "alpha_code": ":flag_gl:",
         "aliases": ":gl:"
     },
     "1f1f3-1f1fa": {
         "output": "1f1f3-1f1fa",
-        "name": "Niue",
+        "name": "flag: Niue",
         "alpha_code": ":flag_nu:",
         "aliases": ":nu:"
     },
     "1f1fc-1f1eb": {
         "output": "1f1fc-1f1eb",
-        "name": "Wallis & Futuna",
+        "name": "flag: Wallis & Futuna",
         "alpha_code": ":flag_wf:",
         "aliases": ":wf:"
     },
     "1f1f2-1f1f4": {
         "output": "1f1f2-1f1f4",
-        "name": "Macau SAR China",
+        "name": "flag: Macao SAR China",
         "alpha_code": ":flag_mo:",
         "aliases": ":mo:"
     },
@@ -7057,31 +7057,31 @@
     },
     "1f1eb-1f1f4": {
         "output": "1f1eb-1f1f4",
-        "name": "Faroe Islands",
+        "name": "flag: Faroe Islands",
         "alpha_code": ":flag_fo:",
         "aliases": ":fo:"
     },
     "1f1eb-1f1f0": {
         "output": "1f1eb-1f1f0",
-        "name": "Falkland Islands",
+        "name": "flag: Falkland Islands",
         "alpha_code": ":flag_fk:",
         "aliases": ":fk:"
     },
     "1f1ef-1f1ea": {
         "output": "1f1ef-1f1ea",
-        "name": "Jersey",
+        "name": "flag: Jersey",
         "alpha_code": ":flag_je:",
         "aliases": ":je:"
     },
     "1f1e6-1f1ee": {
         "output": "1f1e6-1f1ee",
-        "name": "Anguilla",
+        "name": "flag: Anguilla",
         "alpha_code": ":flag_ai:",
         "aliases": ":ai:"
     },
     "1f1ec-1f1ee": {
         "output": "1f1ec-1f1ee",
-        "name": "Gibraltar",
+        "name": "flag: Gibraltar",
         "alpha_code": ":flag_gi:",
         "aliases": ":gi:"
     },
@@ -10063,7 +10063,7 @@
     },
     "2763": {
         "output": "2763-fe0f",
-        "name": "heavy heart exclamation",
+        "name": "heart exclamation",
         "alpha_code": ":heart_exclamation:",
         "aliases": ":heavy_heart_exclamation_mark_ornament:"
     },
@@ -10267,19 +10267,19 @@
     },
     "1f916": {
         "output": "1f916",
-        "name": "robot face",
+        "name": "robot",
         "alpha_code": ":robot:",
         "aliases": ":robot_face:"
     },
     "1f981": {
         "output": "1f981",
-        "name": "lion face",
+        "name": "lion",
         "alpha_code": ":lion_face:",
         "aliases": ":lion:"
     },
     "1f984": {
         "output": "1f984",
-        "name": "unicorn face",
+        "name": "unicorn",
         "alpha_code": ":unicorn:",
         "aliases": ":unicorn_face:"
     },
@@ -10423,235 +10423,235 @@
     },
     "1f1e6-1f1fd": {
         "output": "1f1e6-1f1fd",
-        "name": "\u00c5land Islands",
+        "name": "flag: \u00c5land Islands",
         "alpha_code": ":flag_ax:",
         "aliases": ":ax:"
     },
     "1f1f9-1f1e6": {
         "output": "1f1f9-1f1e6",
-        "name": "Tristan da Cunha",
+        "name": "flag: Tristan da Cunha",
         "alpha_code": ":flag_ta:",
         "aliases": ":ta:"
     },
     "1f1ee-1f1f4": {
         "output": "1f1ee-1f1f4",
-        "name": "British Indian Ocean Territory",
+        "name": "flag: British Indian Ocean Territory",
         "alpha_code": ":flag_io:",
         "aliases": ":io:"
     },
     "1f1e7-1f1f6": {
         "output": "1f1e7-1f1f6",
-        "name": "Caribbean Netherlands",
+        "name": "flag: Caribbean Netherlands",
         "alpha_code": ":flag_bq:",
         "aliases": ":bq:"
     },
     "1f1e8-1f1fd": {
         "output": "1f1e8-1f1fd",
-        "name": "Christmas Island",
+        "name": "flag: Christmas Island",
         "alpha_code": ":flag_cx:",
         "aliases": ":cx:"
     },
     "1f1e8-1f1e8": {
         "output": "1f1e8-1f1e8",
-        "name": "Cocos (Keeling) Islands",
+        "name": "flag: Cocos (Keeling) Islands",
         "alpha_code": ":flag_cc:",
         "aliases": ":cc:"
     },
     "1f1ec-1f1ec": {
         "output": "1f1ec-1f1ec",
-        "name": "Guernsey",
+        "name": "flag: Guernsey",
         "alpha_code": ":flag_gg:",
         "aliases": ":gg:"
     },
     "1f1ee-1f1f2": {
         "output": "1f1ee-1f1f2",
-        "name": "Isle of Man",
+        "name": "flag: Isle of Man",
         "alpha_code": ":flag_im:",
         "aliases": ":im:"
     },
     "1f1fe-1f1f9": {
         "output": "1f1fe-1f1f9",
-        "name": "Mayotte",
+        "name": "flag: Mayotte",
         "alpha_code": ":flag_yt:",
         "aliases": ":yt:"
     },
     "1f1f3-1f1eb": {
         "output": "1f1f3-1f1eb",
-        "name": "Norfolk Island",
+        "name": "flag: Norfolk Island",
         "alpha_code": ":flag_nf:",
         "aliases": ":nf:"
     },
     "1f1f5-1f1f3": {
         "output": "1f1f5-1f1f3",
-        "name": "Pitcairn Islands",
+        "name": "flag: Pitcairn Islands",
         "alpha_code": ":flag_pn:",
         "aliases": ":pn:"
     },
     "1f1e7-1f1f1": {
         "output": "1f1e7-1f1f1",
-        "name": "St. Barth\u00e9lemy",
+        "name": "flag: St. Barth\u00e9lemy",
         "alpha_code": ":flag_bl:",
         "aliases": ":bl:"
     },
     "1f1f5-1f1f2": {
         "output": "1f1f5-1f1f2",
-        "name": "St. Pierre & Miquelon",
+        "name": "flag: St. Pierre & Miquelon",
         "alpha_code": ":flag_pm:",
         "aliases": ":pm:"
     },
     "1f1ec-1f1f8": {
         "output": "1f1ec-1f1f8",
-        "name": "South Georgia & South Sandwich Islands",
+        "name": "flag: South Georgia & South Sandwich Islands",
         "alpha_code": ":flag_gs:",
         "aliases": ":gs:"
     },
     "1f1f9-1f1f0": {
         "output": "1f1f9-1f1f0",
-        "name": "Tokelau",
+        "name": "flag: Tokelau",
         "alpha_code": ":flag_tk:",
         "aliases": ":tk:"
     },
     "1f1e7-1f1fb": {
         "output": "1f1e7-1f1fb",
-        "name": "Bouvet Island",
+        "name": "flag: Bouvet Island",
         "alpha_code": ":flag_bv:",
         "aliases": ":bv:"
     },
     "1f1ed-1f1f2": {
         "output": "1f1ed-1f1f2",
-        "name": "Heard & McDonald Islands",
+        "name": "flag: Heard & McDonald Islands",
         "alpha_code": ":flag_hm:",
         "aliases": ":hm:"
     },
     "1f1f8-1f1ef": {
         "output": "1f1f8-1f1ef",
-        "name": "Svalbard & Jan Mayen",
+        "name": "flag: Svalbard & Jan Mayen",
         "alpha_code": ":flag_sj:",
         "aliases": ":sj:"
     },
     "1f1fa-1f1f2": {
         "output": "1f1fa-1f1f2",
-        "name": "U.S. Outlying Islands",
+        "name": "flag: U.S. Outlying Islands",
         "alpha_code": ":flag_um:",
         "aliases": ":um:"
     },
     "1f1ee-1f1e8": {
         "output": "1f1ee-1f1e8",
-        "name": "Canary Islands",
+        "name": "flag: Canary Islands",
         "alpha_code": ":flag_ic:",
         "aliases": ":ic:"
     },
     "1f1ea-1f1e6": {
         "output": "1f1ea-1f1e6",
-        "name": "Ceuta & Melilla",
+        "name": "flag: Ceuta & Melilla",
         "alpha_code": ":flag_ea:",
         "aliases": ":ea:"
     },
     "1f1e8-1f1f5": {
         "output": "1f1e8-1f1f5",
-        "name": "Clipperton Island",
+        "name": "flag: Clipperton Island",
         "alpha_code": ":flag_cp:",
         "aliases": ":cp:"
     },
     "1f1e9-1f1ec": {
         "output": "1f1e9-1f1ec",
-        "name": "Diego Garcia",
+        "name": "flag: Diego Garcia",
         "alpha_code": ":flag_dg:",
         "aliases": ":dg:"
     },
     "1f1e6-1f1f8": {
         "output": "1f1e6-1f1f8",
-        "name": "American Samoa",
+        "name": "flag: American Samoa",
         "alpha_code": ":flag_as:",
         "aliases": ":as:"
     },
     "1f1e6-1f1f6": {
         "output": "1f1e6-1f1f6",
-        "name": "Antarctica",
+        "name": "flag: Antarctica",
         "alpha_code": ":flag_aq:",
         "aliases": ":aq:"
     },
     "1f1fb-1f1ec": {
         "output": "1f1fb-1f1ec",
-        "name": "British Virgin Islands",
+        "name": "flag: British Virgin Islands",
         "alpha_code": ":flag_vg:",
         "aliases": ":vg:"
     },
     "1f1e8-1f1f0": {
         "output": "1f1e8-1f1f0",
-        "name": "Cook Islands",
+        "name": "flag: Cook Islands",
         "alpha_code": ":flag_ck:",
         "aliases": ":ck:"
     },
     "1f1e8-1f1fc": {
         "output": "1f1e8-1f1fc",
-        "name": "Cura\u00e7ao",
+        "name": "flag: Cura\u00e7ao",
         "alpha_code": ":flag_cw:",
         "aliases": ":cw:"
     },
     "1f1ea-1f1fa": {
         "output": "1f1ea-1f1fa",
-        "name": "European Union",
+        "name": "flag: European Union",
         "alpha_code": ":flag_eu:",
         "aliases": ":eu:"
     },
     "1f1ec-1f1eb": {
         "output": "1f1ec-1f1eb",
-        "name": "French Guiana",
+        "name": "flag: French Guiana",
         "alpha_code": ":flag_gf:",
         "aliases": ":gf:"
     },
     "1f1f9-1f1eb": {
         "output": "1f1f9-1f1eb",
-        "name": "French Southern Territories",
+        "name": "flag: French Southern Territories",
         "alpha_code": ":flag_tf:",
         "aliases": ":tf:"
     },
     "1f1ec-1f1f5": {
         "output": "1f1ec-1f1f5",
-        "name": "Guadeloupe",
+        "name": "flag: Guadeloupe",
         "alpha_code": ":flag_gp:",
         "aliases": ":gp:"
     },
     "1f1f2-1f1f6": {
         "output": "1f1f2-1f1f6",
-        "name": "Martinique",
+        "name": "flag: Martinique",
         "alpha_code": ":flag_mq:",
         "aliases": ":mq:"
     },
     "1f1f2-1f1f5": {
         "output": "1f1f2-1f1f5",
-        "name": "Northern Mariana Islands",
+        "name": "flag: Northern Mariana Islands",
         "alpha_code": ":flag_mp:",
         "aliases": ":mp:"
     },
     "1f1f7-1f1ea": {
         "output": "1f1f7-1f1ea",
-        "name": "R\u00e9union",
+        "name": "flag: R\u00e9union",
         "alpha_code": ":flag_re:",
         "aliases": ":re:"
     },
     "1f1f8-1f1fd": {
         "output": "1f1f8-1f1fd",
-        "name": "Sint Maarten",
+        "name": "flag: Sint Maarten",
         "alpha_code": ":flag_sx:",
         "aliases": ":sx:"
     },
     "1f1f8-1f1f8": {
         "output": "1f1f8-1f1f8",
-        "name": "South Sudan",
+        "name": "flag: South Sudan",
         "alpha_code": ":flag_ss:",
         "aliases": ":ss:"
     },
     "1f1f9-1f1e8": {
         "output": "1f1f9-1f1e8",
-        "name": "Turks & Caicos Islands",
+        "name": "flag: Turks & Caicos Islands",
         "alpha_code": ":flag_tc:",
         "aliases": ":tc:"
     },
     "1f1f2-1f1eb": {
         "output": "1f1f2-1f1eb",
-        "name": "St. Martin",
+        "name": "flag: St. Martin",
         "alpha_code": ":flag_mf:",
         "aliases": ":mf:"
     },
@@ -12793,7 +12793,7 @@
     },
     "1f471-2642": {
         "output": "1f471-200d-2642-fe0f",
-        "name": "blond-haired man",
+        "name": "man: blond hair",
         "alpha_code": ":blond-haired_man:",
         "aliases": ""
     },
@@ -12829,7 +12829,7 @@
     },
     "1f471-2640": {
         "output": "1f471-200d-2640-fe0f",
-        "name": "blond-haired woman",
+        "name": "woman: blond hair",
         "alpha_code": ":blond-haired_woman:",
         "aliases": ""
     },
@@ -14479,7 +14479,7 @@
     },
     "1f1fa-1f1f3": {
         "output": "1f1fa-1f1f3",
-        "name": "United Nations",
+        "name": "flag: United Nations",
         "alpha_code": ":united_nations:",
         "aliases": ""
     },
@@ -14767,7 +14767,7 @@
     },
     "1f9d1": {
         "output": "1f9d1",
-        "name": "adult",
+        "name": "person",
         "alpha_code": ":adult:",
         "aliases": ""
     },
@@ -14779,13 +14779,13 @@
     },
     "1f9d3": {
         "output": "1f9d3",
-        "name": "older adult",
+        "name": "older person",
         "alpha_code": ":older_adult:",
         "aliases": ""
     },
     "1f9d4": {
         "output": "1f9d4",
-        "name": "bearded person",
+        "name": "man: beard",
         "alpha_code": ":bearded_person:",
         "aliases": ""
     },
@@ -14899,19 +14899,19 @@
     },
     "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f": {
         "output": "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
-        "name": "England",
+        "name": "flag: England",
         "alpha_code": ":england:",
         "aliases": ""
     },
     "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f": {
         "output": "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
-        "name": "Scotland",
+        "name": "flag: Scotland",
         "alpha_code": ":scotland:",
         "aliases": ""
     },
     "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f": {
         "output": "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
-        "name": "Wales",
+        "name": "flag: Wales",
         "alpha_code": ":wales:",
         "aliases": ""
     },
@@ -16057,7 +16057,7 @@
     },
     "1f970": {
         "output": "1f970",
-        "name": "smiling face with 3 hearts",
+        "name": "smiling face with hearts",
         "alpha_code": ":smiling_face_with_3_hearts:",
         "aliases": ""
     },
@@ -16111,7 +16111,7 @@
     },
     "1f97f": {
         "output": "1f97f",
-        "name": "woman\u2019s flat shoe",
+        "name": "flat shoe",
         "alpha_code": ":womans_flat_shoe:",
         "aliases": ""
     },
@@ -16183,13 +16183,13 @@
     },
     "1f9b0": {
         "output": "1f9b0",
-        "name": "red-haired",
+        "name": "red hair",
         "alpha_code": ":red_haired:",
         "aliases": ""
     },
     "1f9b1": {
         "output": "1f9b1",
-        "name": "curly-haired",
+        "name": "curly hair",
         "alpha_code": ":curly_haired:",
         "aliases": ""
     },
@@ -16201,7 +16201,7 @@
     },
     "1f9b3": {
         "output": "1f9b3",
-        "name": "white-haired",
+        "name": "white hair",
         "alpha_code": ":white_haired:",
         "aliases": ""
     },
@@ -16267,7 +16267,7 @@
     },
     "1f9e9": {
         "output": "1f9e9",
-        "name": "jigsaw",
+        "name": "puzzle piece",
         "alpha_code": ":jigsaw:",
         "aliases": ""
     },
@@ -16315,7 +16315,7 @@
     },
     "1f9f1": {
         "output": "1f9f1",
-        "name": "bricks",
+        "name": "brick",
         "alpha_code": ":bricks:",
         "aliases": ""
     },
@@ -16333,7 +16333,7 @@
     },
     "1f9f4": {
         "output": "1f9f4",
-        "name": "squeeze bottle",
+        "name": "lotion bottle",
         "alpha_code": ":squeeze_bottle:",
         "aliases": ""
     },
@@ -16525,25 +16525,25 @@
     },
     "1f468-1f9b0": {
         "output": "1f468-200d-1f9b0",
-        "name": "man, red haired",
+        "name": "man: red hair",
         "alpha_code": ":man_red_haired:",
         "aliases": ""
     },
     "1f468-1f9b1": {
         "output": "1f468-200d-1f9b1",
-        "name": "man, curly haired",
+        "name": "man: curly hair",
         "alpha_code": ":man_curly_haired:",
         "aliases": ""
     },
     "1f468-1f9b2": {
         "output": "1f468-200d-1f9b2",
-        "name": "man, bald",
+        "name": "man: bald",
         "alpha_code": ":man_bald:",
         "aliases": ""
     },
     "1f468-1f9b3": {
         "output": "1f468-200d-1f9b3",
-        "name": "man, white haired",
+        "name": "man: white hair",
         "alpha_code": ":man_white_haired:",
         "aliases": ""
     },
@@ -16669,25 +16669,25 @@
     },
     "1f469-1f9b0": {
         "output": "1f469-200d-1f9b0",
-        "name": "woman, red haired",
+        "name": "woman: red hair",
         "alpha_code": ":woman_red_haired:",
         "aliases": ""
     },
     "1f469-1f9b1": {
         "output": "1f469-200d-1f9b1",
-        "name": "woman, curly haired",
+        "name": "woman: curly hair",
         "alpha_code": ":woman_curly_haired:",
         "aliases": ""
     },
     "1f469-1f9b2": {
         "output": "1f469-200d-1f9b2",
-        "name": "woman, bald",
+        "name": "woman: bald",
         "alpha_code": ":woman_bald:",
         "aliases": ""
     },
     "1f469-1f9b3": {
         "output": "1f469-200d-1f9b3",
-        "name": "woman, white haired",
+        "name": "woman: white hair",
         "alpha_code": ":woman_white_haired:",
         "aliases": ""
     },
@@ -16960,5 +16960,1385 @@
         "name": "pirate flag",
         "alpha_code": ":pirate_flag:",
         "aliases": ""
+    },
+    "1f6d5": {
+        "output": "1f6d5",
+        "name": "hindu temple",
+        "alpha_code": ":hindu_temple:",
+        "aliases": ""
+    },
+    "1f6fa": {
+        "output": "1f6fa",
+        "name": "auto rickshaw",
+        "alpha_code": ":auto_rickshaw:",
+        "aliases": ""
+    },
+    "1f7e0": {
+        "output": "1f7e0",
+        "name": "orange circle",
+        "alpha_code": ":orange_circle:",
+        "aliases": ""
+    },
+    "1f7e1": {
+        "output": "1f7e1",
+        "name": "yellow circle",
+        "alpha_code": ":yellow_circle:",
+        "aliases": ""
+    },
+    "1f7e2": {
+        "output": "1f7e2",
+        "name": "green circle",
+        "alpha_code": ":green_circle:",
+        "aliases": ""
+    },
+    "1f7e3": {
+        "output": "1f7e3",
+        "name": "purple circle",
+        "alpha_code": ":purple_circle:",
+        "aliases": ""
+    },
+    "1f7e4": {
+        "output": "1f7e4",
+        "name": "brown circle",
+        "alpha_code": ":brown_circle:",
+        "aliases": ""
+    },
+    "1f7e5": {
+        "output": "1f7e5",
+        "name": "red square",
+        "alpha_code": ":red_square:",
+        "aliases": ""
+    },
+    "1f7e6": {
+        "output": "1f7e6",
+        "name": "blue square",
+        "alpha_code": ":blue_square:",
+        "aliases": ""
+    },
+    "1f7e7": {
+        "output": "1f7e7",
+        "name": "orange square",
+        "alpha_code": ":orange_square:",
+        "aliases": ""
+    },
+    "1f7e8": {
+        "output": "1f7e8",
+        "name": "yellow square",
+        "alpha_code": ":yellow_square:",
+        "aliases": ""
+    },
+    "1f7e9": {
+        "output": "1f7e9",
+        "name": "green square",
+        "alpha_code": ":green_square:",
+        "aliases": ""
+    },
+    "1f7ea": {
+        "output": "1f7ea",
+        "name": "purple square",
+        "alpha_code": ":purple_square:",
+        "aliases": ""
+    },
+    "1f7eb": {
+        "output": "1f7eb",
+        "name": "brown square",
+        "alpha_code": ":brown_square:",
+        "aliases": ""
+    },
+    "1f90d": {
+        "output": "1f90d",
+        "name": "white heart",
+        "alpha_code": ":white_heart:",
+        "aliases": ""
+    },
+    "1f90e": {
+        "output": "1f90e",
+        "name": "brown heart",
+        "alpha_code": ":brown_heart:",
+        "aliases": ""
+    },
+    "1f90f": {
+        "output": "1f90f",
+        "name": "pinching hand",
+        "alpha_code": ":pinching_hand:",
+        "aliases": ""
+    },
+    "1f93f": {
+        "output": "1f93f",
+        "name": "diving mask",
+        "alpha_code": ":diving_mask:",
+        "aliases": ""
+    },
+    "1f971": {
+        "output": "1f971",
+        "name": "yawning face",
+        "alpha_code": ":yawning_face:",
+        "aliases": ""
+    },
+    "1f97b": {
+        "output": "1f97b",
+        "name": "sari",
+        "alpha_code": ":sari:",
+        "aliases": ""
+    },
+    "1f9a5": {
+        "output": "1f9a5",
+        "name": "sloth",
+        "alpha_code": ":sloth:",
+        "aliases": ""
+    },
+    "1f9a6": {
+        "output": "1f9a6",
+        "name": "otter",
+        "alpha_code": ":otter:",
+        "aliases": ""
+    },
+    "1f9a7": {
+        "output": "1f9a7",
+        "name": "orangutan",
+        "alpha_code": ":orangutan:",
+        "aliases": ""
+    },
+    "1f9a8": {
+        "output": "1f9a8",
+        "name": "skunk",
+        "alpha_code": ":skunk:",
+        "aliases": ""
+    },
+    "1f9a9": {
+        "output": "1f9a9",
+        "name": "flamingo",
+        "alpha_code": ":flamingo:",
+        "aliases": ""
+    },
+    "1f9aa": {
+        "output": "1f9aa",
+        "name": "oyster",
+        "alpha_code": ":oyster:",
+        "aliases": ""
+    },
+    "1f9ae": {
+        "output": "1f9ae",
+        "name": "guide dog",
+        "alpha_code": ":guide_dog:",
+        "aliases": ""
+    },
+    "1f9af": {
+        "output": "1f9af",
+        "name": "probing cane",
+        "alpha_code": ":probing_cane:",
+        "aliases": ""
+    },
+    "1f9ba": {
+        "output": "1f9ba",
+        "name": "safety vest",
+        "alpha_code": ":safety_vest:",
+        "aliases": ""
+    },
+    "1f9bb": {
+        "output": "1f9bb",
+        "name": "ear with hearing aid",
+        "alpha_code": ":ear_with_hearing_aid:",
+        "aliases": ""
+    },
+    "1f9bc": {
+        "output": "1f9bc",
+        "name": "motorized wheelchair",
+        "alpha_code": ":motorized_wheelchair:",
+        "aliases": ""
+    },
+    "1f9bd": {
+        "output": "1f9bd",
+        "name": "manual wheelchair",
+        "alpha_code": ":manual_wheelchair:",
+        "aliases": ""
+    },
+    "1f9be": {
+        "output": "1f9be",
+        "name": "mechanical arm",
+        "alpha_code": ":mechanical_arm:",
+        "aliases": ""
+    },
+    "1f9bf": {
+        "output": "1f9bf",
+        "name": "mechanical leg",
+        "alpha_code": ":mechanical_leg:",
+        "aliases": ""
+    },
+    "1f9c3": {
+        "output": "1f9c3",
+        "name": "beverage box",
+        "alpha_code": ":beverage_box:",
+        "aliases": ""
+    },
+    "1f9c4": {
+        "output": "1f9c4",
+        "name": "garlic",
+        "alpha_code": ":garlic:",
+        "aliases": ""
+    },
+    "1f9c5": {
+        "output": "1f9c5",
+        "name": "onion",
+        "alpha_code": ":onion:",
+        "aliases": ""
+    },
+    "1f9c6": {
+        "output": "1f9c6",
+        "name": "falafel",
+        "alpha_code": ":falafel:",
+        "aliases": ""
+    },
+    "1f9c7": {
+        "output": "1f9c7",
+        "name": "waffle",
+        "alpha_code": ":waffle:",
+        "aliases": ""
+    },
+    "1f9c8": {
+        "output": "1f9c8",
+        "name": "butter",
+        "alpha_code": ":butter:",
+        "aliases": ""
+    },
+    "1f9c9": {
+        "output": "1f9c9",
+        "name": "mate",
+        "alpha_code": ":mate:",
+        "aliases": ""
+    },
+    "1f9ca": {
+        "output": "1f9ca",
+        "name": "ice cube",
+        "alpha_code": ":ice_cube:",
+        "aliases": ""
+    },
+    "1f9cd": {
+        "output": "1f9cd",
+        "name": "person standing",
+        "alpha_code": ":person_standing:",
+        "aliases": ""
+    },
+    "1f9ce": {
+        "output": "1f9ce",
+        "name": "person kneeling",
+        "alpha_code": ":person_kneeling:",
+        "aliases": ""
+    },
+    "1f9cf": {
+        "output": "1f9cf",
+        "name": "deaf person",
+        "alpha_code": ":deaf_person:",
+        "aliases": ""
+    },
+    "1fa70": {
+        "output": "1fa70",
+        "name": "ballet shoes",
+        "alpha_code": ":ballet_shoes:",
+        "aliases": ""
+    },
+    "1fa71": {
+        "output": "1fa71",
+        "name": "one-piece swimsuit",
+        "alpha_code": ":one_piece_swimsuit:",
+        "aliases": ""
+    },
+    "1fa72": {
+        "output": "1fa72",
+        "name": "briefs",
+        "alpha_code": ":briefs:",
+        "aliases": ""
+    },
+    "1fa73": {
+        "output": "1fa73",
+        "name": "shorts",
+        "alpha_code": ":shorts:",
+        "aliases": ""
+    },
+    "1fa78": {
+        "output": "1fa78",
+        "name": "drop of blood",
+        "alpha_code": ":drop_of_blood:",
+        "aliases": ""
+    },
+    "1fa79": {
+        "output": "1fa79",
+        "name": "adhesive bandage",
+        "alpha_code": ":adhesive_bandage:",
+        "aliases": ""
+    },
+    "1fa7a": {
+        "output": "1fa7a",
+        "name": "stethoscope",
+        "alpha_code": ":stethoscope:",
+        "aliases": ""
+    },
+    "1fa80": {
+        "output": "1fa80",
+        "name": "yo-yo",
+        "alpha_code": ":yo_yo:",
+        "aliases": ""
+    },
+    "1fa81": {
+        "output": "1fa81",
+        "name": "kite",
+        "alpha_code": ":kite:",
+        "aliases": ""
+    },
+    "1fa82": {
+        "output": "1fa82",
+        "name": "parachute",
+        "alpha_code": ":parachute:",
+        "aliases": ""
+    },
+    "1fa90": {
+        "output": "1fa90",
+        "name": "ringed planet",
+        "alpha_code": ":ringed_planet:",
+        "aliases": ""
+    },
+    "1fa91": {
+        "output": "1fa91",
+        "name": "chair",
+        "alpha_code": ":chair:",
+        "aliases": ""
+    },
+    "1fa92": {
+        "output": "1fa92",
+        "name": "razor",
+        "alpha_code": ":razor:",
+        "aliases": ""
+    },
+    "1fa93": {
+        "output": "1fa93",
+        "name": "axe",
+        "alpha_code": ":axe:",
+        "aliases": ""
+    },
+    "1fa94": {
+        "output": "1fa94",
+        "name": "diya lamp",
+        "alpha_code": ":diya_lamp:",
+        "aliases": ""
+    },
+    "1fa95": {
+        "output": "1fa95",
+        "name": "banjo",
+        "alpha_code": ":banjo:",
+        "aliases": ""
+    },
+    "1f46b-1f3fb": {
+        "output": "1f46b-1f3fb",
+        "name": "woman and man holding hands: light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone1:",
+        "aliases": ":woman_and_man_holding_hands_light_skin_tone:"
+    },
+    "1f46b-1f3fc": {
+        "output": "1f46b-1f3fc",
+        "name": "woman and man holding hands: medium-light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone2:",
+        "aliases": ":woman_and_man_holding_hands_medium_light_skin_tone:"
+    },
+    "1f46b-1f3fd": {
+        "output": "1f46b-1f3fd",
+        "name": "woman and man holding hands: medium skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone3:",
+        "aliases": ":woman_and_man_holding_hands_medium_skin_tone:"
+    },
+    "1f46b-1f3fe": {
+        "output": "1f46b-1f3fe",
+        "name": "woman and man holding hands: medium-dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone4:",
+        "aliases": ":woman_and_man_holding_hands_medium_dark_skin_tone:"
+    },
+    "1f46b-1f3ff": {
+        "output": "1f46b-1f3ff",
+        "name": "woman and man holding hands: dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone5:",
+        "aliases": ":woman_and_man_holding_hands_dark_skin_tone:"
+    },
+    "1f46c-1f3fb": {
+        "output": "1f46c-1f3fb",
+        "name": "men holding hands: light skin tone",
+        "alpha_code": ":men_holding_hands_tone1:",
+        "aliases": ":men_holding_hands_light_skin_tone:"
+    },
+    "1f46c-1f3fc": {
+        "output": "1f46c-1f3fc",
+        "name": "men holding hands: medium-light skin tone",
+        "alpha_code": ":men_holding_hands_tone2:",
+        "aliases": ":men_holding_hands_medium_light_skin_tone:"
+    },
+    "1f46c-1f3fd": {
+        "output": "1f46c-1f3fd",
+        "name": "men holding hands: medium skin tone",
+        "alpha_code": ":men_holding_hands_tone3:",
+        "aliases": ":men_holding_hands_medium_skin_tone:"
+    },
+    "1f46c-1f3fe": {
+        "output": "1f46c-1f3fe",
+        "name": "men holding hands: medium-dark skin tone",
+        "alpha_code": ":men_holding_hands_tone4:",
+        "aliases": ":men_holding_hands_medium_dark_skin_tone:"
+    },
+    "1f46c-1f3ff": {
+        "output": "1f46c-1f3ff",
+        "name": "men holding hands: dark skin tone",
+        "alpha_code": ":men_holding_hands_tone5:",
+        "aliases": ":men_holding_hands_dark_skin_tone:"
+    },
+    "1f46d-1f3fb": {
+        "output": "1f46d-1f3fb",
+        "name": "women holding hands: light skin tone",
+        "alpha_code": ":women_holding_hands_tone1:",
+        "aliases": ":women_holding_hands_light_skin_tone:"
+    },
+    "1f46d-1f3fc": {
+        "output": "1f46d-1f3fc",
+        "name": "women holding hands: medium-light skin tone",
+        "alpha_code": ":women_holding_hands_tone2:",
+        "aliases": ":women_holding_hands_medium_light_skin_tone:"
+    },
+    "1f46d-1f3fd": {
+        "output": "1f46d-1f3fd",
+        "name": "women holding hands: medium skin tone",
+        "alpha_code": ":women_holding_hands_tone3:",
+        "aliases": ":women_holding_hands_medium_skin_tone:"
+    },
+    "1f46d-1f3fe": {
+        "output": "1f46d-1f3fe",
+        "name": "women holding hands: medium-dark skin tone",
+        "alpha_code": ":women_holding_hands_tone4:",
+        "aliases": ":women_holding_hands_medium_dark_skin_tone:"
+    },
+    "1f46d-1f3ff": {
+        "output": "1f46d-1f3ff",
+        "name": "women holding hands: dark skin tone",
+        "alpha_code": ":women_holding_hands_tone5:",
+        "aliases": ":women_holding_hands_dark_skin_tone:"
+    },
+    "1f90f-1f3fb": {
+        "output": "1f90f-1f3fb",
+        "name": "pinching hand: light skin tone",
+        "alpha_code": ":pinching_hand_tone1:",
+        "aliases": ":pinching_hand_light_skin_tone:"
+    },
+    "1f90f-1f3fc": {
+        "output": "1f90f-1f3fc",
+        "name": "pinching hand: medium-light skin tone",
+        "alpha_code": ":pinching_hand_tone2:",
+        "aliases": ":pinching_hand_medium_light_skin_tone:"
+    },
+    "1f90f-1f3fd": {
+        "output": "1f90f-1f3fd",
+        "name": "pinching hand: medium skin tone",
+        "alpha_code": ":pinching_hand_tone3:",
+        "aliases": ":pinching_hand_medium_skin_tone:"
+    },
+    "1f90f-1f3fe": {
+        "output": "1f90f-1f3fe",
+        "name": "pinching hand: medium-dark skin tone",
+        "alpha_code": ":pinching_hand_tone4:",
+        "aliases": ":pinching_hand_medium_dark_skin_tone:"
+    },
+    "1f90f-1f3ff": {
+        "output": "1f90f-1f3ff",
+        "name": "pinching hand: dark skin tone",
+        "alpha_code": ":pinching_hand_tone5:",
+        "aliases": ":pinching_hand_dark_skin_tone:"
+    },
+    "1f9bb-1f3fb": {
+        "output": "1f9bb-1f3fb",
+        "name": "ear with hearing aid: light skin tone",
+        "alpha_code": ":ear_with_hearing_aid_tone1:",
+        "aliases": ":ear_with_hearing_aid_light_skin_tone:"
+    },
+    "1f9bb-1f3fc": {
+        "output": "1f9bb-1f3fc",
+        "name": "ear with hearing aid: medium-light skin tone",
+        "alpha_code": ":ear_with_hearing_aid_tone2:",
+        "aliases": ":ear_with_hearing_aid_medium_light_skin_tone:"
+    },
+    "1f9bb-1f3fd": {
+        "output": "1f9bb-1f3fd",
+        "name": "ear with hearing aid: medium skin tone",
+        "alpha_code": ":ear_with_hearing_aid_tone3:",
+        "aliases": ":ear_with_hearing_aid_medium_skin_tone:"
+    },
+    "1f9bb-1f3fe": {
+        "output": "1f9bb-1f3fe",
+        "name": "ear with hearing aid: medium-dark skin tone",
+        "alpha_code": ":ear_with_hearing_aid_tone4:",
+        "aliases": ":ear_with_hearing_aid_medium_dark_skin_tone:"
+    },
+    "1f9bb-1f3ff": {
+        "output": "1f9bb-1f3ff",
+        "name": "ear with hearing aid: dark skin tone",
+        "alpha_code": ":ear_with_hearing_aid_tone5:",
+        "aliases": ":ear_with_hearing_aid_dark_skin_tone:"
+    },
+    "1f9cd-1f3fb": {
+        "output": "1f9cd-1f3fb",
+        "name": "person standing: light skin tone",
+        "alpha_code": ":person_standing_tone1:",
+        "aliases": ":person_standing_light_skin_tone:"
+    },
+    "1f9cd-1f3fc": {
+        "output": "1f9cd-1f3fc",
+        "name": "person standing: medium-light skin tone",
+        "alpha_code": ":person_standing_tone2:",
+        "aliases": ":person_standing_medium_light_skin_tone:"
+    },
+    "1f9cd-1f3fd": {
+        "output": "1f9cd-1f3fd",
+        "name": "person standing: medium skin tone",
+        "alpha_code": ":person_standing_tone3:",
+        "aliases": ":person_standing_medium_skin_tone:"
+    },
+    "1f9cd-1f3fe": {
+        "output": "1f9cd-1f3fe",
+        "name": "person standing: medium-dark skin tone",
+        "alpha_code": ":person_standing_tone4:",
+        "aliases": ":person_standing_medium_dark_skin_tone:"
+    },
+    "1f9cd-1f3ff": {
+        "output": "1f9cd-1f3ff",
+        "name": "person standing: dark skin tone",
+        "alpha_code": ":person_standing_tone5:",
+        "aliases": ":person_standing_dark_skin_tone:"
+    },
+    "1f9ce-1f3fb": {
+        "output": "1f9ce-1f3fb",
+        "name": "person kneeling: light skin tone",
+        "alpha_code": ":person_kneeling_tone1:",
+        "aliases": ":person_kneeling_light_skin_tone:"
+    },
+    "1f9ce-1f3fc": {
+        "output": "1f9ce-1f3fc",
+        "name": "person kneeling: medium-light skin tone",
+        "alpha_code": ":person_kneeling_tone2:",
+        "aliases": ":person_kneeling_medium_light_skin_tone:"
+    },
+    "1f9ce-1f3fd": {
+        "output": "1f9ce-1f3fd",
+        "name": "person kneeling: medium skin tone",
+        "alpha_code": ":person_kneeling_tone3:",
+        "aliases": ":person_kneeling_medium_skin_tone:"
+    },
+    "1f9ce-1f3fe": {
+        "output": "1f9ce-1f3fe",
+        "name": "person kneeling: medium-dark skin tone",
+        "alpha_code": ":person_kneeling_tone4:",
+        "aliases": ":person_kneeling_medium_dark_skin_tone:"
+    },
+    "1f9ce-1f3ff": {
+        "output": "1f9ce-1f3ff",
+        "name": "person kneeling: dark skin tone",
+        "alpha_code": ":person_kneeling_tone5:",
+        "aliases": ":person_kneeling_dark_skin_tone:"
+    },
+    "1f9cf-1f3fb": {
+        "output": "1f9cf-1f3fb",
+        "name": "deaf person: light skin tone",
+        "alpha_code": ":deaf_person_tone1:",
+        "aliases": ":deaf_person_light_skin_tone:"
+    },
+    "1f9cf-1f3fc": {
+        "output": "1f9cf-1f3fc",
+        "name": "deaf person: medium-light skin tone",
+        "alpha_code": ":deaf_person_tone2:",
+        "aliases": ":deaf_person_medium_light_skin_tone:"
+    },
+    "1f9cf-1f3fd": {
+        "output": "1f9cf-1f3fd",
+        "name": "deaf person: medium skin tone",
+        "alpha_code": ":deaf_person_tone3:",
+        "aliases": ":deaf_person_medium_skin_tone:"
+    },
+    "1f9cf-1f3fe": {
+        "output": "1f9cf-1f3fe",
+        "name": "deaf person: medium-dark skin tone",
+        "alpha_code": ":deaf_person_tone4:",
+        "aliases": ":deaf_person_medium_dark_skin_tone:"
+    },
+    "1f9cf-1f3ff": {
+        "output": "1f9cf-1f3ff",
+        "name": "deaf person: dark skin tone",
+        "alpha_code": ":deaf_person_tone5:",
+        "aliases": ":deaf_person_dark_skin_tone:"
+    },
+    "1f468-1f3fc-1f91d-1f468-1f3fb": {
+        "output": "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fb",
+        "name": "men holding hands: medium-light skin tone, light skin tone",
+        "alpha_code": ":men_holding_hands_tone2_tone1:",
+        "aliases": ":men_holding_hands_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fd-1f91d-1f468-1f3fb": {
+        "output": "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fb",
+        "name": "men holding hands: medium skin tone, light skin tone",
+        "alpha_code": ":men_holding_hands_tone3_tone1:",
+        "aliases": ":men_holding_hands_medium_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fd-1f91d-1f468-1f3fc": {
+        "output": "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fc",
+        "name": "men holding hands: medium skin tone, medium-light skin tone",
+        "alpha_code": ":men_holding_hands_tone3_tone2:",
+        "aliases": ":men_holding_hands_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fe-1f91d-1f468-1f3fb": {
+        "output": "1f468-1f3fe-200d-1f91d-200d-1f468-1f3fb",
+        "name": "men holding hands: medium-dark skin tone, light skin tone",
+        "alpha_code": ":men_holding_hands_tone4_tone1:",
+        "aliases": ":men_holding_hands_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fe-1f91d-1f468-1f3fd": {
+        "output": "1f468-1f3fe-200d-1f91d-200d-1f468-1f3fd",
+        "name": "men holding hands: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":men_holding_hands_tone4_tone3:",
+        "aliases": ":men_holding_hands_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3ff-1f91d-1f468-1f3fb": {
+        "output": "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fb",
+        "name": "men holding hands: dark skin tone, light skin tone",
+        "alpha_code": ":men_holding_hands_tone5_tone1:",
+        "aliases": ":men_holding_hands_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3ff-1f91d-1f468-1f3fc": {
+        "output": "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fc",
+        "name": "men holding hands: dark skin tone, medium-light skin tone",
+        "alpha_code": ":men_holding_hands_tone5_tone2:",
+        "aliases": ":men_holding_hands_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3ff-1f91d-1f468-1f3fd": {
+        "output": "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fd",
+        "name": "men holding hands: dark skin tone, medium skin tone",
+        "alpha_code": ":men_holding_hands_tone5_tone3:",
+        "aliases": ":men_holding_hands_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3ff-1f91d-1f468-1f3fe": {
+        "output": "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fe",
+        "name": "men holding hands: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":men_holding_hands_tone5_tone4:",
+        "aliases": ":men_holding_hands_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1f91d-1f468-1f3fd": {
+        "output": "1f469-1f3fb-200d-1f91d-200d-1f468-1f3fd",
+        "name": "woman and man holding hands: light skin tone, medium skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone1_tone3:",
+        "aliases": ":woman_and_man_holding_hands_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fb-1f91d-1f468-1f3ff": {
+        "output": "1f469-1f3fb-200d-1f91d-200d-1f468-1f3ff",
+        "name": "woman and man holding hands: light skin tone, dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone1_tone5:",
+        "aliases": ":woman_and_man_holding_hands_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1f91d-1f469-1f3fb": {
+        "output": "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fb",
+        "name": "women holding hands: medium-light skin tone, light skin tone",
+        "alpha_code": ":women_holding_hands_tone2_tone1:",
+        "aliases": ":women_holding_hands_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f468-1f3ff": {
+        "output": "1f469-1f3fd-200d-1f91d-200d-1f468-1f3ff",
+        "name": "woman and man holding hands: medium skin tone, dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone3_tone5:",
+        "aliases": ":woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f469-1f3fb": {
+        "output": "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fb",
+        "name": "women holding hands: medium skin tone, light skin tone",
+        "alpha_code": ":women_holding_hands_tone3_tone1:",
+        "aliases": ":women_holding_hands_medium_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f469-1f3fc": {
+        "output": "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fc",
+        "name": "women holding hands: medium skin tone, medium-light skin tone",
+        "alpha_code": ":women_holding_hands_tone3_tone2:",
+        "aliases": ":women_holding_hands_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f469-1f3fb": {
+        "output": "1f469-1f3fe-200d-1f91d-200d-1f469-1f3fb",
+        "name": "women holding hands: medium-dark skin tone, light skin tone",
+        "alpha_code": ":women_holding_hands_tone4_tone1:",
+        "aliases": ":women_holding_hands_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f469-1f3fd": {
+        "output": "1f469-1f3fe-200d-1f91d-200d-1f469-1f3fd",
+        "name": "women holding hands: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":women_holding_hands_tone4_tone3:",
+        "aliases": ":women_holding_hands_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f469-1f3fb": {
+        "output": "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fb",
+        "name": "women holding hands: dark skin tone, light skin tone",
+        "alpha_code": ":women_holding_hands_tone5_tone1:",
+        "aliases": ":women_holding_hands_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f469-1f3fc": {
+        "output": "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fc",
+        "name": "women holding hands: dark skin tone, medium-light skin tone",
+        "alpha_code": ":women_holding_hands_tone5_tone2:",
+        "aliases": ":women_holding_hands_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f469-1f3fd": {
+        "output": "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fd",
+        "name": "women holding hands: dark skin tone, medium skin tone",
+        "alpha_code": ":women_holding_hands_tone5_tone3:",
+        "aliases": ":women_holding_hands_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f469-1f3fe": {
+        "output": "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fe",
+        "name": "women holding hands: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":women_holding_hands_tone5_tone4:",
+        "aliases": ":women_holding_hands_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f91d-1f9d1": {
+        "output": "1f9d1-200d-1f91d-200d-1f9d1",
+        "name": "people holding hands",
+        "alpha_code": ":people_holding_hands:",
+        "aliases": ""
+    },
+    "1f9d1-1f3fb-1f91d-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fb",
+        "name": "people holding hands: light skin tone",
+        "alpha_code": ":people_holding_hands_tone1:",
+        "aliases": ":people_holding_hands_light_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f91d-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fb",
+        "name": "people holding hands: medium-light skin tone, light skin tone",
+        "alpha_code": ":people_holding_hands_tone2_tone1:",
+        "aliases": ":people_holding_hands_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f91d-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fc",
+        "name": "people holding hands: medium-light skin tone",
+        "alpha_code": ":people_holding_hands_tone2:",
+        "aliases": ":people_holding_hands_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f91d-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fb",
+        "name": "people holding hands: medium skin tone, light skin tone",
+        "alpha_code": ":people_holding_hands_tone3_tone1:",
+        "aliases": ":people_holding_hands_medium_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f91d-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fc",
+        "name": "people holding hands: medium skin tone, medium-light skin tone",
+        "alpha_code": ":people_holding_hands_tone3_tone2:",
+        "aliases": ":people_holding_hands_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f91d-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fd",
+        "name": "people holding hands: medium skin tone",
+        "alpha_code": ":people_holding_hands_tone3:",
+        "aliases": ":people_holding_hands_medium_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f91d-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fb",
+        "name": "people holding hands: medium-dark skin tone, light skin tone",
+        "alpha_code": ":people_holding_hands_tone4_tone1:",
+        "aliases": ":people_holding_hands_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f91d-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fd",
+        "name": "people holding hands: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":people_holding_hands_tone4_tone3:",
+        "aliases": ":people_holding_hands_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f91d-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fe",
+        "name": "people holding hands: medium-dark skin tone",
+        "alpha_code": ":people_holding_hands_tone4:",
+        "aliases": ":people_holding_hands_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f91d-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fb",
+        "name": "people holding hands: dark skin tone, light skin tone",
+        "alpha_code": ":people_holding_hands_tone5_tone1:",
+        "aliases": ":people_holding_hands_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f91d-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fc",
+        "name": "people holding hands: dark skin tone, medium-light skin tone",
+        "alpha_code": ":people_holding_hands_tone5_tone2:",
+        "aliases": ":people_holding_hands_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f91d-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fd",
+        "name": "people holding hands: dark skin tone, medium skin tone",
+        "alpha_code": ":people_holding_hands_tone5_tone3:",
+        "aliases": ":people_holding_hands_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f91d-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fe",
+        "name": "people holding hands: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":people_holding_hands_tone5_tone4:",
+        "aliases": ":people_holding_hands_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f91d-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3ff",
+        "name": "people holding hands: dark skin tone",
+        "alpha_code": ":people_holding_hands_tone5:",
+        "aliases": ":people_holding_hands_dark_skin_tone:"
+    },
+    "1f468-1f9af": {
+        "output": "1f468-200d-1f9af",
+        "name": "man with probing cane",
+        "alpha_code": ":man_with_probing_cane:",
+        "aliases": ""
+    },
+    "1f468-1f9bc": {
+        "output": "1f468-200d-1f9bc",
+        "name": "man in motorized wheelchair",
+        "alpha_code": ":man_in_motorized_wheelchair:",
+        "aliases": ""
+    },
+    "1f468-1f9bd": {
+        "output": "1f468-200d-1f9bd",
+        "name": "man in manual wheelchair",
+        "alpha_code": ":man_in_manual_wheelchair:",
+        "aliases": ""
+    },
+    "1f468-1f3fb-1f9af": {
+        "output": "1f468-1f3fb-200d-1f9af",
+        "name": "man with probing cane: light skin tone",
+        "alpha_code": ":man_with_probing_cane_tone1:",
+        "aliases": ":man_with_probing_cane_light_skin_tone:"
+    },
+    "1f468-1f3fb-1f9bc": {
+        "output": "1f468-1f3fb-200d-1f9bc",
+        "name": "man in motorized wheelchair: light skin tone",
+        "alpha_code": ":man_in_motorized_wheelchair_tone1:",
+        "aliases": ":man_in_motorized_wheelchair_light_skin_tone:"
+    },
+    "1f468-1f3fb-1f9bd": {
+        "output": "1f468-1f3fb-200d-1f9bd",
+        "name": "man in manual wheelchair: light skin tone",
+        "alpha_code": ":man_in_manual_wheelchair_tone1:",
+        "aliases": ":man_in_manual_wheelchair_light_skin_tone:"
+    },
+    "1f468-1f3fc-1f9af": {
+        "output": "1f468-1f3fc-200d-1f9af",
+        "name": "man with probing cane: medium-light skin tone",
+        "alpha_code": ":man_with_probing_cane_tone2:",
+        "aliases": ":man_with_probing_cane_medium_light_skin_tone:"
+    },
+    "1f468-1f3fc-1f9bc": {
+        "output": "1f468-1f3fc-200d-1f9bc",
+        "name": "man in motorized wheelchair: medium-light skin tone",
+        "alpha_code": ":man_in_motorized_wheelchair_tone2:",
+        "aliases": ":man_in_motorized_wheelchair_medium_light_skin_tone:"
+    },
+    "1f468-1f3fc-1f9bd": {
+        "output": "1f468-1f3fc-200d-1f9bd",
+        "name": "man in manual wheelchair: medium-light skin tone",
+        "alpha_code": ":man_in_manual_wheelchair_tone2:",
+        "aliases": ":man_in_manual_wheelchair_medium_light_skin_tone:"
+    },
+    "1f468-1f3fd-1f9af": {
+        "output": "1f468-1f3fd-200d-1f9af",
+        "name": "man with probing cane: medium skin tone",
+        "alpha_code": ":man_with_probing_cane_tone3:",
+        "aliases": ":man_with_probing_cane_medium_skin_tone:"
+    },
+    "1f468-1f3fd-1f9bc": {
+        "output": "1f468-1f3fd-200d-1f9bc",
+        "name": "man in motorized wheelchair: medium skin tone",
+        "alpha_code": ":man_in_motorized_wheelchair_tone3:",
+        "aliases": ":man_in_motorized_wheelchair_medium_skin_tone:"
+    },
+    "1f468-1f3fd-1f9bd": {
+        "output": "1f468-1f3fd-200d-1f9bd",
+        "name": "man in manual wheelchair: medium skin tone",
+        "alpha_code": ":man_in_manual_wheelchair_tone3:",
+        "aliases": ":man_in_manual_wheelchair_medium_skin_tone:"
+    },
+    "1f468-1f3fe-1f9af": {
+        "output": "1f468-1f3fe-200d-1f9af",
+        "name": "man with probing cane: medium-dark skin tone",
+        "alpha_code": ":man_with_probing_cane_tone4:",
+        "aliases": ":man_with_probing_cane_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fe-1f9bc": {
+        "output": "1f468-1f3fe-200d-1f9bc",
+        "name": "man in motorized wheelchair: medium-dark skin tone",
+        "alpha_code": ":man_in_motorized_wheelchair_tone4:",
+        "aliases": ":man_in_motorized_wheelchair_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fe-1f9bd": {
+        "output": "1f468-1f3fe-200d-1f9bd",
+        "name": "man in manual wheelchair: medium-dark skin tone",
+        "alpha_code": ":man_in_manual_wheelchair_tone4:",
+        "aliases": ":man_in_manual_wheelchair_medium_dark_skin_tone:"
+    },
+    "1f468-1f3ff-1f9af": {
+        "output": "1f468-1f3ff-200d-1f9af",
+        "name": "man with probing cane: dark skin tone",
+        "alpha_code": ":man_with_probing_cane_tone5:",
+        "aliases": ":man_with_probing_cane_dark_skin_tone:"
+    },
+    "1f468-1f3ff-1f9bc": {
+        "output": "1f468-1f3ff-200d-1f9bc",
+        "name": "man in motorized wheelchair: dark skin tone",
+        "alpha_code": ":man_in_motorized_wheelchair_tone5:",
+        "aliases": ":man_in_motorized_wheelchair_dark_skin_tone:"
+    },
+    "1f468-1f3ff-1f9bd": {
+        "output": "1f468-1f3ff-200d-1f9bd",
+        "name": "man in manual wheelchair: dark skin tone",
+        "alpha_code": ":man_in_manual_wheelchair_tone5:",
+        "aliases": ":man_in_manual_wheelchair_dark_skin_tone:"
+    },
+    "1f469-1f9af": {
+        "output": "1f469-200d-1f9af",
+        "name": "woman with probing cane",
+        "alpha_code": ":woman_with_probing_cane:",
+        "aliases": ""
+    },
+    "1f469-1f9bc": {
+        "output": "1f469-200d-1f9bc",
+        "name": "woman in motorized wheelchair",
+        "alpha_code": ":woman_in_motorized_wheelchair:",
+        "aliases": ""
+    },
+    "1f469-1f9bd": {
+        "output": "1f469-200d-1f9bd",
+        "name": "woman in manual wheelchair",
+        "alpha_code": ":woman_in_manual_wheelchair:",
+        "aliases": ""
+    },
+    "1f469-1f3fb-1f9af": {
+        "output": "1f469-1f3fb-200d-1f9af",
+        "name": "woman with probing cane: light skin tone",
+        "alpha_code": ":woman_with_probing_cane_tone1:",
+        "aliases": ":woman_with_probing_cane_light_skin_tone:"
+    },
+    "1f469-1f3fb-1f9bc": {
+        "output": "1f469-1f3fb-200d-1f9bc",
+        "name": "woman in motorized wheelchair: light skin tone",
+        "alpha_code": ":woman_in_motorized_wheelchair_tone1:",
+        "aliases": ":woman_in_motorized_wheelchair_light_skin_tone:"
+    },
+    "1f469-1f3fb-1f9bd": {
+        "output": "1f469-1f3fb-200d-1f9bd",
+        "name": "woman in manual wheelchair: light skin tone",
+        "alpha_code": ":woman_in_manual_wheelchair_tone1:",
+        "aliases": ":woman_in_manual_wheelchair_light_skin_tone:"
+    },
+    "1f469-1f3fc-1f9af": {
+        "output": "1f469-1f3fc-200d-1f9af",
+        "name": "woman with probing cane: medium-light skin tone",
+        "alpha_code": ":woman_with_probing_cane_tone2:",
+        "aliases": ":woman_with_probing_cane_medium_light_skin_tone:"
+    },
+    "1f469-1f3fc-1f9bc": {
+        "output": "1f469-1f3fc-200d-1f9bc",
+        "name": "woman in motorized wheelchair: medium-light skin tone",
+        "alpha_code": ":woman_in_motorized_wheelchair_tone2:",
+        "aliases": ":woman_in_motorized_wheelchair_medium_light_skin_tone:"
+    },
+    "1f469-1f3fc-1f9bd": {
+        "output": "1f469-1f3fc-200d-1f9bd",
+        "name": "woman in manual wheelchair: medium-light skin tone",
+        "alpha_code": ":woman_in_manual_wheelchair_tone2:",
+        "aliases": ":woman_in_manual_wheelchair_medium_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f9af": {
+        "output": "1f469-1f3fd-200d-1f9af",
+        "name": "woman with probing cane: medium skin tone",
+        "alpha_code": ":woman_with_probing_cane_tone3:",
+        "aliases": ":woman_with_probing_cane_medium_skin_tone:"
+    },
+    "1f469-1f3fd-1f9bc": {
+        "output": "1f469-1f3fd-200d-1f9bc",
+        "name": "woman in motorized wheelchair: medium skin tone",
+        "alpha_code": ":woman_in_motorized_wheelchair_tone3:",
+        "aliases": ":woman_in_motorized_wheelchair_medium_skin_tone:"
+    },
+    "1f469-1f3fd-1f9bd": {
+        "output": "1f469-1f3fd-200d-1f9bd",
+        "name": "woman in manual wheelchair: medium skin tone",
+        "alpha_code": ":woman_in_manual_wheelchair_tone3:",
+        "aliases": ":woman_in_manual_wheelchair_medium_skin_tone:"
+    },
+    "1f469-1f3fe-1f9af": {
+        "output": "1f469-1f3fe-200d-1f9af",
+        "name": "woman with probing cane: medium-dark skin tone",
+        "alpha_code": ":woman_with_probing_cane_tone4:",
+        "aliases": ":woman_with_probing_cane_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fe-1f9bc": {
+        "output": "1f469-1f3fe-200d-1f9bc",
+        "name": "woman in motorized wheelchair: medium-dark skin tone",
+        "alpha_code": ":woman_in_motorized_wheelchair_tone4:",
+        "aliases": ":woman_in_motorized_wheelchair_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fe-1f9bd": {
+        "output": "1f469-1f3fe-200d-1f9bd",
+        "name": "woman in manual wheelchair: medium-dark skin tone",
+        "alpha_code": ":woman_in_manual_wheelchair_tone4:",
+        "aliases": ":woman_in_manual_wheelchair_medium_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1f9af": {
+        "output": "1f469-1f3ff-200d-1f9af",
+        "name": "woman with probing cane: dark skin tone",
+        "alpha_code": ":woman_with_probing_cane_tone5:",
+        "aliases": ":woman_with_probing_cane_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1f9bc": {
+        "output": "1f469-1f3ff-200d-1f9bc",
+        "name": "woman in motorized wheelchair: dark skin tone",
+        "alpha_code": ":woman_in_motorized_wheelchair_tone5:",
+        "aliases": ":woman_in_motorized_wheelchair_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1f9bd": {
+        "output": "1f469-1f3ff-200d-1f9bd",
+        "name": "woman in manual wheelchair: dark skin tone",
+        "alpha_code": ":woman_in_manual_wheelchair_tone5:",
+        "aliases": ":woman_in_manual_wheelchair_dark_skin_tone:"
+    },
+    "1f9cd-2640": {
+        "output": "1f9cd-200d-2640-fe0f",
+        "name": "woman standing",
+        "alpha_code": ":woman_standing:",
+        "aliases": ""
+    },
+    "1f9cd-2642": {
+        "output": "1f9cd-200d-2642-fe0f",
+        "name": "man standing",
+        "alpha_code": ":man_standing:",
+        "aliases": ""
+    },
+    "1f9cd-1f3fb-2640": {
+        "output": "1f9cd-1f3fb-200d-2640-fe0f",
+        "name": "woman standing: light skin tone",
+        "alpha_code": ":woman_standing_tone1:",
+        "aliases": ":woman_standing_light_skin_tone:"
+    },
+    "1f9cd-1f3fb-2642": {
+        "output": "1f9cd-1f3fb-200d-2642-fe0f",
+        "name": "man standing: light skin tone",
+        "alpha_code": ":man_standing_tone1:",
+        "aliases": ":man_standing_light_skin_tone:"
+    },
+    "1f9cd-1f3fc-2640": {
+        "output": "1f9cd-1f3fc-200d-2640-fe0f",
+        "name": "woman standing: medium-light skin tone",
+        "alpha_code": ":woman_standing_tone2:",
+        "aliases": ":woman_standing_medium_light_skin_tone:"
+    },
+    "1f9cd-1f3fc-2642": {
+        "output": "1f9cd-1f3fc-200d-2642-fe0f",
+        "name": "man standing: medium-light skin tone",
+        "alpha_code": ":man_standing_tone2:",
+        "aliases": ":man_standing_medium_light_skin_tone:"
+    },
+    "1f9cd-1f3fd-2640": {
+        "output": "1f9cd-1f3fd-200d-2640-fe0f",
+        "name": "woman standing: medium skin tone",
+        "alpha_code": ":woman_standing_tone3:",
+        "aliases": ":woman_standing_medium_skin_tone:"
+    },
+    "1f9cd-1f3fd-2642": {
+        "output": "1f9cd-1f3fd-200d-2642-fe0f",
+        "name": "man standing: medium skin tone",
+        "alpha_code": ":man_standing_tone3:",
+        "aliases": ":man_standing_medium_skin_tone:"
+    },
+    "1f9cd-1f3fe-2640": {
+        "output": "1f9cd-1f3fe-200d-2640-fe0f",
+        "name": "woman standing: medium-dark skin tone",
+        "alpha_code": ":woman_standing_tone4:",
+        "aliases": ":woman_standing_medium_dark_skin_tone:"
+    },
+    "1f9cd-1f3fe-2642": {
+        "output": "1f9cd-1f3fe-200d-2642-fe0f",
+        "name": "man standing: medium-dark skin tone",
+        "alpha_code": ":man_standing_tone4:",
+        "aliases": ":man_standing_medium_dark_skin_tone:"
+    },
+    "1f9cd-1f3ff-2640": {
+        "output": "1f9cd-1f3ff-200d-2640-fe0f",
+        "name": "woman standing: dark skin tone",
+        "alpha_code": ":woman_standing_tone5:",
+        "aliases": ":woman_standing_dark_skin_tone:"
+    },
+    "1f9cd-1f3ff-2642": {
+        "output": "1f9cd-1f3ff-200d-2642-fe0f",
+        "name": "man standing: dark skin tone",
+        "alpha_code": ":man_standing_tone5:",
+        "aliases": ":man_standing_dark_skin_tone:"
+    },
+    "1f9ce-2640": {
+        "output": "1f9ce-200d-2640-fe0f",
+        "name": "woman kneeling",
+        "alpha_code": ":woman_kneeling:",
+        "aliases": ""
+    },
+    "1f9ce-2642": {
+        "output": "1f9ce-200d-2642-fe0f",
+        "name": "man kneeling",
+        "alpha_code": ":man_kneeling:",
+        "aliases": ""
+    },
+    "1f9ce-1f3fb-2640": {
+        "output": "1f9ce-1f3fb-200d-2640-fe0f",
+        "name": "woman kneeling: light skin tone",
+        "alpha_code": ":woman_kneeling_tone1:",
+        "aliases": ":woman_kneeling_light_skin_tone:"
+    },
+    "1f9ce-1f3fb-2642": {
+        "output": "1f9ce-1f3fb-200d-2642-fe0f",
+        "name": "man kneeling: light skin tone",
+        "alpha_code": ":man_kneeling_tone1:",
+        "aliases": ":man_kneeling_light_skin_tone:"
+    },
+    "1f9ce-1f3fc-2640": {
+        "output": "1f9ce-1f3fc-200d-2640-fe0f",
+        "name": "woman kneeling: medium-light skin tone",
+        "alpha_code": ":woman_kneeling_tone2:",
+        "aliases": ":woman_kneeling_medium_light_skin_tone:"
+    },
+    "1f9ce-1f3fc-2642": {
+        "output": "1f9ce-1f3fc-200d-2642-fe0f",
+        "name": "man kneeling: medium-light skin tone",
+        "alpha_code": ":man_kneeling_tone2:",
+        "aliases": ":man_kneeling_medium_light_skin_tone:"
+    },
+    "1f9ce-1f3fd-2640": {
+        "output": "1f9ce-1f3fd-200d-2640-fe0f",
+        "name": "woman kneeling: medium skin tone",
+        "alpha_code": ":woman_kneeling_tone3:",
+        "aliases": ":woman_kneeling_medium_skin_tone:"
+    },
+    "1f9ce-1f3fd-2642": {
+        "output": "1f9ce-1f3fd-200d-2642-fe0f",
+        "name": "man kneeling: medium skin tone",
+        "alpha_code": ":man_kneeling_tone3:",
+        "aliases": ":man_kneeling_medium_skin_tone:"
+    },
+    "1f9ce-1f3fe-2640": {
+        "output": "1f9ce-1f3fe-200d-2640-fe0f",
+        "name": "woman kneeling: medium-dark skin tone",
+        "alpha_code": ":woman_kneeling_tone4:",
+        "aliases": ":woman_kneeling_medium_dark_skin_tone:"
+    },
+    "1f9ce-1f3fe-2642": {
+        "output": "1f9ce-1f3fe-200d-2642-fe0f",
+        "name": "man kneeling: medium-dark skin tone",
+        "alpha_code": ":man_kneeling_tone4:",
+        "aliases": ":man_kneeling_medium_dark_skin_tone:"
+    },
+    "1f9ce-1f3ff-2640": {
+        "output": "1f9ce-1f3ff-200d-2640-fe0f",
+        "name": "woman kneeling: dark skin tone",
+        "alpha_code": ":woman_kneeling_tone5:",
+        "aliases": ":woman_kneeling_dark_skin_tone:"
+    },
+    "1f9ce-1f3ff-2642": {
+        "output": "1f9ce-1f3ff-200d-2642-fe0f",
+        "name": "man kneeling: dark skin tone",
+        "alpha_code": ":man_kneeling_tone5:",
+        "aliases": ":man_kneeling_dark_skin_tone:"
+    },
+    "1f9cf-2640": {
+        "output": "1f9cf-200d-2640-fe0f",
+        "name": "deaf woman",
+        "alpha_code": ":deaf_woman:",
+        "aliases": ""
+    },
+    "1f9cf-2642": {
+        "output": "1f9cf-200d-2642-fe0f",
+        "name": "deaf man",
+        "alpha_code": ":deaf_man:",
+        "aliases": ""
+    },
+    "1f9cf-1f3fb-2640": {
+        "output": "1f9cf-1f3fb-200d-2640-fe0f",
+        "name": "deaf woman: light skin tone",
+        "alpha_code": ":deaf_woman_tone1:",
+        "aliases": ":deaf_woman_light_skin_tone:"
+    },
+    "1f9cf-1f3fb-2642": {
+        "output": "1f9cf-1f3fb-200d-2642-fe0f",
+        "name": "deaf man: light skin tone",
+        "alpha_code": ":deaf_man_tone1:",
+        "aliases": ":deaf_man_light_skin_tone:"
+    },
+    "1f9cf-1f3fc-2640": {
+        "output": "1f9cf-1f3fc-200d-2640-fe0f",
+        "name": "deaf woman: medium-light skin tone",
+        "alpha_code": ":deaf_woman_tone2:",
+        "aliases": ":deaf_woman_medium_light_skin_tone:"
+    },
+    "1f9cf-1f3fc-2642": {
+        "output": "1f9cf-1f3fc-200d-2642-fe0f",
+        "name": "deaf man: medium-light skin tone",
+        "alpha_code": ":deaf_man_tone2:",
+        "aliases": ":deaf_man_medium_light_skin_tone:"
+    },
+    "1f9cf-1f3fd-2640": {
+        "output": "1f9cf-1f3fd-200d-2640-fe0f",
+        "name": "deaf woman: medium skin tone",
+        "alpha_code": ":deaf_woman_tone3:",
+        "aliases": ":deaf_woman_medium_skin_tone:"
+    },
+    "1f9cf-1f3fd-2642": {
+        "output": "1f9cf-1f3fd-200d-2642-fe0f",
+        "name": "deaf man: medium skin tone",
+        "alpha_code": ":deaf_man_tone3:",
+        "aliases": ":deaf_man_medium_skin_tone:"
+    },
+    "1f9cf-1f3fe-2640": {
+        "output": "1f9cf-1f3fe-200d-2640-fe0f",
+        "name": "deaf woman: medium-dark skin tone",
+        "alpha_code": ":deaf_woman_tone4:",
+        "aliases": ":deaf_woman_medium_dark_skin_tone:"
+    },
+    "1f9cf-1f3fe-2642": {
+        "output": "1f9cf-1f3fe-200d-2642-fe0f",
+        "name": "deaf man: medium-dark skin tone",
+        "alpha_code": ":deaf_man_tone4:",
+        "aliases": ":deaf_man_medium_dark_skin_tone:"
+    },
+    "1f9cf-1f3ff-2640": {
+        "output": "1f9cf-1f3ff-200d-2640-fe0f",
+        "name": "deaf woman: dark skin tone",
+        "alpha_code": ":deaf_woman_tone5:",
+        "aliases": ":deaf_woman_dark_skin_tone:"
+    },
+    "1f9cf-1f3ff-2642": {
+        "output": "1f9cf-1f3ff-200d-2642-fe0f",
+        "name": "deaf man: dark skin tone",
+        "alpha_code": ":deaf_man_tone5:",
+        "aliases": ":deaf_man_dark_skin_tone:"
+    },
+    "1f415-1f9ba": {
+        "output": "1f415-200d-1f9ba",
+        "name": "service dog",
+        "alpha_code": ":service_dog:",
+        "aliases": ""
+    },
+    "1f9d1-1f3fe-1f91d-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fe-1f91d-1f9d1-1f3fc",
+        "name": "people holding hands: medium dark skin tone, medium light skin tone",
+        "alpha_code": ":people_holding_hands_tone4_tone2:",
+        "aliases": ":people_holding_hands_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f468-1f3fe": {
+        "output": "1f469-1f3ff-1f91d-1f468-1f3fe",
+        "name": "woman and man holding hands: dark skin tone, medium dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone5_tone4:",
+        "aliases": ":woman_and_man_holding_hands_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f468-1f3fd": {
+        "output": "1f469-1f3ff-1f91d-1f468-1f3fd",
+        "name": "woman and man holding hands: dark skin tone, medium skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone5_tone3:",
+        "aliases": ":woman_and_man_holding_hands_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f468-1f3fc": {
+        "output": "1f469-1f3ff-1f91d-1f468-1f3fc",
+        "name": "woman and man holding hands: dark skin tone, medium light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone5_tone2:",
+        "aliases": ":woman_and_man_holding_hands_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f91d-1f468-1f3fb": {
+        "output": "1f469-1f3ff-1f91d-1f468-1f3fb",
+        "name": "woman and man holding hands: dark skin tone, light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone5_tone1:",
+        "aliases": ":woman_and_man_holding_hands_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f468-1f3ff": {
+        "output": "1f469-1f3fe-1f91d-1f468-1f3ff",
+        "name": "woman and man holding hands: medium dark skin tone, dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone4_tone5:",
+        "aliases": ":woman_and_man_holding_hands_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f468-1f3fd": {
+        "output": "1f469-1f3fe-1f91d-1f468-1f3fd",
+        "name": "woman and man holding hands: medium dark skin tone, medium skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone4_tone3:",
+        "aliases": ":woman_and_man_holding_hands_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f468-1f3fc": {
+        "output": "1f469-1f3fe-1f91d-1f468-1f3fc",
+        "name": "woman and man holding hands: medium dark skin tone, medium light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone4_tone2:",
+        "aliases": ":woman_and_man_holding_hands_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f468-1f3fb": {
+        "output": "1f469-1f3fe-1f91d-1f468-1f3fb",
+        "name": "woman and man holding hands: medium dark skin tone, light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone4_tone1:",
+        "aliases": ":woman_and_man_holding_hands_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f468-1f3fe": {
+        "output": "1f469-1f3fd-1f91d-1f468-1f3fe",
+        "name": "woman and man holding hands: medium skin tone, medium dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone3_tone4:",
+        "aliases": ":woman_and_man_holding_hands_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f468-1f3fc": {
+        "output": "1f469-1f3fd-1f91d-1f468-1f3fc",
+        "name": "woman and man holding hands: medium skin tone, medium light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone3_tone2:",
+        "aliases": ":woman_and_man_holding_hands_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f91d-1f468-1f3fb": {
+        "output": "1f469-1f3fd-1f91d-1f468-1f3fb",
+        "name": "woman and man holding hands: medium skin tone, light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone3_tone1:",
+        "aliases": ":woman_and_man_holding_hands_medium_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fc-1f91d-1f468-1f3ff": {
+        "output": "1f469-1f3fc-1f91d-1f468-1f3ff",
+        "name": "woman and man holding hands: medium light skin tone, dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone2_tone5:",
+        "aliases": ":woman_and_man_holding_hands_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1f91d-1f468-1f3fe": {
+        "output": "1f469-1f3fc-1f91d-1f468-1f3fe",
+        "name": "woman and man holding hands: medium light skin tone, medium dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone2_tone4:",
+        "aliases": ":woman_and_man_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1f91d-1f468-1f3fd": {
+        "output": "1f469-1f3fc-1f91d-1f468-1f3fd",
+        "name": "woman and man holding hands: medium light skin tone, medium skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone2_tone3:",
+        "aliases": ":woman_and_man_holding_hands_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fc-1f91d-1f468-1f3fb": {
+        "output": "1f469-1f3fc-1f91d-1f468-1f3fb",
+        "name": "woman and man holding hands: medium light skin tone, light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone2_tone1:",
+        "aliases": ":woman_and_man_holding_hands_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fb-1f91d-1f468-1f3fe": {
+        "output": "1f469-1f3fb-1f91d-1f468-1f3fe",
+        "name": "woman and man holding hands: light skin tone, medium dark skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone1_tone4:",
+        "aliases": ":woman_and_man_holding_hands_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1f91d-1f468-1f3fc": {
+        "output": "1f469-1f3fb-1f91d-1f468-1f3fc",
+        "name": "woman and man holding hands: light skin tone, medium light skin tone",
+        "alpha_code": ":woman_and_man_holding_hands_tone1_tone2:",
+        "aliases": ":woman_and_man_holding_hands_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fe-1f91d-1f468-1f3fc": {
+        "output": "1f468-1f3fe-1f91d-1f468-1f3fc",
+        "name": "men holding hands: medium dark skin tone, medium light skin tone",
+        "alpha_code": ":men_holding_hands_tone4_tone2:",
+        "aliases": ":men_holding_hands_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f91d-1f469-1f3fc": {
+        "output": "1f469-1f3fe-1f91d-1f469-1f3fc",
+        "name": "women holding hands: medium dark skin tone, medium light skin tone",
+        "alpha_code": ":women_holding_hands_tone4_tone2:",
+        "aliases": ":women_holding_hands_medium_dark_skin_tone_medium_light_skin_tone:"
     }
 }

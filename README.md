@@ -17,8 +17,8 @@ A set of libraries to help users find and replace native system emojis with JoyP
  
  ## License to Use JoyPixels Images
  
-### JoyPixels Version 4
- JoyPixels Version 4 is available under the same licensing structure as Version 3. Please see below for more details.
+### JoyPixels Version 4+
+ JoyPixels Version 4+ is available under the same licensing structure as Version 3. Please see below for more details.
  
 ### JoyPixels Version 3+
  

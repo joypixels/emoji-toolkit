@@ -1,6 +1,11 @@
 changelog
 ---------
 
+####UPDATE 2019-07-22
+* additions
+  * Unicode 12 charcters
+ 
+
 ####UPDATE 2017-06-30
 * additions
   * Unicode 10 charcters
