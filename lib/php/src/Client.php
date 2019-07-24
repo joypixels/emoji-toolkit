@@ -40,7 +40,7 @@ class Client implements ClientInterface
             $this->ruleset = $ruleset;
         }
 
-        $this->imagePathPNG = $this->imagePathPNG . '/' . $this->emojiVersion . '/png/' . $this->emojiSize . '/';
+        $this->imagePathPNG = $this->imagePathPNG . '/' . $this->emojiVersion . '/png/unicode/' . $this->emojiSize . '/';
         $this->spriteSize = ($this->spriteSize == '32' || $this->spriteSize == '64') ? $this->spriteSize : '32';
     }
 
