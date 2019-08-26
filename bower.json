@@ -1,6 +1,6 @@
 {
   "name": "emoji-toolkit",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "main": [
     "extras/css/joypixels.css",
     "lib/js/joypixels.js"
