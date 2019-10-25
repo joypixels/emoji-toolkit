@@ -23,13 +23,13 @@
     
  
 **Emoji Assets**
-    - the new asset repository is located at [https://www.github.com/joypixels/emoji-assets](https://www.github.com/joypixels/emoj-assets)
+    - the new asset repository is located at [https://www.github.com/joypixels/emoji-assets](https://www.github.com/joypixels/emoji-assets)
     - sprite filenames have changed from `emojione-` to `joypixels-`
     - sprite css class names have changed from `emojione-` to `joypixels`
     
     
 
-#Upgrading to 5.0 brings additional data structure changes
+# Upgrading to 5.0 brings additional data structure changes
 The emoji.json file for 5.0 has several key changes from previous versions.
 
 * added `humanform` attribute (Integer, 0/1)
