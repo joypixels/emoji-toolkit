@@ -1,6 +1,6 @@
 {
   "name": "emoji-toolkit",
-  "version": "5.0.5",
+  "version": "5.5.0",
   "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
   "author": "JoyPixels <support@joypixels.com> (https://www.joypixels.com)",
   "main": "lib/js/joypixels.js",
