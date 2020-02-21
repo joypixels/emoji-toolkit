@@ -2,13 +2,12 @@
 
 There's no better way to port our emoji into your device than through a native font.  We don't have the resources ourselves to construct fonts, so we'll depend on helpful contributions from the open source community.
 
-> Note: Due to their size, the font files have been removed from this repo and instead will be attached to releases on our repo that hosts the artwork and related assets, [emoji-assets](https://github.com/joypixels/emoji-assets).
->
-> Please go here to download the font files: [emoji-assets/releases](https://github.com/joypixels/emoji-assets/releases)
-### Google Font - [emojione-android.ttf](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-android.ttf)
+> Note: Due to their size, the font files have been removed from this repo and instead will be available for download via the JoyPixels.com [download page](https://joypixels.com/download).
+
+### Google Font
 
   * Compatible with rooted Android devices and Linux.
-  * Updated Sept 12, 2018
+  * Updated Jan 29, 2020
   * Developers using the font within their app, please review [this issue](https://github.com/joypixels/emoji-toolkit/issues/385) regarding proper display of digits.
 
 Android Setup Help:
@@ -18,7 +17,7 @@ Android Setup Help:
 
 Linux Setup Help:
 
-* ArchLinux users are advised to install [AUR package](https://aur.archlinux.org/packages/ttf-emojione/)
+* ArchLinux users are advised to install [AUR package](https://www.archlinux32.org/packages/i486/community/ttf-joypixels/)
 * Alternatively setup the font manually:
   * Place the file in `~/.local/share/fonts/`
   * Create the following fontconfig file: [latest](https://aur.archlinux.org/cgit/aur.git/tree/70-emojione-color.conf?h=ttf-emojione) ([snapshot](https://github.com/maximbaz/dotfiles/blob/c893a835372c927eba9ec7e086e76b64f6210d8c/.config/fontconfig/conf.d/70-emojione-color.conf))
@@ -28,13 +27,13 @@ Linux Setup Help:
 ### Apple Font
 
 **For latest apple devices** 
-- [emojione-mac.ttc](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-mac.ttc)
-- [emojione-ios.ttc](https://github.com/joypixels/emoji-assets/releases/download/4.5/emojione-ios.ttc)
+- joypixels-mac.ttc
+- joypixels-ios.ttc
 
   * Compatible with Mac OSX, and iOS devices (iPhone, iPad).
   * Rename font to Apple Color Emoji.ttc for Mac OSX.
   * Rename font to AppleColorEmoji@2x.ttc for iOS, jailbreak required.
-  * Updated Oct 29, 2018
+  * Updated Jan 29, 2020
   
  
 **Mac OS System Instructions:**
@@ -51,7 +50,7 @@ Linux Setup Help:
 
 App Instructions:
     This has not been fully tested/confirmed but may work in app projects. 
-	Extract TTF from TTC and create new FontFamily name 'EmojiOne'. After that you should be able to drop the font in your project and use UIFont to call that newly created FontFamily name. 
+	Extract TTF from TTC and create new FontFamily name 'JoyPixels'. After that you should be able to drop the font in your project and use UIFont to call that newly created FontFamily name. 
 	[otc2otf.py](https://github.com/adobe-type-tools/afdko/tree/develop/python/afdko) Adobe standalone python script to extract fonts from a TTC
 	[fontname.py](https://github.com/chrissimpkins/fontname.py) FontTools python script to change name table in a TTF.
 	You can also use High-Logic FontCreator to do the above tasks.
