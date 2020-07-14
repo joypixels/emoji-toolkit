@@ -13,7 +13,7 @@ By default, both the Javascript and PHP toolkits we've provided will use the nat
 **HTML Output (default)**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/5.5/png/unicode/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/6.0/png/unicode/32/1f604.png">
 </p>
 ```
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
 **HTML Output For Shortname Alt**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="joypixels" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/5.5/png/unicode/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/6.0/png/unicode/32/1f604.png">
 </p>
 ```
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
             callback(newResults);
         },
         template: function (shortname) {
-            return '<img class="joypixels" src="https://cdn.jsdelivr.net/joypixels/assets/5.5/png/unicode/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
+            return '<img class="joypixels" src="https://cdn.jsdelivr.net/joypixels/assets/6.0/png/unicode/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
         },
         replace: function (shortname) {
             return ':'+shortname+': ';

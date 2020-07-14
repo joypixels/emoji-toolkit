@@ -4,7 +4,7 @@
 
 Both PHP and JavaScript libraries now have wider range of available properties. The following are available for both libraries.
 
- - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '5.5'). Not recommended for usage below 3.0.0.
+ - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '6.0'). Not recommended for usage below 3.0.0.
  - `emojiSize` (str) **Default: `32`** - Used only to direct CDN path for non-sprite PNG usage. Available options are '32', '64', and '128'.
  - `imagePathPNG` (str) - Defaults to CDN (jsdelivr) path. Setting as alternate path overwrites `emojiSize` option.
  - `fileExtension` (str) - Defaults to .png. Set to '.svg' if using premium assets (.svg) locally.

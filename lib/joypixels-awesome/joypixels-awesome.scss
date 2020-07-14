@@ -30,10 +30,10 @@ $size-map: (
 @each $code, $name in $emoji-map {
 
 	.jpa-#{$name} {
-		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/5.5/png/unicode/128/#{$code}.png");
+		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/6.0/png/unicode/128/#{$code}.png");
 	}
 
 	.jpa-rel-#{$name} {
-		background-image: url("joypixels/assets/5.5/png/unicode/128/#{$code}.png");
+		background-image: url("joypixels/assets/6.0/png/unicode/128/#{$code}.png");
 	}
 }
