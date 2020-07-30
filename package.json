@@ -36,13 +36,11 @@
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsonlint": "^1.0.4",
-    "grunt-sass": "^3.1.0"
+    "grunt-sass": "^3.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "test": "grunt travis"
-  },
-  "dependencies": {
-    "grunt-contrib-sass": "^1.0.0",
-    "node-sass": "^4.14.1"
   }
 }
