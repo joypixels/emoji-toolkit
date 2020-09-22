@@ -3,7 +3,7 @@
   "version": "6.0.1",
   "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
   "author": "JoyPixels <support@joypixels.com> (https://www.joypixels.com)",
-  "main": "lib/ts/joypixels.ts",
+  "main": "lib/ts/index.ts",
   "keywords": [
     "joypixels",
     "JoyPixels",
@@ -19,10 +19,6 @@
     "emoji set"
   ],
   "homepage": "https://www.joypixels.com",
-  "licenses": {
-    "type": "(MIT)",
-    "url": "https://github.com/tailwind/emoji-toolkit/blob/master/LICENSE.md"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tailwind/emoji-toolkit.git"
