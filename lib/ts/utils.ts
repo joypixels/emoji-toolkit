@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {asciiList} from './asciiList';
 import {emojiList} from './emojiList';
 

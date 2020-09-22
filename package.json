@@ -24,5 +24,7 @@
     "url": "https://github.com/tailwind/emoji-toolkit.git"
   },
   "bugs": "https://github.com/tailwind/emoji-toolkit/issues",
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
