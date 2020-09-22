@@ -3,7 +3,7 @@
   "version": "6.0.1",
   "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
   "author": "JoyPixels <support@joypixels.com> (https://www.joypixels.com)",
-  "main": "lib/js/joypixels.js",
+  "main": "lib/ts/joypixels.ts",
   "keywords": [
     "joypixels",
     "JoyPixels",
@@ -21,26 +21,12 @@
   "homepage": "https://www.joypixels.com",
   "licenses": {
     "type": "(MIT)",
-    "url": "https://github.com/joypixels/emoji-toolkit/blob/master/LICENSE.md"
+    "url": "https://github.com/tailwind/emoji-toolkit/blob/master/LICENSE.md"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joypixels/emoji-toolkit.git"
+    "url": "https://github.com/tailwind/emoji-toolkit.git"
   },
-  "bugs": "https://github.com/joypixels/emoji-toolkit/issues",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-cssmin": "^0.12.2",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-qunit": "^0.5.2",
-    "grunt-contrib-uglify": "^0.8.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-jsonlint": "^1.0.4",
-    "grunt-sass": "^3.1.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "node-sass": "^4.14.1"
-  },
-  "scripts": {
-    "test": "grunt travis"
-  }
+  "bugs": "https://github.com/tailwind/emoji-toolkit/issues",
+  "devDependencies": {}
 }
