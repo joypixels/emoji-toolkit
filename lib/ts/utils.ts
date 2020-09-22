@@ -420,3 +420,17 @@ export function replaceAll(string, find) {
   };
   return string.replace(search, replace);
 }
+
+export function convertToUnicode(string) {
+  // If we do not find the special `＃` symbol, then we assume that there is no
+  // need to make any conversion. Return the string as is.
+  if (string.indexOf('＃') == -1) {
+    return string;
+  }
+  // Remove the pound if it exists.
+  string = string.replace(/＃/g, '');
+  return string.replace(/\\u(\w\w\w\w)/g, (a, b: string) => {
+    const charcode = parseInt(b, 16);
+    return String.fromCharCode(charcode);
+  });
+}
