@@ -3,7 +3,7 @@
 We've teamed up with [JSDelivr](https://www.npmjs.com/settings/joypixels/packages) to provide a simple way to install these emoji on any javascript-enabled website. Add the following script and stylesheet links to the head of your webpage:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/emoji-toolkit@6.0.1lib/js/joypixels.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emoji-toolkit@6.0.1/lib/js/joypixels.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emoji-toolkit@6.0.1/extras/css/joypixels.min.css"/>
 ```
 
