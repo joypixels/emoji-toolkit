@@ -19,10 +19,7 @@
     "emoji set"
   ],
   "homepage": "https://www.joypixels.com",
-  "licenses": {
-    "type": "(MIT)",
-    "url": "https://github.com/joypixels/emoji-toolkit/blob/master/LICENSE.md"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/joypixels/emoji-toolkit.git"
