@@ -9,7 +9,7 @@ use JoyPixels\JoyPixels;
  */
 class EmojiTest extends \PHPUnit_Framework_TestCase
 {
-    private $emojiVersion = '6.0';
+    private $emojiVersion = '6.5';
 
     public function emojiProvider()
     {
