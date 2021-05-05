@@ -36,7 +36,7 @@ $builder = new s9e\RegexpBuilder\Builder([
 	'input'  => 'Utf8',
 	'output' => 'PHP'
 ]);
-$regexp = '(' . $builder->build($matches) . ')';
+$regexp = $builder->build($matches);
 
 patchFile(
 	__DIR__ . '/src/Client.php',
