@@ -7,7 +7,7 @@ There's no better way to port our emoji into your device than through a native f
 ### Google Font
 
   * Compatible with rooted Android devices and Linux.
-  * Updated Jan 29, 2020
+  * Updated Jul 7, 2021
   * Developers using the font within their app, please review [this issue](https://github.com/joypixels/emoji-toolkit/issues/385) regarding proper display of digits.
 
 Android Setup Help:
@@ -33,7 +33,7 @@ Linux Setup Help:
   * Compatible with Mac OSX, and iOS devices (iPhone, iPad).
   * Rename font to Apple Color Emoji.ttc for Mac OSX.
   * Rename font to AppleColorEmoji@2x.ttc for iOS, jailbreak required.
-  * Updated Jan 29, 2020
+  * Updated Jul 7, 2021
   
  
 **Mac OS System Instructions:**
