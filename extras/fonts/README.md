@@ -40,7 +40,7 @@ Linux Setup Help:
 	1.) Manual 
 	- Simply move the Mac compatible font into `~/Library/Fonts/Apple Color Emoji.ttc`. You should immediately see a new version of the Apple Color Emoji font in your Fontbook, and it will be useable immediately.
 
-**iOS System Instructions:**
+**iOS Instructions:**
 	1.) Manual 
 	- Take a look at [PoomSmart's Guide](https://poomsmart.github.io/emojiport) Option #4: Manual
 
