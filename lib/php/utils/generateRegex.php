@@ -6,13 +6,13 @@ if (php_sapi_name() !== 'cli')
 	exit(1);
 }
 
-require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 // List of valid emoji sequences that should be matched
 $matches = [];
 
 // Add fully-qualified sequences from emoji.json
-$filepath = __DIR__ . '/../../emoji.json';
+$filepath = __DIR__ . '/../../../emoji.json';
 foreach (json_decode(file_get_contents($filepath), true) as $emoji)
 {
 	$matches[] = seqToUtf8($emoji['code_points']['fully_qualified']);
@@ -31,7 +31,6 @@ foreach ($ranges as [$min, $max])
 	}
 }
 
-
 $builder = new s9e\RegexpBuilder\Builder([
 	'input'  => 'Utf8',
 	'output' => 'PHP'
@@ -39,7 +38,7 @@ $builder = new s9e\RegexpBuilder\Builder([
 $regexp = $builder->build($matches);
 
 patchFile(
-	__DIR__ . '/src/Client.php',
+	__DIR__ . '/../src/Client.php',
 	'/public \\$unicodeRegexp = \\K.*(?=;)/',
 	var_export($regexp, true)
 );
