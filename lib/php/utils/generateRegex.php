@@ -38,7 +38,7 @@ $builder = new s9e\RegexpBuilder\Builder([
 $regexp = $builder->build($matches);
 
 patchFile(
-	__DIR__ . '/../src/Client.php',
+	realpath(__DIR__ . '/../src/Client.php'),
 	'/public \\$unicodeRegexp = \\K.*(?=;)/',
 	var_export($regexp, true)
 );
@@ -63,6 +63,10 @@ function patchFile(string $filepath, string $regexp, string $replacement): void
 	{
 		file_put_contents($filepath, $new);
 		echo "Patched $filepath\n";
+	}
+	else
+	{
+		echo "$filepath is already up to date\n";
 	}
 }
 
