@@ -40,13 +40,13 @@ Linux Setup Help:
 	1.) Manual 
 	- Simply move the Mac compatible font into `~/Library/Fonts/Apple Color Emoji.ttc`. You should immediately see a new version of the Apple Color Emoji font in your Fontbook, and it will be useable immediately.
 
-**iOS System Instructions:**
+**iOS Instructions:**
 	1.) Manual 
-	- Take a look at [PoomSmarts Guide](https://poomsmart.github.io/repo/emoji10.html) Option #3: Manual
+	- Take a look at [PoomSmart's Guide](https://poomsmart.github.io/emojiport) Option #4: Manual
 
 	2.) Installable
-	Cydia is a package manager app for rooted/jailbroken iOS devices(iPhone, iPod, iPad) and is based on Debian APT [(Advanced Packaging Tool)](https://en.wikipedia.org/wiki/APT_(Debian)) 
-	Tap [Add EmojiPort Fonts](cydia://url/https://cydia.saurik.com/api/share#?source=https://vxbakerxv.github.io/repo/) cydia source for "EmojiOne 2018".
+	Cydia is a package manager app for rooted/jailbroken iOS devices (iPhone, iPod, iPad) and is based on Debian APT [(Advanced Packaging Tool)](https://en.wikipedia.org/wiki/APT_(Debian)) 
+	Tap [Add EmojiPort Fonts](cydia://url/https://cydia.saurik.com/api/share#?source=https://vxbakerxv.github.io/repo/) cydia source and search for "JoyPixels".
 
 App Instructions:
     This has not been fully tested/confirmed but may work in app projects. 
