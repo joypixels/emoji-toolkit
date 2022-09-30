@@ -16,7 +16,7 @@
     "require-dev": {
         "ext-intl": "*",
         "phpunit/phpunit": "~4.6 || ~5.0",
-        "s9e/regexp-builder": "^1.4"
+        "s9e/regexp-builder": "^2.0"
     },
     "scripts": {
         "generate-regex": "php lib/php/utils/generateRegex.php"
