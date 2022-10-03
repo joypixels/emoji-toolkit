@@ -31,10 +31,14 @@ foreach ($ranges as [$min, $max])
 	}
 }
 
-$builder = new s9e\RegexpBuilder\Builder([
-	'input'  => 'Utf8',
-	'output' => 'PHP'
-]);
+// The delimiter and modifiers should match what's used in toShort()
+$builder = s9e\RegexpBuilder\Factory\PHP::getBuilder(
+	delimiter: '/',
+	modifiers: 'ui'
+);
+// The regexp is used as part of another. Marking it as not "standalone" will cause it to
+// be wrapped in a non-capturing group so it doesn't interfere with other alternations
+$builder->standalone = false;
 $regexp = $builder->build($matches);
 
 patchFile(
