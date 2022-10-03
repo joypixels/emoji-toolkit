@@ -16,7 +16,7 @@ If you've chosen to unify your inputted text so that it contains only shortnames
 namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
-require('./../lib/php/autoload.php');
+require __DIR__ . '/lib/php/autoload.php';
 
 $client = new Client(new Ruleset());
 
@@ -36,14 +36,14 @@ if(isset($_POST['inputText'])) {
 ## toImage($str)
 *Convert Native Unicode Emoji and Shortnames Directly to Images*
 
-This function is simply a shorthand for **unicodeToImage($str)** and **shortnameToImage($str)**. First it will convert native unicode emoji directly to images and then convert any shortnames to images. This function can be useful to take mixed input and convert it directly to images if, for example, you have native unicode emoji stored in your database alongside shortnames.
+This function is simply a shorthand for **shortnameToImage($str)**. First it will convert native unicode emoji directly to images and then convert any shortnames to images. This function can be useful to take mixed input and convert it directly to images if, for example, you have native unicode emoji stored in your database alongside shortnames.
 
 **PHP Snippet**
 ```php
 namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
-require('./../lib/php/autoload.php');
+require __DIR__ . '/lib/php/autoload.php';
 
 $client = new Client(new Ruleset());
 
@@ -70,7 +70,7 @@ Our recommendation is to unify all user inputted text by converting native unico
 namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
-require('./../lib/php/autoload.php');
+require __DIR__ . '/lib/php/autoload.php';
 
 $client = new Client(new Ruleset());
 
@@ -91,7 +91,7 @@ If you'd like to convert shortnames back to native unicode emoji characters, you
 namespace JoyPixels;
 
 // include the PHP library (if not autoloaded)
-require('./../lib/php/autoload.php');
+require __DIR__ . '/lib/php/autoload.php';
 
 $client = new Client(new Ruleset());
 

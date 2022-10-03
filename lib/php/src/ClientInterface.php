@@ -59,12 +59,4 @@ interface ClientInterface
      * @return  string  shortname
      */
     public function toShort($string);
-
-    /**
-     * This will output image markup from unicode input.
-     *
-     * @param   string  $string The input string.
-     * @return  string  String with appropriate html for rendering emoji.
-     */
-    public function unicodeToImage($string);
 }

@@ -4,17 +4,16 @@
 
 Both PHP and JavaScript libraries now have wider range of available properties. The following are available for both libraries.
 
- - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '6.6'). Not recommended for usage below 3.0.0.
+ - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '7.0'). Not recommended for usage below 3.0.0.
  - `emojiSize` (str) **Default: `32`** - Used only to direct CDN path for non-sprite PNG usage. Available options are '32', '64', and '128'.
  - `imagePathPNG` (str) - Defaults to CDN (jsdelivr) path. Setting as alternate path overwrites `emojiSize` option.
  - `fileExtension` (str) - Defaults to .png. Set to '.svg' if using premium assets (.svg) locally.
  - `greedyMatch` (bool) **Default: `false`** - When `true`, matches non-fully-qualified Unicode values.
- - `blacklistChars` (str) **Default: `''`** - Comma-separated list of characters that should not be replaced. For example, setting to `'#,*'` ensures pound and asterisk symbols are not replaced.
  - `imageTitleTag` (bool) **Default: `true`** - When `false`, removes title attribute from <img> tag.
  - `sprites` (bool) **Default: `false`** - When `true`, sprite markup will be used. Sprite CSS and PNG assets must be additionally included.
  - `spriteSize` (str) **Default `32`** - Alternate size is `64`.
  - `unicodeAlt` (bool) **Default `false`** - When `true`, sets unicode char as alt attribute for ability to copy image as unicode.
- - `ascii` (bool) **Default `false`** - When `true`, matches ASCII characters (in `unicodeToImage` and `shortnameToImage` functions).
+ - `ascii` (bool) **Default `false`** - When `true`, matches ASCII characters (in `shortnameToImage` functions).
  - `riskyMatchAscii` (bool) **Default `false`** - When `true`, matches ASCII characters not encapsulated by spaces. Can cause issues when matching (e.g. `C://filepath` or `<button>.</button>` both contain ASCII chars).
 
 
@@ -41,8 +40,6 @@ This demo shows you how to take input containing both native unicode emoji and s
 
 ### PHP Conversion
 
-##### As of version 1.4.1 this library syntax has changed.
-
 **[toShort\($str\)](https://demos.joypixels.com/latest/phptoshort.php)** - _native unicode -> shortnames_
 
 This demo shows you how to take native unicode emoji input, such as that from your mobile device, and translate it to their corresponding shortnames. (we recommend this for database storage)
@@ -52,25 +49,6 @@ This demo shows you how to take native unicode emoji input, such as that from yo
 This demo shows you how to take input containing only shortnames and translate it directly to JoyPixels images. (when displaying the unified input to clients)
 
 **[toImage\($str\)](https://demos.joypixels.com/latest/phptoimage.php)** - _native unicode + shortnames -> images (mixed input)_
-
-This demo shows you how to take input containing both native unicode emoji and shortnames, and translate it into JoyPixels images for display.
-
-
-##### Note: As of version 1.4.1 the following implementation has been deprecated. It's included in the library for backwards compatibility but will be removed at a later date.
-
-**[::toShort\($str\)](https://demos.joypixels.com/1.4.0/phptoshort.php)** - _native unicode -> shortnames_
-
-This demo shows you how to take native unicode emoji input, such as that from your mobile device, and translate it to their corresponding shortnames. (we recommend this for database storage)
-
-**[::shortnameToImage\($str\)](https://demos.joypixels.com/1.4.0/phpshortnametoimage.php)** - _shortname -> images_
-
-This demo shows you how to take input containing only shortnames and translate it directly to JoyPixels images. (when displaying the unified input to clients)
-
-**[::unicodeToImage\($str\)](https://demos.joypixels.com/1.4.0/phpunicodetoimage.php)** - _native unicode -> images_
-
-This demo shows you how to take native unicode emoji input, such as that from your mobile device, and translate it directly to JoyPixels images. (would be great for a live editor preview)
-
-**[::toImage\($str\)](https://demos.joypixels.com/1.4.0/phptoimage.php)** - _native unicode + shortnames -> images (mixed input)_
 
 This demo shows you how to take input containing both native unicode emoji and shortnames, and translate it into JoyPixels images for display.
 
