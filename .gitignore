@@ -2,9 +2,12 @@
 .idea
 .idea/
 /.idea/
+vendor/
+composer.lock
 node_modules/
 /node_modules/
 node_modules
+package-lock.json
 .sass-cache
 lib/js/tests.html
 *.pyc

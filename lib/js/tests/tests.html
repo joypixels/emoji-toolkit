@@ -2,136 +2,136 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/qunit/1.14.0/qunit.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qunit@2.19.1/qunit/qunit.css" type="text/css" media="screen" />
     </head>
     <body>
         <div id="qunit"></div>
         <div id="qunit-fixture"></div>
-        <script src="http://cdn.jsdelivr.net/qunit/1.14.0/qunit.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/qunit@2.19.1/qunit/qunit.min.js"></script>
         <script src="../joypixels.js"></script>
         <script>
         
             QUnit.module("toImage");
             
                 QUnit.test( "test toImage", function( assert ) {
-                    assert.equal(joypixels.toImage("Hello world! 😄 :smile:"), "Hello world! <img class=\"joypixels\" alt=\"😄\" title=\":smile:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f604.png\"/> <img class=\"joypixels\" alt=\"😄\" title=\":smile:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f604.png\"/>");
+                    assert.equal(joypixels.toImage("Hello world! 😄 :smile:"), 'Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png"/> <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png"/>');
                 });
             
                 QUnit.test( "mixed ascii, regular unicode and duplicate emoji", function( assert ) {
-                    assert.equal(joypixels.toImage(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), "<img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> is <img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> and 저 is not <img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> or <img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> also :randomy: is not emoji");
+                    assert.equal(joypixels.toImage(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), '<img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> is <img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> and 저 is not <img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> or <img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> also :randomy: is not emoji');
                 });
             
         
             QUnit.module("unifyUnicode");
             
                 QUnit.test( "test unifyUnicode", function( assert ) {
-                    assert.equal(joypixels.unifyUnicode("Hello world! 😄 :smile:"), "Hello world! 😄 😄");
+                    assert.equal(joypixels.unifyUnicode("Hello world! 😄 :smile:"), 'Hello world! 😄 😄');
                 });
             
                 QUnit.test( "mixed ascii, regular unicode and duplicate emoji", function( assert ) {
-                    assert.equal(joypixels.unifyUnicode(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), "👽 is 👽 and 저 is not 👽 or 👽 also :randomy: is not emoji");
+                    assert.equal(joypixels.unifyUnicode(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), '👽 is 👽 and 저 is not 👽 or 👽 also :randomy: is not emoji');
                 });
             
                 QUnit.test( "multiline emoji string", function( assert ) {
                     assert.equal(joypixels.unifyUnicode(":dancer:\
-:dancer:"), "💃\
-💃");
+:dancer:"), '💃\
+💃');
                 });
             
                 QUnit.test( "triple emoji string", function( assert ) {
-                    assert.equal(joypixels.unifyUnicode(":dancer::dancer::alien:"), "💃💃👽");
+                    assert.equal(joypixels.unifyUnicode(":dancer::dancer::alien:"), '💃💃👽');
                 });
             
         
             QUnit.module("shortnameToUnicode");
             
                 QUnit.test( "single unicode character conversion", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode("Hello world! 😄 :smile:"), "Hello world! 😄 😄");
+                    assert.equal(joypixels.shortnameToUnicode("Hello world! 😄 :smile:"), 'Hello world! 😄 😄');
                 });
             
                 QUnit.test( "shortname at start of sentence with apostrophe", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode(":snail:'s are cool!"), "🐌's are cool!");
+                    assert.equal(joypixels.shortnameToUnicode(":snail:'s are cool!"), '🐌\'s are cool!');
                 });
             
                 QUnit.test( "shortname shares a colon", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode(":invalid:snail:"), ":invalid🐌");
+                    assert.equal(joypixels.shortnameToUnicode(":invalid:snail:"), ':invalid🐌');
                 });
             
                 QUnit.test( "mixed ascii, regular unicode and duplicate emoji", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), "👽 is 👽 and 저 is not 👽 or 👽 also :randomy: is not emoji");
+                    assert.equal(joypixels.shortnameToUnicode(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), '👽 is 👽 and 저 is not 👽 or 👽 also :randomy: is not emoji');
                 });
             
                 QUnit.test( "multiline emoji string", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode(":dancer:\n:dancer:"), "💃\n💃");
+                    assert.equal(joypixels.shortnameToUnicode(":dancer:\n:dancer:"), '💃\n💃');
                 });
             
                 QUnit.test( "triple emoji string", function( assert ) {
-                    assert.equal(joypixels.shortnameToUnicode(":dancer::dancer::alien:"), "💃💃👽");
+                    assert.equal(joypixels.shortnameToUnicode(":dancer::dancer::alien:"), '💃💃👽');
                 });
             
         
             QUnit.module("shortnameToImage");
             
                 QUnit.test( "single shortname character conversion", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage("Hello world! 😄 :smile:"), "Hello world! 😄 <img class=\"joypixels\" alt=\"😄\" title=\":smile:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f604.png\"/>");
+                    assert.equal(joypixels.shortnameToImage("Hello world! 😄 :smile:"), 'Hello world! 😄 <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png"/>');
                 });
             
                 QUnit.test( "shortname at start of sentence with apostrophe", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage(":snail:'s are cool!"), "<img class=\"joypixels\" alt=\"🐌\" title=\":snail:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f40c.png\"/>'s are cool!");
+                    assert.equal(joypixels.shortnameToImage(":snail:'s are cool!"), '<img class="joypixels" alt="🐌" title=":snail:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f40c.png"/>\'s are cool!');
                 });
             
                 QUnit.test( "shortname shares a colon", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage(":invalid:snail:"), ":invalid<img class=\"joypixels\" alt=\"🐌\" title=\":snail:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f40c.png\"/>");
+                    assert.equal(joypixels.shortnameToImage(":invalid:snail:"), ':invalid<img class="joypixels" alt="🐌" title=":snail:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f40c.png"/>');
                 });
             
                 QUnit.test( "mixed ascii, regular unicode and duplicate emoji", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), "<img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> is 👽 and 저 is not <img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> or <img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/> also :randomy: is not emoji");
+                    assert.equal(joypixels.shortnameToImage(":alien: is 👽 and 저 is not :alien: or :alien: also :randomy: is not emoji"), '<img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> is 👽 and 저 is not <img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> or <img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/> also :randomy: is not emoji');
                 });
             
                 QUnit.test( "multiline emoji string", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage(":dancer:\n:dancer:"), "<img class=\"joypixels\" alt=\"💃\" title=\":dancer:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f483.png\"/>\n<img class=\"joypixels\" alt=\"💃\" title=\":dancer:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f483.png\"/>");
+                    assert.equal(joypixels.shortnameToImage(":dancer:\n:dancer:"), '<img class="joypixels" alt="💃" title=":dancer:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f483.png"/>\n<img class="joypixels" alt="💃" title=":dancer:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f483.png"/>');
                 });
             
                 QUnit.test( "triple emoji string", function( assert ) {
-                    assert.equal(joypixels.shortnameToImage(":dancer::dancer::alien:"), "<img class=\"joypixels\" alt=\"💃\" title=\":dancer:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f483.png\"/><img class=\"joypixels\" alt=\"💃\" title=\":dancer:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f483.png\"/><img class=\"joypixels\" alt=\"👽\" title=\":alien:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f47d.png\"/>");
+                    assert.equal(joypixels.shortnameToImage(":dancer::dancer::alien:"), '<img class="joypixels" alt="💃" title=":dancer:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f483.png"/><img class="joypixels" alt="💃" title=":dancer:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f483.png"/><img class="joypixels" alt="👽" title=":alien:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f47d.png"/>');
                 });
             
         
             QUnit.module("toShort");
             
                 QUnit.test( "single unicode character conversion", function( assert ) {
-                    assert.equal(joypixels.toShort("Hello world! 😄 :smile:"), "Hello world! :smile: :smile:");
+                    assert.equal(joypixels.toShort("Hello world! 😄 :smile:"), 'Hello world! :smile: :smile:');
                 });
             
                 QUnit.test( "mixed ascii, regular unicode and duplicate emoji", function( assert ) {
-                    assert.equal(joypixels.toShort("👽 is not :alien: and 저 is not 👽 or 👽"), ":alien: is not :alien: and 저 is not :alien: or :alien:");
+                    assert.equal(joypixels.toShort("👽 is not :alien: and 저 is not 👽 or 👽"), ':alien: is not :alien: and 저 is not :alien: or :alien:');
                 });
             
                 QUnit.test( "multiline emoji string", function( assert ) {
-                    assert.equal(joypixels.toShort("💃\n💃"), ":dancer:\n:dancer:");
+                    assert.equal(joypixels.toShort("💃\n💃"), ':dancer:\n:dancer:');
                 });
             
                 QUnit.test( "alias vs. canonical", function( assert ) {
-                    assert.equal(joypixels.toShort("🇯🇵 どうもありがとう"), ":flag_jp: どうもありがとう");
+                    assert.equal(joypixels.toShort("🇯🇵 どうもありがとう"), ':flag_jp: どうもありがとう');
                 });
             
                 QUnit.test( "unicode character conversion within excluded tag", function( assert ) {
-                    assert.equal(joypixels.toShort("<div>😄</div>"), "<div>:smile:</div>");
+                    assert.equal(joypixels.toShort("<div>😄</div>"), '<div>:smile:</div>');
                 });
             
         
             QUnit.module("toImage");
             
                 QUnit.test( "single character shortname conversion", function( assert ) {
-                    assert.equal(joypixels.toImage("Hello world! 😄 :smile:"), "Hello world! <img class=\"joypixels\" alt=\"😄\" title=\":smile:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f604.png\"/> <img class=\"joypixels\" alt=\"😄\" title=\":smile:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f604.png\"/>");
+                    assert.equal(joypixels.toImage("Hello world! 😄 :smile:"), 'Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png"/> <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png"/>');
                 });
             
                 QUnit.test( "shortname shares a colon", function( assert ) {
-                    assert.equal(joypixels.toImage(":invalid:snail:"), ":invalid<img class=\"joypixels\" alt=\"🐌\" title=\":snail:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f40c.png\"/>");
+                    assert.equal(joypixels.toImage(":invalid:snail:"), ':invalid<img class="joypixels" alt="🐌" title=":snail:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f40c.png"/>');
                 });
             
                 QUnit.test( "single unicode character conversion", function( assert ) {
-                    assert.equal(joypixels.toImage("🐌"), "<img class=\"joypixels\" alt=\"🐌\" title=\":snail:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/6.6/png/unicode/64/1f40c.png\"/>");
+                    assert.equal(joypixels.toImage("🐌"), '<img class="joypixels" alt="🐌" title=":snail:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f40c.png"/>');
                 });
             
         

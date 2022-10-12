@@ -1,7 +1,7 @@
 Package.describe({
   name: 'joypixels:emoji-toolkit',
   summary: 'Meteor Package of the https://www.joypixels.com/ set.',
-  version: '6.6.0',
+  version: '7.0.0',
   git: 'https://github.com/joypixels/emoji-toolkit.git'
 });
 
@@ -25,7 +25,7 @@ Package.onUse(function(api) {
     'extras/css/joypixels.css',
     'extras/css/joypixels-awesome.css'
   ], 'client');
-  
+
   api.addAssets('../emoji-assets/sprites/joypixels-sprite-32.min.css', 'client');
   api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-activity.png', 'client');
   api.addAssets('../emoji-assets/sprites/joypixels-sprite-32-diversity.png', 'client');

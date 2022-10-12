@@ -18,19 +18,6 @@ foreach (json_decode(file_get_contents($filepath), true) as $emoji)
 	$matches[] = seqToUtf8($emoji['code_points']['fully_qualified']);
 }
 
-// Add the extra ranges from the original regexp -- This may be unnecessary
-$ranges = [
-	[0x1F700, 0x1F800],
-	[0x1FA70, 0x1FB00]
-];
-foreach ($ranges as [$min, $max])
-{
-	foreach (range($min, $max) as $cp)
-	{
-		$matches[] = IntlChar::chr($cp);
-	}
-}
-
 // The delimiter and modifiers should match what's used in toShort()
 $builder = s9e\RegexpBuilder\Factory\PHP::getBuilder(
 	delimiter: '/',
