@@ -15,23 +15,22 @@ A set of libraries to help users find and replace native system emojis with JoyP
  - All libraries included here are available free under the MIT license.
  
  
- ## License to Use JoyPixels Images
+## License to Use JoyPixels Images
  
 ### JoyPixels Version 4+
- JoyPixels Version 4+ is available under the same licensing structure as Version 3. Please see below for more details.
+JoyPixels Version 4+ is available under the same licensing structure as Version 3. Please see below for more details.
  
 ### JoyPixels Version 3+
  
- JoyPixels launched version 3.0 in 2017, which has several licensing options available. PNG 32px, 64px, and 128px as well as 32px and 64px sprites are available for digital use, with attribution. See [https://www.joypixels.com/licenses/free](https://www.joypixels.com/licenses/free) for more information on usage and attribution requirements.
- 
- *Premium Licenses are available for larger PNG assets and SVG assets, for digital and print use (within budget constraints).* See [https://www.joypixels.com/licenses/premium](https://www.joypixels.com/licenses/premium) for more information or to obtain a Premium License.
- 
- For product/retail licensing, see our Enterprise License [https://www.joypixels.com/licenses/enterprise](https://www.joypixels.com/licenses/enterprise).
- 
- ### JoyPixels Version 2
- 
- JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to version 3. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+JoyPixels launched version 3.0 in 2017, which has several licensing options available. PNG 32px, 64px, and 128px as well as 32px and 64px sprites are available for digital use, with attribution. See [https://www.joypixels.com/licenses/free](https://www.joypixels.com/licenses/free) for more information on usage and attribution requirements.
 
+*Premium Licenses are available for larger PNG assets and SVG assets, for digital and print use (within budget constraints).* See [https://www.joypixels.com/licenses/premium](https://www.joypixels.com/licenses/premium) for more information or to obtain a Premium License.
+ 
+For product/retail licensing, see our Enterprise License [https://www.joypixels.com/licenses/enterprise](https://www.joypixels.com/licenses/enterprise).
+ 
+### JoyPixels Version 2
+ 
+JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to version 3. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## Installation
 To install the JoyPixels/emoji-toolkit, please refer to the guide at [INSTALLATION.md](INSTALLATION.md). **Version 3 introduces many  potentially-breaking changes.** Refer to the [UPGRADE.md](UPGRADE.md) documentation for more details.
@@ -43,6 +42,8 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on contributing to t
 ## Usage
 You'll find basic usage examples here in the [/examples/](examples/) directory, and links to usage demos in [USAGE.md](USAGE.md).
 
+## Change Log
+See the [releases page](https://github.com/joypixels/emoji-toolkit/releases) for information on what's new in the latest release.
 
 ## Information
 
