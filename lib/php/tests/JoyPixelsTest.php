@@ -90,6 +90,19 @@ final class JoyPixelsTest extends TestCase
     }
 
     /**
+     * entries can contain some :xxx: words which are not valid shortnames. They must not break anything
+     *
+     * @return void
+     */
+    public function testShortnameToUnicodeAcceptWrongShortname()
+    {
+        $test     = 'Hello :world:! 😄 :smile:';
+        $expected = 'Hello :world:! 😄 😄';
+
+        $this->assertEquals($expected, $this->client->shortnameToUnicode($test));
+    }
+
+    /**
      * test $this->client->shortnameToAscii()
      *
      * @return void

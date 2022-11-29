@@ -214,7 +214,9 @@ class Client implements ClientInterface
             $unicode_replace = $ruleset->getUnicodeReplace();
             $shortname = mb_strtolower($m[1]);
 
-            return $unicode_replace[$shortname];
+            return isset($unicode_replace[$shortname])
+                ? $unicode_replace[$shortname]
+                : $m[0];
         }
     }
 
