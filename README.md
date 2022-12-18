@@ -67,13 +67,13 @@ If you have any questions, comments, or concerns you are welcome to contact us.
 ### Alternatives
 We sincerely hope that you choose to use JoyPixels and support our project, but if you feel like it's not for you, please have a look at these possible alternatives:
 
-* https://github.com/hassankhan/emojify.js
+* https://github.com/hassankhan/emojify.js (This repository has been archived by the owner before Nov 9, 2022. It is now read-only.)
 * https://github.com/emojidex/ (used to be known as [Phantom Open Emoji](https://github.com/Genshin/PhantomOpenEmoji))
 * https://github.com/iamcal/emoji-data (with [PHP](https://github.com/iamcal/php-emoji) and [Javascript](https://github.com/iamcal/js-emoji) interfaces)
 * https://github.com/node-modules/emoji
 * https://github.com/steveklabnik/emoji
-* https://github.com/rockerhieu/emojicon
-* https://github.com/HenrikJoreteg/emoji-images
-* https://github.com/frissdiegurke/emoji-parser
+* https://github.com/rockerhieu/emojicon (This projected is discontinued)
+* https://github.com/HenrikJoreteg/emoji-images (this repo not actively maintained)
+* https://github.com/frissdiegurke/emoji-parser (repository no longer exists)
 * https://github.com/muan/emojilib
-* https://github.com/kcthota/emoji4j
+* https://github.com/kcthota/emoji4j (This project is not actively being maintainted)
