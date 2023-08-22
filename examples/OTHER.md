@@ -13,7 +13,7 @@ By default, both the Javascript and PHP toolkits we've provided will use the nat
 **HTML Output (default)**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt="😄" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/32/1f604.png">
 </p>
 ```
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
 **HTML Output For Shortname Alt**
 ```html
 <p id="example-png">
-	PNG: Hello world! <img class="joypixels" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/1f604.png">
+	PNG: Hello world! <img class="joypixels" alt=":smile:" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/32/1f604.png">
 </p>
 ```
 
@@ -43,7 +43,7 @@ $(document).ready(function() {
 To get this working correctly you'll needed to include a few extra pieces, including:
 
 **Required Extras**
- - <a href="http://jquery.com/" target="_blank">jQuery</a>
+ - <a href="https://jquery.com/" target="_blank">jQuery</a>
  - <a href="https://github.com/yuku-t/jquery-textcomplete" target="_blank">jquery-textcomplete</a>
  - Custom JS (shown below)
  - Custom CSS (shown below)
@@ -83,7 +83,7 @@ $(document).ready(function() {
             callback(newResults);
         },
         template: function (shortname) {
-            return '<img class="joypixels" src="https://cdn.jsdelivr.net/joypixels/assets/7.0/png/unicode/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
+            return '<img class="joypixels" src="https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/32/'+unicode+'.png"/> :'+emojiStrategy[shortname].unicode+':';
         },
         replace: function (shortname) {
             return ':'+shortname+': ';
@@ -199,7 +199,7 @@ function convert() {
 Start typing shortnames (:smile:, :blush:, :heart:, etc.) or entering native emojis from a compatible device.
 
 **Required Extras**
- - <a href="http://jquery.com/" target="_blank">jQuery</a>
+ - <a href="https://jquery.com/" target="_blank">jQuery</a>
  - Custom JS (shown below)
  
 **jQuery Snippet**
@@ -221,7 +221,7 @@ Using jQuery, this demo shows you how you can stick a class of **.convert-emoji*
 
 **Required Extras**
 To get this working correctly we need to include a few extras, including:
- - <a href="http://jquery.com/" target="_blank">jQuery</a>
+ - <a href="https://jquery.com/" target="_blank">jQuery</a>
  - Custom JS (shown below)
  
 **jQuery Snippet**
@@ -259,7 +259,7 @@ $(document).ready(function() {
 We've setup a collection of <a href="https://github.com/joypixels/emoji-assets/blob/master/sprites/">spritesheets</a> for people to use. These sprites are split by category (plus diversity) and come in 32px and 64px sizes.
 
 **Some Considerations**
- - <a href="http://caniuse.com/#feat=css-zoom" target="_blank">zoom</a> or <a href="http://caniuse.com/#feat=transforms2d" target="_blank">transform: scale()</a> can be used for custom scaling. transform: scale() is more widely supported.
+ - <a href="https://caniuse.com/css-zoom" target="_blank">zoom</a> or <a href="https://caniuse.com/transforms2d" target="_blank">transform: scale()</a> can be used for custom scaling. transform: scale() is more widely supported.
  - Depending on the number of emoji being used on a page, loading an entire spritesheet here could be overkill.
  
 **1. Attach Sprite CSS Stylesheet:**

@@ -1,4 +1,4 @@
 #### License
 
 *  License: MIT
-*  Complete Legal Terms: http://opensource.org/licenses/MIT
+*  Complete Legal Terms: https://opensource.org/license/mit/

@@ -3,7 +3,7 @@
     "type": "library",
     "description": "JoyPixels is a complete set of emoji designed for the web. The emoji-toolkit includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to JoyPixels emoji images. PNG formats provided for the emoji images.",
     "keywords": ["joypixels", "JoyPixels", "emoji-toolkit", "emojione","EmojiOne","emoji","emojis","emoticons","smileys","smilies","unicode"],
-    "homepage": "http://www.joypixels.com",
+    "homepage": "https://www.joypixels.com",
     "license": "(CC-BY-4.0 and MIT)",
     "autoload": {
         "psr-4": {
@@ -15,11 +15,11 @@
     },
     "require-dev": {
         "ext-intl": "*",
-        "phpunit/phpunit": "^9.5",
-        "s9e/regexp-builder": "^2.0"
+        "phpunit/phpunit": "^10.0",
+        "s9e/regexp-builder": "^2.1"
     },
     "scripts": {
-        "generate-regex": "php lib/php/utils/generateRegex.php",
+        "update-client": "php lib/php/utils/updateClient.php",
         "tests": "phpunit -c lib/php/phpunit.xml.dist"
     }
 }

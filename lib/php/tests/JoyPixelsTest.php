@@ -25,7 +25,7 @@ final class JoyPixelsTest extends TestCase
         $this->emojiVersion = $json->version;
     }
 
-    public function emojiProvider()
+    public static function emojiProvider()
     {
         $file = __DIR__ . '/../../../emoji.json';
 
