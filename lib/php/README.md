@@ -17,8 +17,8 @@ To do so first load the necessary Composer packages in the root of the project.
 
 `composer install`
 
-Then run the generator script.
+Then run the Client.php update script.
 
-`composer generate-regex`
+`composer update-client`
 
 **Note:** The script will modify and overwrite the current file.
