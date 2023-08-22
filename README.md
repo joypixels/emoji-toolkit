@@ -30,7 +30,7 @@ For product/retail licensing, see our Enterprise License [https://www.joypixels.
  
 ### JoyPixels Version 2
  
-JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to version 3. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to version 3. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Installation
 To install the JoyPixels/emoji-toolkit, please refer to the guide at [INSTALLATION.md](INSTALLATION.md). **Version 3 introduces many  potentially-breaking changes.** Refer to the [UPGRADE.md](UPGRADE.md) documentation for more details.

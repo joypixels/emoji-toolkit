@@ -466,7 +466,7 @@ final class ConversionTest extends TestCase
         $default_ascii = $this->client->ascii;
         $this->client->ascii = true;
 
-        $ascii = 'Check out http://www.joypixels.com';
+        $ascii = 'Check out https://www.joypixels.com';
 
         $this->assertEquals($ascii, $this->client->shortnameToImage($ascii));
         $this->assertEquals($ascii, $this->client->toImage($ascii));

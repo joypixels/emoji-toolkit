@@ -1,14 +1,18 @@
 changelog
 ---------
 
+#### 8.0 / 2023-08-21
+* additions
+  * Unicode 15 characters
+
 #### UPDATE 2019-07-22
 * additions
-  * Unicode 12 charcters
+  * Unicode 12 characters
  
 
 #### UPDATE 2017-06-30
 * additions
-  * Unicode 10 charcters
+  * Unicode 10 characters
   
 * changes
   * inclusion of output code point attribute, used to generate native Unicode

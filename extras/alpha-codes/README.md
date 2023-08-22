@@ -48,4 +48,4 @@ We've included the current list of emoji alpha codes in two formats, json and cs
 ### LICENSE
 
 *  License: MIT
-*  Complete Legal Terms: http://opensource.org/licenses/MIT
+*  Complete Legal Terms: https://opensource.org/license/mit/

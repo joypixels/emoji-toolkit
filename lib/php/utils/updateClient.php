@@ -8,11 +8,30 @@ if (php_sapi_name() !== 'cli')
 
 require __DIR__ . '/../../../vendor/autoload.php';
 
+
+$filepath = realpath(__DIR__ . '/../../../joypixels.json');
+
+$temp = json_decode(file_get_contents($filepath), true);
+
+$clientFilepath = realpath(__DIR__ . '/../src/Client.php');
+
+$old = file_get_contents($clientFilepath);
+
+$revised = patchFile(
+	$old,
+	"/\\\$emojiVersion = \'\\K(\d+\.\d+(\.\d+)?)(?=\';)/",
+	$temp['version']
+);
+
+echo ($revised !== $old) ? "Updated version\n" : "Version is already up to date\n";
+
+
+
 // List of valid emoji sequences that should be matched
 $matches = [];
 
 // Add fully-qualified sequences from emoji.json
-$filepath = __DIR__ . '/../../../emoji.json';
+$filepath = realpath(__DIR__ . '/../../../emoji.json');
 foreach (json_decode(file_get_contents($filepath), true) as $emoji)
 {
 	$matches[] = seqToUtf8($emoji['code_points']['fully_qualified']);
@@ -28,20 +47,30 @@ $builder = s9e\RegexpBuilder\Factory\PHP::getBuilder(
 $builder->standalone = false;
 $regexp = $builder->build($matches);
 
-patchFile(
-	realpath(__DIR__ . '/../src/Client.php'),
+$new = patchFile(
+	$revised,
 	'/public \\$unicodeRegexp = \\K.*(?=;)/',
 	var_export($regexp, true)
 );
 
+if ($new !== $revised)
+{
+	file_put_contents($clientFilepath, $new);
+	echo "Patched $clientFilepath\n";
+}
+else
+{
+	echo "$clientFilepath \$unicodeRegexp is already up to date\n";
+}
+
 /**
-* @param string $filepath    Path to the file
+* @param string $old         String version of Client.php
 * @param string $regexp      PCRE regexp used to match what needs to be patched
 * @param string $replacement Literal string replacement
+* @return string
 */
-function patchFile(string $filepath, string $regexp, string $replacement): void
+function patchFile(string $old, string $regexp, string $replacement): string
 {
-	$old = file_get_contents($filepath);
 	$new = preg_replace_callback(
 		$regexp,
 		function () use ($replacement)
@@ -50,15 +79,7 @@ function patchFile(string $filepath, string $regexp, string $replacement): void
 		},
 		$old
 	);
-	if ($new !== $old)
-	{
-		file_put_contents($filepath, $new);
-		echo "Patched $filepath\n";
-	}
-	else
-	{
-		echo "$filepath is already up to date\n";
-	}
+	return ($new !== $old) ? $new : $old;
 }
 
 /**
