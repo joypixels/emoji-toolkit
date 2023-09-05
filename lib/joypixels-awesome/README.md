@@ -17,7 +17,7 @@ Additional classes let you modify size:
 
 ```
 <!-- Coffee Emoji (small) -->
-<i class="e1a-coffee jpa-sm"></i>
+<i class="jpa-coffee jpa-sm"></i>
 
 <!-- Coffee Emoji (medium) -->
 <i class="jpa-coffee jpa-med"></i>
