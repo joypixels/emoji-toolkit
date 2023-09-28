@@ -3,8 +3,8 @@
 We've teamed up with [JSDelivr](https://www.npmjs.com/settings/joypixels/packages) to provide a simple way to install these emoji on any javascript-enabled website. Add the following script and stylesheet links to the head of your webpage:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/emoji-toolkit@7.0.1/lib/js/joypixels.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emoji-toolkit@7.0.1/extras/css/joypixels.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/emoji-toolkit@8.0.0/lib/js/joypixels.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emoji-toolkit@8.0.0/extras/css/joypixels.min.css"/>
 ```
 
 Quick installs can also be done using NPM and Bower (for the Javascript toolkit) or Composer (for the PHP toolkit). **If you wish to serve image assets locally you'll need to install [emoji-assets](https://www.github.com/joypixels/emoji-assets) and include the pngs and/or sprites into your project.** Many of our [demos](https://demos.joypixels.com/latest/) use assets locally simply by pointing the `imagePathPNG` variable to your local asset location.
