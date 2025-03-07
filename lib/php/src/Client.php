@@ -26,7 +26,7 @@ class Client implements ClientInterface
 
     protected $ruleset = null;
 
-    public function __construct(RulesetInterface $ruleset = null)
+    public function __construct(?RulesetInterface $ruleset = null)
     {
         if ( ! is_null($ruleset) )
         {
