@@ -56,5 +56,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.registerTask('default', ['jshint','jsonlint', 'sass', 'uglify', 'cssmin']);
-    grunt.registerTask('travis', ['qunit']);
+    grunt.registerTask('tests', ['qunit']);
 };

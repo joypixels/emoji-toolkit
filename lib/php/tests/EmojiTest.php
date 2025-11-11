@@ -53,7 +53,7 @@ final class EmojiTest extends TestCase
      *
      * @return void
      */
-    public function testRulesetData()
+    public function testRulesetData(): void
     {
         $shortcode_replace = $this->client->getRuleset()->getShortcodeReplace();
         $unicode_replace = $this->client->getRuleset()->getUnicodeReplace();
@@ -111,7 +111,7 @@ final class EmojiTest extends TestCase
      *
      * @return void
      */
-    public function testToImage()
+    public function testToImage(): void
     {
         $file = __DIR__ . '/../../../joypixels.json';
 

@@ -1,8 +1,10 @@
 #### JoyPixels Artwork
 
-*  Applies to all PNG files found in the emoji-assets repo as well as any adaptations made.
-*  Free license: [joypixels.com/licenses/free](https://www.joypixels.com/licenses/free)
-*  Premium license: [joypixels.com/licenses/premium](https://www.joypixels.com/licenses/premium)
+By using any JoyPixels artwork you are implicitly agreeing to our free license terms found here:
+* Free license: https://app.joypixels.com/terms/free
+
+Please see our website for additional details and to purchase a less restrictive license:
+- Compare premium plans: https://joypixels.com/pricing
 
 
 #### JoyPixels Non-Artwork

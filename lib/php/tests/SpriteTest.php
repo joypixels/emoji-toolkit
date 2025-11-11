@@ -31,7 +31,7 @@ final class SpriteTest extends TestCase
      *
      * @return void
      */
-    public function testToImage()
+    public function testToImage(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! <span class="joypixels joypixels-32-people _1f604" title=":smile:">&#x1f604;</span> <span class="joypixels joypixels-32-people _1f604" title=":smile:">&#x1f604;</span>';
@@ -44,7 +44,7 @@ final class SpriteTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameToImage()
+    public function testShortnameToImage(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 <span class="joypixels joypixels-32-people _1f604" title=":smile:">&#x1f604;</span>';
