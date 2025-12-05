@@ -1,3 +1,5 @@
+@use '_joypixels-awesome.map';
+
 [class*=jpa-] {
 	display: inline-block;
 	width: 1em;
@@ -25,15 +27,13 @@ $size-map: (
 	}
 }
 
-@import '_joypixels-awesome.map';
-
-@each $code, $name in $emoji-map {
+@each $code, $name in joypixels-awesome.$emoji-map {
 
 	.jpa-#{$name} {
-		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/#{$version}/png/unicode/128/#{$code}.png");
+		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/#{joypixels-awesome.$version}/png/unicode/128/#{$code}.png");
 	}
 
 	.jpa-rel-#{$name} {
-		background-image: url("joypixels/assets/#{$version}/png/unicode/128/#{$code}.png");
+		background-image: url("joypixels/assets/#{joypixels-awesome.$version}/png/unicode/128/#{$code}.png");
 	}
 }

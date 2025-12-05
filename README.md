@@ -14,26 +14,18 @@ A set of libraries to help users find and replace native system emojis with JoyP
  - This project includes libraries used to convert emoji into various formats, including conversion to JoyPixels emoji images.
  - All libraries included here are available free under the MIT license.
  
- 
+By default this toolkit utilizes individual emoji images to achieve a consistent appearance. JoyPixels also offers alternative approaches that may be better suited for your application, including [web & app fonts](https://app.joypixels.com/files/fonts) which can speed up and simplify your implementation.
+
 ## License to Use JoyPixels Images
  
-### JoyPixels Version 4+
-JoyPixels Version 4+ is available under the same licensing structure as Version 3. Please see below for more details.
- 
-### JoyPixels Version 3+
- 
-JoyPixels launched version 3.0 in 2017, which has several licensing options available. PNG 32px, 64px, and 128px as well as 32px and 64px sprites are available for digital use, with attribution. See [https://www.joypixels.com/licenses/free](https://www.joypixels.com/licenses/free) for more information on usage and attribution requirements.
+### Version 3 and Above
+Usage of JoyPixels artwork is bound by terms and conditions that vary depending upon your use case. Personal use typcically falls under a [Free License](https://app.joypixels.com/terms/free), whereas commercial use requires a [Paid License](https://joypixels.com/pricing).
 
-*Premium Licenses are available for larger PNG assets and SVG assets, for digital and print use (within budget constraints).* See [https://www.joypixels.com/licenses/premium](https://www.joypixels.com/licenses/premium) for more information or to obtain a Premium License.
- 
-For product/retail licensing, see our Enterprise License [https://www.joypixels.com/licenses/enterprise](https://www.joypixels.com/licenses/enterprise).
- 
-### JoyPixels Version 2
- 
-JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to version 3. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+### Version 2
+JoyPixels version 2 is no longer supported or distributed. Please see [UPGRADE.md](UPGRADE.md) for instructions on upgrading from version 2 to the latest version. Version 2 was bound by the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Installation
-To install the JoyPixels/emoji-toolkit, please refer to the guide at [INSTALLATION.md](INSTALLATION.md). **Version 3 introduces many  potentially-breaking changes.** Refer to the [UPGRADE.md](UPGRADE.md) documentation for more details.
+To install the JoyPixels/emoji-toolkit, please refer to the guide at [INSTALLATION.md](INSTALLATION.md).
 
 
 ## Contributing
@@ -67,13 +59,8 @@ If you have any questions, comments, or concerns you are welcome to contact us.
 ### Alternatives
 We sincerely hope that you choose to use JoyPixels and support our project, but if you feel like it's not for you, please have a look at these possible alternatives:
 
-* https://github.com/hassankhan/emojify.js (This repository has been archived by the owner before Nov 9, 2022. It is now read-only.)
 * https://github.com/emojidex/ (used to be known as [Phantom Open Emoji](https://github.com/Genshin/PhantomOpenEmoji))
 * https://github.com/iamcal/emoji-data (with [PHP](https://github.com/iamcal/php-emoji) and [Javascript](https://github.com/iamcal/js-emoji) interfaces)
 * https://github.com/node-modules/emoji
 * https://github.com/steveklabnik/emoji
-* https://github.com/rockerhieu/emojicon (This projected is discontinued)
-* https://github.com/HenrikJoreteg/emoji-images (this repo not actively maintained)
-* https://github.com/frissdiegurke/emoji-parser (repository no longer exists)
 * https://github.com/muan/emojilib
-* https://github.com/kcthota/emoji4j (This project is not actively being maintainted)

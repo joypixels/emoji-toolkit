@@ -1,7 +1,7 @@
 {
     "0023-20e3": {
         "output": "0023-fe0f-20e3",
-        "name": "keycap: #",
+        "name": "keycap: pound",
         "alpha_code": ":hash:",
         "aliases": ""
     },
@@ -9793,7 +9793,7 @@
     },
     "002a-20e3": {
         "output": "002a-fe0f-20e3",
-        "name": "keycap: *",
+        "name": "keycap: asterisk",
         "alpha_code": ":asterisk:",
         "aliases": ":keycap_asterisk:"
     },
@@ -22917,6 +22917,54 @@
         "output": "26d3-1f4a5",
         "name": "broken chain",
         "alpha_code": ":broken_chain:",
+        "aliases": ""
+    },
+    "1fae9": {
+        "output": "1fae9",
+        "name": "face with bags under eyes",
+        "alpha_code": ":face_with_bags_under_eyes:",
+        "aliases": ""
+    },
+    "1fac6": {
+        "output": "1fac6",
+        "name": "fingerprint",
+        "alpha_code": ":fingerprint:",
+        "aliases": ""
+    },
+    "1fabe": {
+        "output": "1fabe",
+        "name": "leafless tree",
+        "alpha_code": ":leafless_tree:",
+        "aliases": ""
+    },
+    "1fadc": {
+        "output": "1fadc",
+        "name": "root vegetable",
+        "alpha_code": ":root_vegetable:",
+        "aliases": ""
+    },
+    "1fa89": {
+        "output": "1fa89",
+        "name": "harp",
+        "alpha_code": ":harp:",
+        "aliases": ""
+    },
+    "1fa8f": {
+        "output": "1fa8f",
+        "name": "shovel",
+        "alpha_code": ":shovel:",
+        "aliases": ""
+    },
+    "1fadf": {
+        "output": "1fadf",
+        "name": "splatter",
+        "alpha_code": ":splatter:",
+        "aliases": ""
+    },
+    "1f1e8-1f1f6": {
+        "output": "1f1e8-1f1f6",
+        "name": "flag: Sark",
+        "alpha_code": ":flag_sark:",
         "aliases": ""
     }
 }

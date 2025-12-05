@@ -2,6 +2,7 @@
 
 namespace JoyPixels\Test;
 
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use JoyPixels\Client;
 use JoyPixels\Ruleset;
@@ -25,7 +26,7 @@ final class JoyPixelsTest extends TestCase
         $this->emojiVersion = $json->version;
     }
 
-    public static function emojiProvider()
+    public static function emojiProvider(): array
     {
         $file = __DIR__ . '/../../../emoji.json';
 
@@ -55,7 +56,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testToImage()
+    public function testToImage(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! <img class="joypixels" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/unicode/32/1f604.png"/> <img class="joypixels" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/unicode/32/1f604.png"/>';
@@ -68,7 +69,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testUnifyUnicode()
+    public function testUnifyUnicode(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 😄';
@@ -81,7 +82,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameToUnicode()
+    public function testShortnameToUnicode(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 😄';
@@ -94,7 +95,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameToUnicodeAcceptWrongShortname()
+    public function testShortnameToUnicodeAcceptWrongShortname(): void
     {
         $test     = 'Hello :world:! 😄 :smile:';
         $expected = 'Hello :world:! 😄 😄';
@@ -107,7 +108,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameToAscii()
+    public function testShortnameToAscii(): void
     {
         $test     = 'Hello world! 🙂 :slight_smile:';
         $expected = 'Hello world! 🙂 :]';
@@ -120,7 +121,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameToImage()
+    public function testShortnameToImage(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! 😄 <img class="joypixels" alt="&#x1f604;" title=":smile:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/unicode/32/1f604.png"/>';
@@ -133,7 +134,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testToShort()
+    public function testToShort(): void
     {
         $test     = 'Hello world! 😄 :smile:';
         $expected = 'Hello world! :smile: :smile:';
@@ -146,7 +147,7 @@ final class JoyPixelsTest extends TestCase
      *
      * @return void
      */
-    public function testAsciiToShortname()
+    public function testAsciiToShortname(): void
     {
         $test     = 'Hello world! :) :-D ;) :smile:';
         $expected = 'Hello world! :slight_smile: :smiley: :wink: :smile:';
@@ -155,11 +156,10 @@ final class JoyPixelsTest extends TestCase
     }
 
     /**
-     * Test Ascii to shortnames with dataProvider
-     *
-     * @dataProvider emojiProvider
+     * Test Ascii to shortnames with DataProvider
      */
-    public function testAsciiToShortnameWithDataProvider($ascii, $shortname)
+    #[DataProvider('emojiProvider')]
+    public function testAsciiToShortnameWithDataProvider(string $ascii, string $shortname): void
     {
         $this->assertEquals($shortname, trim($this->client->asciiToShortname($ascii)));
     }

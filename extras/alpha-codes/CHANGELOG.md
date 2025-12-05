@@ -1,6 +1,10 @@
 changelog
 ---------
 
+#### 10.0 / 2025-10
+* additions
+  * Unicode 16 characters
+
 #### 8.0 / 2023-08-21
 * additions
   * Unicode 15 characters

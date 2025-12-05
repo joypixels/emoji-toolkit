@@ -30,7 +30,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSingleUnicodeCharacter()
+    public function testSingleUnicodeCharacter(): void
     {
         $unicode     = '🐌';
         $shortname   = ':snail:';
@@ -51,7 +51,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testThreeUnicodeCharacters()
+    public function testThreeUnicodeCharacters(): void
     {
         $unicode     = '👍🏻👍🏾👍🏿';
         $shortname   = ':thumbsup_tone1::thumbsup_tone4::thumbsup_tone5:';
@@ -67,7 +67,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSpanishLetter_n()
+    public function testSpanishLetter_n(): void
     {
         $unicode     = '🪅';
         $shortname   = ':piñata:';
@@ -84,7 +84,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameInsideSentence()
+    public function testShortnameInsideSentence(): void
     {
         $unicode   = 'The 🦄 was EmojiOne\'s official mascot.';
         $shortname = 'The :unicorn: was EmojiOne\'s official mascot.';
@@ -102,7 +102,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameInsideSentenceWithComma()
+    public function testShortnameInsideSentenceWithComma(): void
     {
         $unicode   = 'The 🦄, was EmojiOne\'s official mascot.';
         $shortname = 'The :unicorn:, was EmojiOne\'s official mascot.';
@@ -120,7 +120,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameAtStartOfSentence()
+    public function testShortnameAtStartOfSentence(): void
     {
         $unicode   = '🐌 mail.';
         $shortname = ':snail: mail.';
@@ -138,7 +138,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameAtStartOfSentenceWithApostrophe()
+    public function testShortnameAtStartOfSentenceWithApostrophe(): void
     {
         $unicode   = '🐌\'s are cool!';
         $shortname = ':snail:\'s are cool!';
@@ -156,7 +156,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameAtEndOfSentence()
+    public function testShortnameAtEndOfSentence(): void
     {
         $unicode   = 'EmojiOne\'s official mascot was 🦄.';
         $shortname = 'EmojiOne\'s official mascot was :unicorn:.';
@@ -174,7 +174,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameAtEndOfSentenceWithAlternatePunctuation()
+    public function testShortnameAtEndOfSentenceWithAlternatePunctuation(): void
     {
         $unicode   = 'EmojiOne\'s official mascot was 🦄!';
         $shortname = 'EmojiOne\'s official mascot was :unicorn:!';
@@ -192,7 +192,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameAtEndOfSentenceWithPreceedingColon()
+    public function testShortnameAtEndOfSentenceWithPreceedingColon(): void
     {
         $unicode   = 'EmojiOne\'s official mascot was: 🦄';
         $shortname = 'EmojiOne\'s official mascot was: :unicorn:';
@@ -210,7 +210,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testShortnameInsideOfImgTag()
+    public function testShortnameInsideOfImgTag(): void
     {
         $unicode   = 'The <img class="joypixels" alt="🦄" title=":unicorn:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/unicode/32/1f984.png" /> was EmojiOne\'s official mascot.';
         $shortname = 'The <img class="joypixels" alt=":unicorn:" title=":unicorn:" src="https://cdn.jsdelivr.net/joypixels/assets/' . $this->emojiVersion . '/png/unicode/32/1f984.png" /> was EmojiOne\'s official mascot.';
@@ -227,7 +227,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSingleSmiley()
+    public function testSingleSmiley(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -252,7 +252,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSingleSmileyWithIncorrectCase()
+    public function testSingleSmileyWithIncorrectCase(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -270,7 +270,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testMultipleSmilies()
+    public function testMultipleSmilies(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -299,7 +299,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyAtSentenceStart()
+    public function testSmileyAtSentenceStart(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -325,7 +325,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyAtSentenceEnd()
+    public function testSmileyAtSentenceEnd(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -354,7 +354,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyAtSentenceEndWithPunctuation()
+    public function testSmileyAtSentenceEndWithPunctuation(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -383,7 +383,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyAtSentenceEndWithPreceedingPunctuation()
+    public function testSmileyAtSentenceEndWithPreceedingPunctuation(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -412,7 +412,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyInsideAnImgTag()
+    public function testSmileyInsideAnImgTag(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -431,7 +431,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testTypicalUsernamePasswordFail()
+    public function testTypicalUsernamePasswordFail(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;
@@ -460,7 +460,7 @@ final class ConversionTest extends TestCase
      *
      * @return void
      */
-    public function testSmileyInAnUrl()
+    public function testSmileyInAnUrl(): void
     {
         // enable ASCII conversion
         $default_ascii = $this->client->ascii;

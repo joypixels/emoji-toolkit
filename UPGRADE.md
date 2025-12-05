@@ -17,9 +17,6 @@
     - ios
     - android
     - swift
-- These libraries have been replaced by standalone projects:
-    - ios [https://www.github.com/joypixels/emoji-toolkit-ios](https://www.github.com/joypixels/emoji-toolkit-ios)
-    - android [https://www.github.com/joypixels/emoji-toolkit-android](https://www.github.com/joypixels/emoji-toolkit-android)
     
  
 **Emoji Assets**
