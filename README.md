@@ -1,4 +1,4 @@
-# ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan-tm.svg)
+# ![JoyPixels Logo](https://cdn.joypixels.com/web-app/assets/joypixels-logo-color.png)
 
 > [![npm version](https://img.shields.io/npm/v/emoji-toolkit.svg)](https://www.npmjs.com/package/emoji-toolkit) [![npm downloads](https://img.shields.io/npm/dt/emoji-toolkit.svg)](https://www.npmjs.com/package/emoji-toolkit) [![jsDelivr hits](https://data.jsdelivr.com/v1/package/npm/emoji-toolkit/badge?style=rounded)](https://www.jsdelivr.com/package/npm/emoji-toolkit)
 
