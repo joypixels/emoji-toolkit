@@ -2,6 +2,10 @@
 
 ### (Formerly EmojiOne Awesome)
 
+### VERSION 11 PNG SIZE CHANGE
+The size of the PNGs referenced in JoyPixels Awesome have changed. All `jpa-*` classes now shares the same specs, 64px PNGs with a display size of 32px. 128px PNGs are no longer available without a [Paid License](https://joypixels.com/pricing). Those who wish to change the `jpa-*` classes to reference other size PNGs can point to their own hosting path in `joypixels-awesome.scss` and recompile the CSS file. Compilation instructions are below.
+
+
 ### How to use
 
 In the same vein as Font-Awesome, JoyPixels Awesome is for front end developers who just wanna drop an emoji on a page without using any sort of script.

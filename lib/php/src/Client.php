@@ -13,7 +13,7 @@ class Client implements ClientInterface
     public $shortcodes = true; // convert shortcodes?
     public $unicodeAlt = true; // use the unicode char as the alt attribute (makes copy and pasting the resulting text better)
     public $emojiVersion = '11.0';
-    public $emojiSize = '32'; // available sizes are '32', '64', and '128'
+    public $emojiSize = '32'; // available sizes are '32' and '64'
     public $greedyMatch = false;
     public $sprites = false;
     public $spriteSize = '32'; // available sizes are '32' and '64'
