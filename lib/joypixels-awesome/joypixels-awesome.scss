@@ -14,8 +14,8 @@
 
 $size-map: (
 	"sm": 1,
-	"med": 2,
-	"lg": 4
+	"med": 1,
+	"lg": 1
 );
 
 @each $name, $size in $size-map {
@@ -30,10 +30,10 @@ $size-map: (
 @each $code, $name in joypixels-awesome.$emoji-map {
 
 	.jpa-#{$name} {
-		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/#{joypixels-awesome.$version}/png/unicode/128/#{$code}.png");
+		background-image: url("https://cdn.jsdelivr.net/joypixels/assets/#{joypixels-awesome.$version}/png/unicode/64/#{$code}.png");
 	}
 
 	.jpa-rel-#{$name} {
-		background-image: url("joypixels/assets/#{joypixels-awesome.$version}/png/unicode/128/#{$code}.png");
+		background-image: url("joypixels/assets/#{joypixels-awesome.$version}/png/unicode/64/#{$code}.png");
 	}
 }

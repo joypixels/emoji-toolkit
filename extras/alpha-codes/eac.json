@@ -22964,7 +22964,985 @@
     "1f1e8-1f1f6": {
         "output": "1f1e8-1f1f6",
         "name": "flag: Sark",
-        "alpha_code": ":flag_sark:",
+        "alpha_code": ":flag_cq:",
+        "aliases": ":flag_sark:"
+    },
+    "1faea": {
+        "output": "1faea",
+        "name": "distorted face",
+        "alpha_code": ":distorted_face:",
+        "aliases": ""
+    },
+    "1faef": {
+        "output": "1faef",
+        "name": "fight cloud",
+        "alpha_code": ":fight_cloud:",
+        "aliases": ""
+    },
+    "1fac8": {
+        "output": "1fac8",
+        "name": "hairy creature",
+        "alpha_code": ":hairy_creature:",
+        "aliases": ""
+    },
+    "1f9d1-1fa70": {
+        "output": "1f9d1-1fa70",
+        "name": "ballet dancer",
+        "alpha_code": ":ballet_dancer:",
+        "aliases": ""
+    },
+    "1f9d1-1f3fb-1fa70": {
+        "output": "1f9d1-1f3fb-1fa70",
+        "name": "ballet dancer: light skin tone",
+        "alpha_code": ":ballet_dancer_tone1:",
+        "aliases": ":ballet_dancer_light_skin_tone:"
+    },
+    "1f9d1-1f3fc-1fa70": {
+        "output": "1f9d1-1f3fc-1fa70",
+        "name": "ballet dancer: medium-light skin tone",
+        "alpha_code": ":ballet_dancer_tone2:",
+        "aliases": ":ballet_dancer_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1fa70": {
+        "output": "1f9d1-1f3fd-1fa70",
+        "name": "ballet dancer: medium skin tone",
+        "alpha_code": ":ballet_dancer_tone3:",
+        "aliases": ":ballet_dancer_medium_skin_tone:"
+    },
+    "1f9d1-1f3fe-1fa70": {
+        "output": "1f9d1-1f3fe-1fa70",
+        "name": "ballet dancer: medium-dark skin tone",
+        "alpha_code": ":ballet_dancer_tone4:",
+        "aliases": ":ballet_dancer_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3ff-1fa70": {
+        "output": "1f9d1-1f3ff-1fa70",
+        "name": "ballet dancer: dark skin tone",
+        "alpha_code": ":ballet_dancer_tone5:",
+        "aliases": ":ballet_dancer_dark_skin_tone:"
+    },
+    "1f46f-1f3fb": {
+        "output": "1f46f-1f3fb",
+        "name": "people with bunny ears: light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone1:",
+        "aliases": ":people_with_bunny_ears_light_skin_tone:"
+    },
+    "1f46f-1f3fc": {
+        "output": "1f46f-1f3fc",
+        "name": "people with bunny ears: medium-light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone2:",
+        "aliases": ":people_with_bunny_ears_medium_light_skin_tone:"
+    },
+    "1f46f-1f3fd": {
+        "output": "1f46f-1f3fd",
+        "name": "people with bunny ears: medium skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone3:",
+        "aliases": ":people_with_bunny_ears_medium_skin_tone:"
+    },
+    "1f46f-1f3fe": {
+        "output": "1f46f-1f3fe",
+        "name": "people with bunny ears: medium-dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone4:",
+        "aliases": ":people_with_bunny_ears_medium_dark_skin_tone:"
+    },
+    "1f46f-1f3ff": {
+        "output": "1f46f-1f3ff",
+        "name": "people with bunny ears: dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone5:",
+        "aliases": ":people_with_bunny_ears_dark_skin_tone:"
+    },
+    "1f46f-1f3fb-2642": {
+        "output": "1f46f-1f3fb-2642",
+        "name": "men with bunny ears: light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone1:",
+        "aliases": ":men_with_bunny_ears_light_skin_tone:"
+    },
+    "1f46f-1f3fc-2642": {
+        "output": "1f46f-1f3fc-2642",
+        "name": "men with bunny ears: medium-light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone2:",
+        "aliases": ":men_with_bunny_ears_medium_light_skin_tone:"
+    },
+    "1f46f-1f3fd-2642": {
+        "output": "1f46f-1f3fd-2642",
+        "name": "men with bunny ears: medium skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone3:",
+        "aliases": ":men_with_bunny_ears_medium_skin_tone:"
+    },
+    "1f46f-1f3fe-2642": {
+        "output": "1f46f-1f3fe-2642",
+        "name": "men with bunny ears: medium-dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone4:",
+        "aliases": ":men_with_bunny_ears_medium_dark_skin_tone:"
+    },
+    "1f46f-1f3ff-2642": {
+        "output": "1f46f-1f3ff-2642",
+        "name": "men with bunny ears: dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone5:",
+        "aliases": ":men_with_bunny_ears_dark_skin_tone:"
+    },
+    "1f46f-1f3fb-2640": {
+        "output": "1f46f-1f3fb-2640",
+        "name": "women with bunny ears: light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone1:",
+        "aliases": ":women_with_bunny_ears_light_skin_tone:"
+    },
+    "1f46f-1f3fc-2640": {
+        "output": "1f46f-1f3fc-2640",
+        "name": "women with bunny ears: medium-light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone2:",
+        "aliases": ":women_with_bunny_ears_medium_light_skin_tone:"
+    },
+    "1f46f-1f3fd-2640": {
+        "output": "1f46f-1f3fd-2640",
+        "name": "women with bunny ears: medium skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone3:",
+        "aliases": ":women_with_bunny_ears_medium_skin_tone:"
+    },
+    "1f46f-1f3fe-2640": {
+        "output": "1f46f-1f3fe-2640",
+        "name": "women with bunny ears: medium-dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone4:",
+        "aliases": ":women_with_bunny_ears_medium_dark_skin_tone:"
+    },
+    "1f46f-1f3ff-2640": {
+        "output": "1f46f-1f3ff-2640",
+        "name": "women with bunny ears: dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone5:",
+        "aliases": ":women_with_bunny_ears_dark_skin_tone:"
+    },
+    "1f9d1-1f3fb-1f430-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fb-1f430-1f9d1-1f3fc",
+        "name": "people with bunny ears: light skin tone, medium-light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone1_tone2:",
+        "aliases": ":people_with_bunny_ears_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fb-1f430-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fb-1f430-1f9d1-1f3fd",
+        "name": "people with bunny ears: light skin tone, medium skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone1_tone3:",
+        "aliases": ":people_with_bunny_ears_light_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fb-1f430-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fb-1f430-1f9d1-1f3fe",
+        "name": "people with bunny ears: light skin tone, medium-dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone1_tone4:",
+        "aliases": ":people_with_bunny_ears_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fb-1f430-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fb-1f430-1f9d1-1f3ff",
+        "name": "people with bunny ears: light skin tone, dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone1_tone5:",
+        "aliases": ":people_with_bunny_ears_light_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f430-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fc-1f430-1f9d1-1f3fb",
+        "name": "people with bunny ears: medium-light skin tone, light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone2_tone1:",
+        "aliases": ":people_with_bunny_ears_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f430-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fc-1f430-1f9d1-1f3fd",
+        "name": "people with bunny ears: medium-light skin tone, medium skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone2_tone3:",
+        "aliases": ":people_with_bunny_ears_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f430-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fc-1f430-1f9d1-1f3fe",
+        "name": "people with bunny ears: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone2_tone4:",
+        "aliases": ":people_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fc-1f430-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fc-1f430-1f9d1-1f3ff",
+        "name": "people with bunny ears: medium-light skin tone, dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone2_tone5:",
+        "aliases": ":people_with_bunny_ears_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f430-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fd-1f430-1f9d1-1f3fb",
+        "name": "people with bunny ears: medium skin tone, light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone3_tone1:",
+        "aliases": ":people_with_bunny_ears_medium_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f430-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fd-1f430-1f9d1-1f3fc",
+        "name": "people with bunny ears: medium skin tone, medium-light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone3_tone2:",
+        "aliases": ":people_with_bunny_ears_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f430-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fd-1f430-1f9d1-1f3fe",
+        "name": "people with bunny ears: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone3_tone4:",
+        "aliases": ":people_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fd-1f430-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fd-1f430-1f9d1-1f3ff",
+        "name": "people with bunny ears: medium skin tone, dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone3_tone5:",
+        "aliases": ":people_with_bunny_ears_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f430-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fe-1f430-1f9d1-1f3fb",
+        "name": "people with bunny ears: medium-dark skin tone, light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone4_tone1:",
+        "aliases": ":people_with_bunny_ears_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f430-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fe-1f430-1f9d1-1f3fc",
+        "name": "people with bunny ears: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone4_tone2:",
+        "aliases": ":people_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f430-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fe-1f430-1f9d1-1f3fd",
+        "name": "people with bunny ears: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone4_tone3:",
+        "aliases": ":people_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fe-1f430-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fe-1f430-1f9d1-1f3ff",
+        "name": "people with bunny ears: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone4_tone5:",
+        "aliases": ":people_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f430-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3ff-1f430-1f9d1-1f3fb",
+        "name": "people with bunny ears: dark skin tone, light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone5_tone1:",
+        "aliases": ":people_with_bunny_ears_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f430-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3ff-1f430-1f9d1-1f3fc",
+        "name": "people with bunny ears: dark skin tone, medium-light skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone5_tone2:",
+        "aliases": ":people_with_bunny_ears_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f430-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3ff-1f430-1f9d1-1f3fd",
+        "name": "people with bunny ears: dark skin tone, medium skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone5_tone3:",
+        "aliases": ":people_with_bunny_ears_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3ff-1f430-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3ff-1f430-1f9d1-1f3fe",
+        "name": "people with bunny ears: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":people_with_bunny_ears_tone5_tone4:",
+        "aliases": ":people_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fb-1f430-1f468-1f3fc": {
+        "output": "1f468-1f3fb-1f430-1f468-1f3fc",
+        "name": "men with bunny ears: light skin tone, medium-light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone1_tone2:",
+        "aliases": ":men_with_bunny_ears_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fb-1f430-1f468-1f3fd": {
+        "output": "1f468-1f3fb-1f430-1f468-1f3fd",
+        "name": "men with bunny ears: light skin tone, medium skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone1_tone3:",
+        "aliases": ":men_with_bunny_ears_light_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fb-1f430-1f468-1f3fe": {
+        "output": "1f468-1f3fb-1f430-1f468-1f3fe",
+        "name": "men with bunny ears: light skin tone, medium-dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone1_tone4:",
+        "aliases": ":men_with_bunny_ears_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fb-1f430-1f468-1f3ff": {
+        "output": "1f468-1f3fb-1f430-1f468-1f3ff",
+        "name": "men with bunny ears: light skin tone, dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone1_tone5:",
+        "aliases": ":men_with_bunny_ears_light_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fc-1f430-1f468-1f3fb": {
+        "output": "1f468-1f3fc-1f430-1f468-1f3fb",
+        "name": "men with bunny ears: medium-light skin tone, light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone2_tone1:",
+        "aliases": ":men_with_bunny_ears_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fc-1f430-1f468-1f3fd": {
+        "output": "1f468-1f3fc-1f430-1f468-1f3fd",
+        "name": "men with bunny ears: medium-light skin tone, medium skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone2_tone3:",
+        "aliases": ":men_with_bunny_ears_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fc-1f430-1f468-1f3fe": {
+        "output": "1f468-1f3fc-1f430-1f468-1f3fe",
+        "name": "men with bunny ears: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone2_tone4:",
+        "aliases": ":men_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fc-1f430-1f468-1f3ff": {
+        "output": "1f468-1f3fc-1f430-1f468-1f3ff",
+        "name": "men with bunny ears: medium-light skin tone, dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone2_tone5:",
+        "aliases": ":men_with_bunny_ears_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fd-1f430-1f468-1f3fb": {
+        "output": "1f468-1f3fd-1f430-1f468-1f3fb",
+        "name": "men with bunny ears: medium skin tone, light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone3_tone1:",
+        "aliases": ":men_with_bunny_ears_medium_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fd-1f430-1f468-1f3fc": {
+        "output": "1f468-1f3fd-1f430-1f468-1f3fc",
+        "name": "men with bunny ears: medium skin tone, medium-light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone3_tone2:",
+        "aliases": ":men_with_bunny_ears_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fd-1f430-1f468-1f3fe": {
+        "output": "1f468-1f3fd-1f430-1f468-1f3fe",
+        "name": "men with bunny ears: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone3_tone4:",
+        "aliases": ":men_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fd-1f430-1f468-1f3ff": {
+        "output": "1f468-1f3fd-1f430-1f468-1f3ff",
+        "name": "men with bunny ears: medium skin tone, dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone3_tone5:",
+        "aliases": ":men_with_bunny_ears_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fe-1f430-1f468-1f3fb": {
+        "output": "1f468-1f3fe-1f430-1f468-1f3fb",
+        "name": "men with bunny ears: medium-dark skin tone, light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone4_tone1:",
+        "aliases": ":men_with_bunny_ears_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fe-1f430-1f468-1f3fc": {
+        "output": "1f468-1f3fe-1f430-1f468-1f3fc",
+        "name": "men with bunny ears: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone4_tone2:",
+        "aliases": ":men_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fe-1f430-1f468-1f3fd": {
+        "output": "1f468-1f3fe-1f430-1f468-1f3fd",
+        "name": "men with bunny ears: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone4_tone3:",
+        "aliases": ":men_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fe-1f430-1f468-1f3ff": {
+        "output": "1f468-1f3fe-1f430-1f468-1f3ff",
+        "name": "men with bunny ears: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone4_tone5:",
+        "aliases": ":men_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3ff-1f430-1f468-1f3fb": {
+        "output": "1f468-1f3ff-1f430-1f468-1f3fb",
+        "name": "men with bunny ears: dark skin tone, light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone5_tone1:",
+        "aliases": ":men_with_bunny_ears_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3ff-1f430-1f468-1f3fc": {
+        "output": "1f468-1f3ff-1f430-1f468-1f3fc",
+        "name": "men with bunny ears: dark skin tone, medium-light skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone5_tone2:",
+        "aliases": ":men_with_bunny_ears_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3ff-1f430-1f468-1f3fd": {
+        "output": "1f468-1f3ff-1f430-1f468-1f3fd",
+        "name": "men with bunny ears: dark skin tone, medium skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone5_tone3:",
+        "aliases": ":men_with_bunny_ears_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3ff-1f430-1f468-1f3fe": {
+        "output": "1f468-1f3ff-1f430-1f468-1f3fe",
+        "name": "men with bunny ears: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":men_with_bunny_ears_tone5_tone4:",
+        "aliases": ":men_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1f430-1f469-1f3fc": {
+        "output": "1f469-1f3fb-1f430-1f469-1f3fc",
+        "name": "women with bunny ears: light skin tone, medium-light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone1_tone2:",
+        "aliases": ":women_with_bunny_ears_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fb-1f430-1f469-1f3fd": {
+        "output": "1f469-1f3fb-1f430-1f469-1f3fd",
+        "name": "women with bunny ears: light skin tone, medium skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone1_tone3:",
+        "aliases": ":women_with_bunny_ears_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fb-1f430-1f469-1f3fe": {
+        "output": "1f469-1f3fb-1f430-1f469-1f3fe",
+        "name": "women with bunny ears: light skin tone, medium-dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone1_tone4:",
+        "aliases": ":women_with_bunny_ears_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1f430-1f469-1f3ff": {
+        "output": "1f469-1f3fb-1f430-1f469-1f3ff",
+        "name": "women with bunny ears: light skin tone, dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone1_tone5:",
+        "aliases": ":women_with_bunny_ears_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1f430-1f469-1f3fb": {
+        "output": "1f469-1f3fc-1f430-1f469-1f3fb",
+        "name": "women with bunny ears: medium-light skin tone, light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone2_tone1:",
+        "aliases": ":women_with_bunny_ears_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fc-1f430-1f469-1f3fd": {
+        "output": "1f469-1f3fc-1f430-1f469-1f3fd",
+        "name": "women with bunny ears: medium-light skin tone, medium skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone2_tone3:",
+        "aliases": ":women_with_bunny_ears_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fc-1f430-1f469-1f3fe": {
+        "output": "1f469-1f3fc-1f430-1f469-1f3fe",
+        "name": "women with bunny ears: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone2_tone4:",
+        "aliases": ":women_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1f430-1f469-1f3ff": {
+        "output": "1f469-1f3fc-1f430-1f469-1f3ff",
+        "name": "women with bunny ears: medium-light skin tone, dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone2_tone5:",
+        "aliases": ":women_with_bunny_ears_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1f430-1f469-1f3fb": {
+        "output": "1f469-1f3fd-1f430-1f469-1f3fb",
+        "name": "women with bunny ears: medium skin tone, light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone3_tone1:",
+        "aliases": ":women_with_bunny_ears_medium_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f430-1f469-1f3fc": {
+        "output": "1f469-1f3fd-1f430-1f469-1f3fc",
+        "name": "women with bunny ears: medium skin tone, medium-light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone3_tone2:",
+        "aliases": ":women_with_bunny_ears_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fd-1f430-1f469-1f3fe": {
+        "output": "1f469-1f3fd-1f430-1f469-1f3fe",
+        "name": "women with bunny ears: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone3_tone4:",
+        "aliases": ":women_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1f430-1f469-1f3ff": {
+        "output": "1f469-1f3fd-1f430-1f469-1f3ff",
+        "name": "women with bunny ears: medium skin tone, dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone3_tone5:",
+        "aliases": ":women_with_bunny_ears_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fe-1f430-1f469-1f3fb": {
+        "output": "1f469-1f3fe-1f430-1f469-1f3fb",
+        "name": "women with bunny ears: medium-dark skin tone, light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone4_tone1:",
+        "aliases": ":women_with_bunny_ears_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f430-1f469-1f3fc": {
+        "output": "1f469-1f3fe-1f430-1f469-1f3fc",
+        "name": "women with bunny ears: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone4_tone2:",
+        "aliases": ":women_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fe-1f430-1f469-1f3fd": {
+        "output": "1f469-1f3fe-1f430-1f469-1f3fd",
+        "name": "women with bunny ears: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone4_tone3:",
+        "aliases": ":women_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fe-1f430-1f469-1f3ff": {
+        "output": "1f469-1f3fe-1f430-1f469-1f3ff",
+        "name": "women with bunny ears: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone4_tone5:",
+        "aliases": ":women_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1f430-1f469-1f3fb": {
+        "output": "1f469-1f3ff-1f430-1f469-1f3fb",
+        "name": "women with bunny ears: dark skin tone, light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone5_tone1:",
+        "aliases": ":women_with_bunny_ears_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f430-1f469-1f3fc": {
+        "output": "1f469-1f3ff-1f430-1f469-1f3fc",
+        "name": "women with bunny ears: dark skin tone, medium-light skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone5_tone2:",
+        "aliases": ":women_with_bunny_ears_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3ff-1f430-1f469-1f3fd": {
+        "output": "1f469-1f3ff-1f430-1f469-1f3fd",
+        "name": "women with bunny ears: dark skin tone, medium skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone5_tone3:",
+        "aliases": ":women_with_bunny_ears_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3ff-1f430-1f469-1f3fe": {
+        "output": "1f469-1f3ff-1f430-1f469-1f3fe",
+        "name": "women with bunny ears: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":women_with_bunny_ears_tone5_tone4:",
+        "aliases": ":women_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f93c-1f3fb": {
+        "output": "1f93c-1f3fb",
+        "name": "people wrestling: light skin tone",
+        "alpha_code": ":people_wrestling_tone1:",
+        "aliases": ":people_wrestling_light_skin_tone:"
+    },
+    "1f93c-1f3fc": {
+        "output": "1f93c-1f3fc",
+        "name": "people wrestling: medium-light skin tone",
+        "alpha_code": ":people_wrestling_tone2:",
+        "aliases": ":people_wrestling_medium_light_skin_tone:"
+    },
+    "1f93c-1f3fd": {
+        "output": "1f93c-1f3fd",
+        "name": "people wrestling: medium skin tone",
+        "alpha_code": ":people_wrestling_tone3:",
+        "aliases": ":people_wrestling_medium_skin_tone:"
+    },
+    "1f93c-1f3fe": {
+        "output": "1f93c-1f3fe",
+        "name": "people wrestling: medium-dark skin tone",
+        "alpha_code": ":people_wrestling_tone4:",
+        "aliases": ":people_wrestling_medium_dark_skin_tone:"
+    },
+    "1f93c-1f3ff": {
+        "output": "1f93c-1f3ff",
+        "name": "people wrestling: dark skin tone",
+        "alpha_code": ":people_wrestling_tone5:",
+        "aliases": ":people_wrestling_dark_skin_tone:"
+    },
+    "1f93c-1f3fb-2642": {
+        "output": "1f93c-1f3fb-2642",
+        "name": "men wrestling: light skin tone",
+        "alpha_code": ":men_wrestling_tone1:",
+        "aliases": ":men_wrestling_light_skin_tone:"
+    },
+    "1f93c-1f3fc-2642": {
+        "output": "1f93c-1f3fc-2642",
+        "name": "men wrestling: medium-light skin tone",
+        "alpha_code": ":men_wrestling_tone2:",
+        "aliases": ":men_wrestling_medium_light_skin_tone:"
+    },
+    "1f93c-1f3fd-2642": {
+        "output": "1f93c-1f3fd-2642",
+        "name": "men wrestling: medium skin tone",
+        "alpha_code": ":men_wrestling_tone3:",
+        "aliases": ":men_wrestling_medium_skin_tone:"
+    },
+    "1f93c-1f3fe-2642": {
+        "output": "1f93c-1f3fe-2642",
+        "name": "men wrestling: medium-dark skin tone",
+        "alpha_code": ":men_wrestling_tone4:",
+        "aliases": ":men_wrestling_medium_dark_skin_tone:"
+    },
+    "1f93c-1f3ff-2642": {
+        "output": "1f93c-1f3ff-2642",
+        "name": "men wrestling: dark skin tone",
+        "alpha_code": ":men_wrestling_tone5:",
+        "aliases": ":men_wrestling_dark_skin_tone:"
+    },
+    "1f93c-1f3fb-2640": {
+        "output": "1f93c-1f3fb-2640",
+        "name": "women wrestling: light skin tone",
+        "alpha_code": ":women_wrestling_tone1:",
+        "aliases": ":women_wrestling_light_skin_tone:"
+    },
+    "1f93c-1f3fc-2640": {
+        "output": "1f93c-1f3fc-2640",
+        "name": "women wrestling: medium-light skin tone",
+        "alpha_code": ":women_wrestling_tone2:",
+        "aliases": ":women_wrestling_medium_light_skin_tone:"
+    },
+    "1f93c-1f3fd-2640": {
+        "output": "1f93c-1f3fd-2640",
+        "name": "women wrestling: medium skin tone",
+        "alpha_code": ":women_wrestling_tone3:",
+        "aliases": ":women_wrestling_medium_skin_tone:"
+    },
+    "1f93c-1f3fe-2640": {
+        "output": "1f93c-1f3fe-2640",
+        "name": "women wrestling: medium-dark skin tone",
+        "alpha_code": ":women_wrestling_tone4:",
+        "aliases": ":women_wrestling_medium_dark_skin_tone:"
+    },
+    "1f93c-1f3ff-2640": {
+        "output": "1f93c-1f3ff-2640",
+        "name": "women wrestling: dark skin tone",
+        "alpha_code": ":women_wrestling_tone5:",
+        "aliases": ":women_wrestling_dark_skin_tone:"
+    },
+    "1f9d1-1f3fb-1faef-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fb-1faef-1f9d1-1f3fc",
+        "name": "people wrestling: light skin tone, medium-light skin tone",
+        "alpha_code": ":people_wrestling_tone1_tone2:",
+        "aliases": ":people_wrestling_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fb-1faef-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fb-1faef-1f9d1-1f3fd",
+        "name": "people wrestling: light skin tone, medium skin tone",
+        "alpha_code": ":people_wrestling_tone1_tone3:",
+        "aliases": ":people_wrestling_light_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fb-1faef-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fb-1faef-1f9d1-1f3fe",
+        "name": "people wrestling: light skin tone, medium-dark skin tone",
+        "alpha_code": ":people_wrestling_tone1_tone4:",
+        "aliases": ":people_wrestling_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fb-1faef-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fb-1faef-1f9d1-1f3ff",
+        "name": "people wrestling: light skin tone, dark skin tone",
+        "alpha_code": ":people_wrestling_tone1_tone5:",
+        "aliases": ":people_wrestling_light_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fc-1faef-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fc-1faef-1f9d1-1f3fb",
+        "name": "people wrestling: medium-light skin tone, light skin tone",
+        "alpha_code": ":people_wrestling_tone2_tone1:",
+        "aliases": ":people_wrestling_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fc-1faef-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fc-1faef-1f9d1-1f3fd",
+        "name": "people wrestling: medium-light skin tone, medium skin tone",
+        "alpha_code": ":people_wrestling_tone2_tone3:",
+        "aliases": ":people_wrestling_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fc-1faef-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fc-1faef-1f9d1-1f3fe",
+        "name": "people wrestling: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":people_wrestling_tone2_tone4:",
+        "aliases": ":people_wrestling_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fc-1faef-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fc-1faef-1f9d1-1f3ff",
+        "name": "people wrestling: medium-light skin tone, dark skin tone",
+        "alpha_code": ":people_wrestling_tone2_tone5:",
+        "aliases": ":people_wrestling_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fd-1faef-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fd-1faef-1f9d1-1f3fb",
+        "name": "people wrestling: medium skin tone, light skin tone",
+        "alpha_code": ":people_wrestling_tone3_tone1:",
+        "aliases": ":people_wrestling_medium_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1faef-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fd-1faef-1f9d1-1f3fc",
+        "name": "people wrestling: medium skin tone, medium-light skin tone",
+        "alpha_code": ":people_wrestling_tone3_tone2:",
+        "aliases": ":people_wrestling_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fd-1faef-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3fd-1faef-1f9d1-1f3fe",
+        "name": "people wrestling: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":people_wrestling_tone3_tone4:",
+        "aliases": ":people_wrestling_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f9d1-1f3fd-1faef-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fd-1faef-1f9d1-1f3ff",
+        "name": "people wrestling: medium skin tone, dark skin tone",
+        "alpha_code": ":people_wrestling_tone3_tone5:",
+        "aliases": ":people_wrestling_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3fe-1faef-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3fe-1faef-1f9d1-1f3fb",
+        "name": "people wrestling: medium-dark skin tone, light skin tone",
+        "alpha_code": ":people_wrestling_tone4_tone1:",
+        "aliases": ":people_wrestling_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3fe-1faef-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3fe-1faef-1f9d1-1f3fc",
+        "name": "people wrestling: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":people_wrestling_tone4_tone2:",
+        "aliases": ":people_wrestling_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3fe-1faef-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3fe-1faef-1f9d1-1f3fd",
+        "name": "people wrestling: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":people_wrestling_tone4_tone3:",
+        "aliases": ":people_wrestling_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3fe-1faef-1f9d1-1f3ff": {
+        "output": "1f9d1-1f3fe-1faef-1f9d1-1f3ff",
+        "name": "people wrestling: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":people_wrestling_tone4_tone5:",
+        "aliases": ":people_wrestling_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f9d1-1f3ff-1faef-1f9d1-1f3fb": {
+        "output": "1f9d1-1f3ff-1faef-1f9d1-1f3fb",
+        "name": "people wrestling: dark skin tone, light skin tone",
+        "alpha_code": ":people_wrestling_tone5_tone1:",
+        "aliases": ":people_wrestling_dark_skin_tone_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1faef-1f9d1-1f3fc": {
+        "output": "1f9d1-1f3ff-1faef-1f9d1-1f3fc",
+        "name": "people wrestling: dark skin tone, medium-light skin tone",
+        "alpha_code": ":people_wrestling_tone5_tone2:",
+        "aliases": ":people_wrestling_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f9d1-1f3ff-1faef-1f9d1-1f3fd": {
+        "output": "1f9d1-1f3ff-1faef-1f9d1-1f3fd",
+        "name": "people wrestling: dark skin tone, medium skin tone",
+        "alpha_code": ":people_wrestling_tone5_tone3:",
+        "aliases": ":people_wrestling_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f9d1-1f3ff-1faef-1f9d1-1f3fe": {
+        "output": "1f9d1-1f3ff-1faef-1f9d1-1f3fe",
+        "name": "people wrestling: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":people_wrestling_tone5_tone4:",
+        "aliases": ":people_wrestling_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fb-1faef-1f468-1f3fc": {
+        "output": "1f468-1f3fb-1faef-1f468-1f3fc",
+        "name": "men wrestling: light skin tone, medium-light skin tone",
+        "alpha_code": ":men_wrestling_tone1_tone2:",
+        "aliases": ":men_wrestling_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fb-1faef-1f468-1f3fd": {
+        "output": "1f468-1f3fb-1faef-1f468-1f3fd",
+        "name": "men wrestling: light skin tone, medium skin tone",
+        "alpha_code": ":men_wrestling_tone1_tone3:",
+        "aliases": ":men_wrestling_light_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fb-1faef-1f468-1f3fe": {
+        "output": "1f468-1f3fb-1faef-1f468-1f3fe",
+        "name": "men wrestling: light skin tone, medium-dark skin tone",
+        "alpha_code": ":men_wrestling_tone1_tone4:",
+        "aliases": ":men_wrestling_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fb-1faef-1f468-1f3ff": {
+        "output": "1f468-1f3fb-1faef-1f468-1f3ff",
+        "name": "men wrestling: light skin tone, dark skin tone",
+        "alpha_code": ":men_wrestling_tone1_tone5:",
+        "aliases": ":men_wrestling_light_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fc-1faef-1f468-1f3fb": {
+        "output": "1f468-1f3fc-1faef-1f468-1f3fb",
+        "name": "men wrestling: medium-light skin tone, light skin tone",
+        "alpha_code": ":men_wrestling_tone2_tone1:",
+        "aliases": ":men_wrestling_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fc-1faef-1f468-1f3fd": {
+        "output": "1f468-1f3fc-1faef-1f468-1f3fd",
+        "name": "men wrestling: medium-light skin tone, medium skin tone",
+        "alpha_code": ":men_wrestling_tone2_tone3:",
+        "aliases": ":men_wrestling_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fc-1faef-1f468-1f3fe": {
+        "output": "1f468-1f3fc-1faef-1f468-1f3fe",
+        "name": "men wrestling: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":men_wrestling_tone2_tone4:",
+        "aliases": ":men_wrestling_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fc-1faef-1f468-1f3ff": {
+        "output": "1f468-1f3fc-1faef-1f468-1f3ff",
+        "name": "men wrestling: medium-light skin tone, dark skin tone",
+        "alpha_code": ":men_wrestling_tone2_tone5:",
+        "aliases": ":men_wrestling_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fd-1faef-1f468-1f3fb": {
+        "output": "1f468-1f3fd-1faef-1f468-1f3fb",
+        "name": "men wrestling: medium skin tone, light skin tone",
+        "alpha_code": ":men_wrestling_tone3_tone1:",
+        "aliases": ":men_wrestling_medium_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fd-1faef-1f468-1f3fc": {
+        "output": "1f468-1f3fd-1faef-1f468-1f3fc",
+        "name": "men wrestling: medium skin tone, medium-light skin tone",
+        "alpha_code": ":men_wrestling_tone3_tone2:",
+        "aliases": ":men_wrestling_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fd-1faef-1f468-1f3fe": {
+        "output": "1f468-1f3fd-1faef-1f468-1f3fe",
+        "name": "men wrestling: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":men_wrestling_tone3_tone4:",
+        "aliases": ":men_wrestling_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f468-1f3fd-1faef-1f468-1f3ff": {
+        "output": "1f468-1f3fd-1faef-1f468-1f3ff",
+        "name": "men wrestling: medium skin tone, dark skin tone",
+        "alpha_code": ":men_wrestling_tone3_tone5:",
+        "aliases": ":men_wrestling_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3fe-1faef-1f468-1f3fb": {
+        "output": "1f468-1f3fe-1faef-1f468-1f3fb",
+        "name": "men wrestling: medium-dark skin tone, light skin tone",
+        "alpha_code": ":men_wrestling_tone4_tone1:",
+        "aliases": ":men_wrestling_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3fe-1faef-1f468-1f3fc": {
+        "output": "1f468-1f3fe-1faef-1f468-1f3fc",
+        "name": "men wrestling: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":men_wrestling_tone4_tone2:",
+        "aliases": ":men_wrestling_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3fe-1faef-1f468-1f3fd": {
+        "output": "1f468-1f3fe-1faef-1f468-1f3fd",
+        "name": "men wrestling: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":men_wrestling_tone4_tone3:",
+        "aliases": ":men_wrestling_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3fe-1faef-1f468-1f3ff": {
+        "output": "1f468-1f3fe-1faef-1f468-1f3ff",
+        "name": "men wrestling: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":men_wrestling_tone4_tone5:",
+        "aliases": ":men_wrestling_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f468-1f3ff-1faef-1f468-1f3fb": {
+        "output": "1f468-1f3ff-1faef-1f468-1f3fb",
+        "name": "men wrestling: dark skin tone, light skin tone",
+        "alpha_code": ":men_wrestling_tone5_tone1:",
+        "aliases": ":men_wrestling_dark_skin_tone_light_skin_tone:"
+    },
+    "1f468-1f3ff-1faef-1f468-1f3fc": {
+        "output": "1f468-1f3ff-1faef-1f468-1f3fc",
+        "name": "men wrestling: dark skin tone, medium-light skin tone",
+        "alpha_code": ":men_wrestling_tone5_tone2:",
+        "aliases": ":men_wrestling_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f468-1f3ff-1faef-1f468-1f3fd": {
+        "output": "1f468-1f3ff-1faef-1f468-1f3fd",
+        "name": "men wrestling: dark skin tone, medium skin tone",
+        "alpha_code": ":men_wrestling_tone5_tone3:",
+        "aliases": ":men_wrestling_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f468-1f3ff-1faef-1f468-1f3fe": {
+        "output": "1f468-1f3ff-1faef-1f468-1f3fe",
+        "name": "men wrestling: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":men_wrestling_tone5_tone4:",
+        "aliases": ":men_wrestling_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1faef-1f469-1f3fc": {
+        "output": "1f469-1f3fb-1faef-1f469-1f3fc",
+        "name": "women wrestling: light skin tone, medium-light skin tone",
+        "alpha_code": ":women_wrestling_tone1_tone2:",
+        "aliases": ":women_wrestling_light_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fb-1faef-1f469-1f3fd": {
+        "output": "1f469-1f3fb-1faef-1f469-1f3fd",
+        "name": "women wrestling: light skin tone, medium skin tone",
+        "alpha_code": ":women_wrestling_tone1_tone3:",
+        "aliases": ":women_wrestling_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fb-1faef-1f469-1f3fe": {
+        "output": "1f469-1f3fb-1faef-1f469-1f3fe",
+        "name": "women wrestling: light skin tone, medium-dark skin tone",
+        "alpha_code": ":women_wrestling_tone1_tone4:",
+        "aliases": ":women_wrestling_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fb-1faef-1f469-1f3ff": {
+        "output": "1f469-1f3fb-1faef-1f469-1f3ff",
+        "name": "women wrestling: light skin tone, dark skin tone",
+        "alpha_code": ":women_wrestling_tone1_tone5:",
+        "aliases": ":women_wrestling_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1faef-1f469-1f3fb": {
+        "output": "1f469-1f3fc-1faef-1f469-1f3fb",
+        "name": "women wrestling: medium-light skin tone, light skin tone",
+        "alpha_code": ":women_wrestling_tone2_tone1:",
+        "aliases": ":women_wrestling_medium_light_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fc-1faef-1f469-1f3fd": {
+        "output": "1f469-1f3fc-1faef-1f469-1f3fd",
+        "name": "women wrestling: medium-light skin tone, medium skin tone",
+        "alpha_code": ":women_wrestling_tone2_tone3:",
+        "aliases": ":women_wrestling_medium_light_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fc-1faef-1f469-1f3fe": {
+        "output": "1f469-1f3fc-1faef-1f469-1f3fe",
+        "name": "women wrestling: medium-light skin tone, medium-dark skin tone",
+        "alpha_code": ":women_wrestling_tone2_tone4:",
+        "aliases": ":women_wrestling_medium_light_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fc-1faef-1f469-1f3ff": {
+        "output": "1f469-1f3fc-1faef-1f469-1f3ff",
+        "name": "women wrestling: medium-light skin tone, dark skin tone",
+        "alpha_code": ":women_wrestling_tone2_tone5:",
+        "aliases": ":women_wrestling_medium_light_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1faef-1f469-1f3fb": {
+        "output": "1f469-1f3fd-1faef-1f469-1f3fb",
+        "name": "women wrestling: medium skin tone, light skin tone",
+        "alpha_code": ":women_wrestling_tone3_tone1:",
+        "aliases": ":women_wrestling_medium_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fd-1faef-1f469-1f3fc": {
+        "output": "1f469-1f3fd-1faef-1f469-1f3fc",
+        "name": "women wrestling: medium skin tone, medium-light skin tone",
+        "alpha_code": ":women_wrestling_tone3_tone2:",
+        "aliases": ":women_wrestling_medium_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fd-1faef-1f469-1f3fe": {
+        "output": "1f469-1f3fd-1faef-1f469-1f3fe",
+        "name": "women wrestling: medium skin tone, medium-dark skin tone",
+        "alpha_code": ":women_wrestling_tone3_tone4:",
+        "aliases": ":women_wrestling_medium_skin_tone_medium_dark_skin_tone:"
+    },
+    "1f469-1f3fd-1faef-1f469-1f3ff": {
+        "output": "1f469-1f3fd-1faef-1f469-1f3ff",
+        "name": "women wrestling: medium skin tone, dark skin tone",
+        "alpha_code": ":women_wrestling_tone3_tone5:",
+        "aliases": ":women_wrestling_medium_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3fe-1faef-1f469-1f3fb": {
+        "output": "1f469-1f3fe-1faef-1f469-1f3fb",
+        "name": "women wrestling: medium-dark skin tone, light skin tone",
+        "alpha_code": ":women_wrestling_tone4_tone1:",
+        "aliases": ":women_wrestling_medium_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3fe-1faef-1f469-1f3fc": {
+        "output": "1f469-1f3fe-1faef-1f469-1f3fc",
+        "name": "women wrestling: medium-dark skin tone, medium-light skin tone",
+        "alpha_code": ":women_wrestling_tone4_tone2:",
+        "aliases": ":women_wrestling_medium_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3fe-1faef-1f469-1f3fd": {
+        "output": "1f469-1f3fe-1faef-1f469-1f3fd",
+        "name": "women wrestling: medium-dark skin tone, medium skin tone",
+        "alpha_code": ":women_wrestling_tone4_tone3:",
+        "aliases": ":women_wrestling_medium_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3fe-1faef-1f469-1f3ff": {
+        "output": "1f469-1f3fe-1faef-1f469-1f3ff",
+        "name": "women wrestling: medium-dark skin tone, dark skin tone",
+        "alpha_code": ":women_wrestling_tone4_tone5:",
+        "aliases": ":women_wrestling_medium_dark_skin_tone_dark_skin_tone:"
+    },
+    "1f469-1f3ff-1faef-1f469-1f3fb": {
+        "output": "1f469-1f3ff-1faef-1f469-1f3fb",
+        "name": "women wrestling: dark skin tone, light skin tone",
+        "alpha_code": ":women_wrestling_tone5_tone1:",
+        "aliases": ":women_wrestling_dark_skin_tone_light_skin_tone:"
+    },
+    "1f469-1f3ff-1faef-1f469-1f3fc": {
+        "output": "1f469-1f3ff-1faef-1f469-1f3fc",
+        "name": "women wrestling: dark skin tone, medium-light skin tone",
+        "alpha_code": ":women_wrestling_tone5_tone2:",
+        "aliases": ":women_wrestling_dark_skin_tone_medium_light_skin_tone:"
+    },
+    "1f469-1f3ff-1faef-1f469-1f3fd": {
+        "output": "1f469-1f3ff-1faef-1f469-1f3fd",
+        "name": "women wrestling: dark skin tone, medium skin tone",
+        "alpha_code": ":women_wrestling_tone5_tone3:",
+        "aliases": ":women_wrestling_dark_skin_tone_medium_skin_tone:"
+    },
+    "1f469-1f3ff-1faef-1f469-1f3fe": {
+        "output": "1f469-1f3ff-1faef-1f469-1f3fe",
+        "name": "women wrestling: dark skin tone, medium-dark skin tone",
+        "alpha_code": ":women_wrestling_tone5_tone4:",
+        "aliases": ":women_wrestling_dark_skin_tone_medium_dark_skin_tone:"
+    },
+    "1facd": {
+        "output": "1facd",
+        "name": "orca",
+        "alpha_code": ":orca:",
+        "aliases": ""
+    },
+    "1f6d8": {
+        "output": "1f6d8",
+        "name": "landslide",
+        "alpha_code": ":landslide:",
+        "aliases": ""
+    },
+    "1fa8a": {
+        "output": "1fa8a",
+        "name": "trombone",
+        "alpha_code": ":trombone:",
+        "aliases": ""
+    },
+    "1fa8e": {
+        "output": "1fa8e",
+        "name": "treasure chest",
+        "alpha_code": ":treasure_chest:",
         "aliases": ""
     }
 }
